@@ -7,3 +7,5 @@ ser = serial.Serial (
     stopbits=serial.STOPBITS_ONE,\
     bytesize=serial.EIGHTBITS,\
         timeout=0 )
+
+ser.close()
