@@ -2,6 +2,8 @@ import datetime
 import time
 import serial
 
+conf_file_name = 'mmw_pplcount_demo_default.cfg'
+
 conf_com = serial.Serial ()
 data_com = serial.Serial ()
 conf_com.port = 'COM4'
@@ -33,7 +35,12 @@ except serial.SerialException as e:
 if not conf_com.is_open:
     print ( f'{conf_com.name} closed' )
 
-# Otwórz CONF COM i wyślij konfigurację
+#### Otwórz CONF COM i wyślij konfigurację ####
+
+# Otwórz plik z konfiguracją #
+with open ( f'{conf_file_name}' , 'r' , encoding='utf-8' ) as conf_file:
+    cfg = conf_file.readlines()
+
 try: 
     data_com.open ()
 except serial.SerialException as e:
@@ -46,7 +53,7 @@ if data_com.is_open:
     except serial.SerialTimeoutException as e:
         print ( f'error write {data_com.name}: {str(e)}' )
 
-time_up = datetime.datetime.utcnow () + datetime.timedelta ( seconds = 30 )
+time_up = datetime.datetime.utcnow () + datetime.timedelta ( seconds = 10 )
 while datetime.datetime.utcnow () < time_up :
     com7_line = data_com.readline ()
     print ( com7_line )
