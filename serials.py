@@ -30,7 +30,7 @@ try:
         log.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {log_file_name} file is writable.' )
 except IOError as e:
     print ( f'{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {log_file_name} file opening problem... {str(e)}' )
-########
+
 
 ################################################################
 ###################### KONFIGURACJA CHIRP ######################
@@ -48,35 +48,40 @@ except IOError as e:
 #### Otwieranie portu CONF COM do konfiguracji
 try: 
     conf_com.open ()
+    if conf_com.is_open:
+        log.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port opened.' )
+        conf_com.reset_output_buffer()
+    #### Wysyłanie konfiguracji chirp do portu CONF COM
+    for line in cfg:
+        time.sleep(.1)
+        conf_com.write ( line.encode () )
+        ack = conf_com.readline ()
+        log.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port ack: {ack}' )
+        ack = conf_com.readline ()
+        log.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port ack: {ack}' )
+        time.sleep ( 3 )
+        conf_com.reset_input_buffer ()
 except serial.SerialException as e:
     log.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port error opening: {str(e)}' )
-if conf_com.is_open:
-    log.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port opened.' )
-    conf_com.reset_output_buffer()
-
-#### Wysyłanie konfiguracji chirp do portu CONF COM
-for line in cfg:
-    time.sleep(.1)
-    conf_com.write ( line.encode () )
-    ack = conf_com.readline ()
-    log.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port ack: {ack}' )
-    ack = conf_com.readline ()
-    log.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port ack: {ack}' )
-    time.sleep ( 3 )
-    conf_com.reset_input_buffer ()
 
 #### Zamykanie portu CONF COM do konfiguracji
-try:
-    conf_com.close ()
-except serial.SerialException as e:
-    log.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port error closing: {str(e)}' )
-if not conf_com.is_open:
+if conf_com.is_open:
+    try:
+        conf_com.close ()
+        if not conf_com.is_open:
+            log.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port closed.' )
+    except serial.SerialException as e:
+        log.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port error closing: {str(e)}' )
+else:
     log.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port closed.' )
 
 ################################################################
 ################################################################
 ################################################################
 
+################################################################
+######################## ODBIÓR DANYCH #########################
+################################################################
 try: 
     data_com.open ()
 except serial.SerialException as e:
