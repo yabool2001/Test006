@@ -2,35 +2,58 @@ import datetime
 import time
 import serial
 
-ser = serial.Serial ()
-ser.port = 'COM3'
+conf_com = serial.Serial ()
+data_com = serial.Serial ()
+conf_com.port = 'COM4'
+data_com.port = 'COM3'
 # Chose from Device manager: Silicon Labs Dual CP2105 USB to UART Bridge: Standard COM Port 
-ser.baudrate = 921600
-ser.bytesize = serial.EIGHTBITS
-ser.parity = serial.PARITY_NONE
-ser.stopbits = serial.STOPBITS_ONE
-ser.timeout = 1
-ser.write_timeout = 1
+conf_com.baudrate = 115200
+data_com.baudrate = 921600
+conf_com.bytesize = serial.EIGHTBITS
+data_com.bytesize = serial.EIGHTBITS
+conf_com.parity = serial.PARITY_NONE
+data_com.parity = serial.PARITY_NONE
+conf_com.stopbits = serial.STOPBITS_ONE
+data_com.stopbits = serial.STOPBITS_ONE
+conf_com.timeout = 0.3
+data_com.timeout = 0.025
+conf_com.write_timeout = 1
 
 try: 
-    ser.open ()
+    conf_com.open ()
+except serial.SerialException as e:
+    print ( f'error opening {conf_com.name}: {str(e)}' )
+if conf_com.is_open:
+    print ( f'{conf_com.name} opened' )
+    conf_com.reset_output_buffer()
+try:
+    conf_com.close ()
+except serial.SerialException as e:
+    print ( f'error closing {conf_com.name}: {str(e)}' )
+if not conf_com.is_open:
+    print ( f'{conf_com.name} closed' )
+
+# Otwórz CONF COM i wyślij konfigurację
+try: 
+    data_com.open ()
 except serial.SerialException as e:
     print ( "error open serial port: " + str ( e ) )
-if ser.is_open:
-    print ( f'{ser.name} opened' )
+if data_com.is_open:
+    print ( f'{data_com.name} opened' )
+    data_com.reset_output_buffer()
     try:
-        ser.write ( str.encode ( f'UTC {time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec}\r\n' ) ) 
+        data_com.write ( str.encode ( f'UTC {time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec}\r\n' ) ) 
     except serial.SerialTimeoutException as e:
-        print ( f'error write {ser.name}: {str(e)}' )
+        print ( f'error write {data_com.name}: {str(e)}' )
 
-time_up = datetime.datetime.utcnow () + datetime.timedelta ( seconds = 600 )
+time_up = datetime.datetime.utcnow () + datetime.timedelta ( seconds = 30 )
 while datetime.datetime.utcnow () < time_up :
-    com7_line = ser.readline ()
+    com7_line = data_com.readline ()
     print ( com7_line )
 
 try:
-    ser.close ()
+    data_com.close ()
 except serial.SerialException as e:
-    print ( f'error close {ser.name}: {str(e)}' )
-if not ser.is_open:
-    print ( f'{ser.name} closed' )
+    print ( f'error close {data_com.name}: {str(e)}' )
+if not data_com.is_open:
+    print ( f'{data_com.name} closed' )
