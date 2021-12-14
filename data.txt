@@ -648,3 +648,7 @@ Frame header parse failed! unpack requires a buffer of 52 bytes
 {'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 865222483, 'packet_length': 478, 'frame_number': 135672, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1807, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 59719}
 {'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 875223074, 'packet_length': 490, 'frame_number': 135673, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1806, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 20435}
 Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3939741735, 'packet_length': 490, 'frame_number': 195250, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18947, 'uart_sent_time': 1972, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 55041}
+Tlv header parse failed! unpack requires a buffer of 8 bytes
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3265357692, 'packet_length': 472, 'frame_number': 203343, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18949, 'uart_sent_time': 1805, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 10693}

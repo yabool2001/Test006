@@ -16,6 +16,7 @@ conf_file_name = 'chirp_cfg/mmw_pplcount_demo_default.cfg'
 # conf_file_name = 'chirp_cfg/long_range_people_counting.cfg'
 data_com_delta_seconds = 10
 frame_header_length = 52
+tlv_header_length = 8
 hvac_control = 506660481457717506
 
 conf_com = serial.Serial ()
@@ -105,22 +106,39 @@ try:
     log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_com.name} port opened' )
 except serial.SerialException as e:
     log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_com.name} port error opening: {str(e)}' )
-# Odczytaj, rozpakuj i zapisz dane (nagłówek ...)
+# Odczytaj, rozpakuj i zapisz dane z portu COM danych
 if data_com.is_open:
     data_com.reset_output_buffer ()
     data_com.reset_input_buffer ()
     time_up = datetime.datetime.utcnow () + datetime.timedelta ( seconds = data_com_delta_seconds )
     while datetime.datetime.utcnow () < time_up :
+        # Rozpakuj i zapisz dane z nagłówka pakietu
         data_frame = data_com.read ( 4666 )
-        # print ( sys.getsizeof ( data_frame ) )
         try:
             sync , version , platform , timestamp , packet_length , frame_number , subframe_number , chirp_margin , frame_margin , uart_sent_time , track_process_time , num_tlvs , checksum = struct.unpack ( 'Q10I2H', data_frame[:frame_header_length] )
-            data_frame_header = dict ( sync = sync , version = version , platform = platform , timestamp = timestamp , packet_length = packet_length , frame_number = frame_number , subframe_number = subframe_number , chirp_margin = chirp_margin , frame_margin = frame_margin , uart_sent_time = uart_sent_time , track_process_time = track_process_time , num_tlvs = num_tlvs , checksum = checksum )
-            if sync == hvac_control :
-                data_file.write ( f'\n{data_frame_header}' )
+            data_frame_ok = True
         except struct.error as e :
             data_file.write ( f'\nFrame header parse failed! {e}' )
-
+            data_frame_ok = False
+        if data_frame_ok and sync == hvac_control :
+            data_frame_header = dict ( sync = sync , version = version , platform = platform , timestamp = timestamp , packet_length = packet_length , frame_number = frame_number , subframe_number = subframe_number , chirp_margin = chirp_margin , frame_margin = frame_margin , uart_sent_time = uart_sent_time , track_process_time = track_process_time , num_tlvs = num_tlvs , checksum = checksum )
+            data_file.write ( f'\n{data_frame_header}' )
+            # Rozpakuj i zapisz dane z nagłówka tlv
+            if num_tlvs > 0 :
+                data_frame = data_frame[frame_header_length:]
+                try:
+                    tlv_type, tlv_length = struct.unpack ( '2I' , data_frame[:tlv_header_length] )
+                    tlv_frame_ok = True
+                except struct.error as e :
+                    data_file.write ( f'\nTlv header parse failed! {e}' )
+                    tlv_frame_ok = False
+                if tlv_frame_ok :
+                    tlv_frame_header = dict ( tlv_type = tlv_type , tlv_length = tlv_length )
+                    data_file.write ( f'\n{tlv_frame_header}' )
+            else :
+                data_file.write ( f'\nnum_tlvs = 0!' )
+        else :
+            data_file.write ( f'\nFrame header not ok!' )
 try:
     data_com.close ()
 except serial.SerialException as e :
