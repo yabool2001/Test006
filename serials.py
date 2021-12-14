@@ -1,8 +1,9 @@
 import datetime
+import json
 from os import system
 import time
 import serial
-import struct
+import struct 
 
 # import sys
 # sys.setdefaultencoding('utf-8')
@@ -14,7 +15,6 @@ conf_file_name = 'chirp_cfg/mmw_pplcount_demo_default.cfg'
 # conf_file_name = 'chirp_cfg/long_range_people_counting.cfg'
 data_com_delta_seconds = 10
 frame_header_length = 52
-data_byte = bytes(1)
 
 conf_com = serial.Serial ()
 data_com = serial.Serial ()
@@ -101,23 +101,18 @@ try:
     data_com.open ()
     if data_com.is_open:
         log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_com.name} port opened' )
-    data_com.reset_output_buffer()
-    # time_up = datetime.datetime.utcnow () + datetime.timedelta ( seconds = data_com_delta_seconds )
-    # while datetime.datetime.utcnow () < time_up :
-        # Jedna z wersji odczytująca dane ale generująca błędy podczas decode()
-        # data_line = data_com.readline ()
-        # data_file.write ( str ( data_line ) )
-        # lub wersja usuwająca znak końca linii
-        # data_line = data_com.readline ()[:-1] # [:-1] czyli bez znaku końca linii z powodu, któego by nie działał decode()
-        # data_file.write ( data_line.decode () )
+    data_com.reset_output_buffer ()
+    data_com.reset_input_buffer ()
+    #time_up = datetime.datetime.utcnow () + datetime.timedelta ( seconds = data_com_delta_seconds )
+    #while datetime.datetime.utcnow () < time_up :
     data_frame = data_com.read ( 4666 )
-    # data_byte = data_frame
-    # magic, version, platform, timestamp, packetLength, frameNum, subFrameNum, chirpMargin, frameMargin, uartSentTime, trackProcessTime, numTLVs, checksum = struct.unpack('Q10I2H', data_frame[:frame_header_length])
-    sync , version ,  platform , timestamp , packet_length , frame_number , subframe_number , chirp_margin , frame_margin , uart_sent_time , track_process_time , num_tlvs , checksum = struct.unpack ('Q10I2H', data_frame[:frame_header_length])
+    try:
+        sync , version ,  platform , timestamp , packet_length , frame_number , subframe_number , chirp_margin , frame_margin , uart_sent_time , track_process_time , num_tlvs , checksum = struct.unpack ( 'Q10I2H', data_frame[:frame_header_length] )
+        data_frame_header = dict ( sync = sync , version = version , platform = platform , timestamp = timestamp , packet_length = packet_length , frame_number = frame_number , subframe_number = subframe_number , chirp_margin = chirp_margin , frame_margin = frame_margin , uart_sent_time = uart_sent_time , track_process_time = track_process_time , num_tlvs = num_tlvs , checksum = checksum )
+        data_file.write ( f'\n{data_frame_header}' )
+    except struct.error as e :
+        data_file.write ( f'\nFrame header parse failed! {e}' )
 
-    x=1
-    # data_file.write ( str ( data_frame ) )
-    #data_file.write ( data_frame.decode() )
 except serial.SerialException as e:
     log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_com.name} port error opening: {str(e)}' )
 
