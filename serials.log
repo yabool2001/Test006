@@ -2344,3 +2344,150 @@ time info error
 21:5:48 COM3 port closed.
 21:5:48 data.txt file is closed.
 21:5:48 serials.log file closing...
+21:23:27 serials.log file is writable.
+21:23:27 data.txt file is writable.
+21:23:27 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+21:23:27 COM4 port opened.
+21:23:27 COM4 port ack: b'flushCfg\n'
+21:23:27 COM4 port ack: b'Done\n'
+21:23:30 COM4 port ack: b'dfeDataOutputMode 1\n'
+21:23:30 COM4 port ack: b'Done\n'
+21:23:33 COM4 port ack: b'channelCfg 15 5 0\n'
+21:23:33 COM4 port ack: b'Done\n'
+21:23:36 COM4 port ack: b'adcCfg 2 1\n'
+21:23:36 COM4 port ack: b'Done\n'
+21:23:39 COM4 port ack: b'adcbufCfg 0 1 1 1 \n'
+21:23:39 COM4 port ack: b'Done\n'
+21:23:42 COM4 port ack: b'profileCfg 0 60.6 30 10 62 0 0 53 1 128 2500 0 0 30\n'
+21:23:42 COM4 port ack: b'Done\n'
+21:23:45 COM4 port ack: b'chirpCfg 0 0 0 0 0 0 0 1\n'
+21:23:45 COM4 port ack: b'Done\n'
+21:23:49 COM4 port ack: b'chirpCfg 1 1 0 0 0 0 0 4\n'
+21:23:49 COM4 port ack: b'Done\n'
+21:23:52 COM4 port ack: b'frameCfg 0 1 128 0 50 1 0\n'
+21:23:52 COM4 port ack: b'Done\n'
+21:23:55 COM4 port ack: b'lowPower 0 1\n'
+21:23:55 COM4 port ack: b'Done\n'
+21:23:58 COM4 port ack: b'guiMonitor 1 1 0 0\n'
+21:23:58 COM4 port ack: b'Done\n'
+21:24:1 COM4 port ack: b'cfarCfg 6 4 4 4 4 16 16 4 4 50 62 0\n'
+21:24:1 COM4 port ack: b'Done\n'
+21:24:4 COM4 port ack: b'doaCfg 600 1875 30 1 1 0\n'
+21:24:4 COM4 port ack: b'Done\n'
+21:24:7 COM4 port ack: b'SceneryParam -6 6 0.5 6\n'
+21:24:7 COM4 port ack: b'Done\n'
+21:24:10 COM4 port ack: b'GatingParam 4 3 2 0\n'
+21:24:10 COM4 port ack: b'Done\n'
+21:24:14 COM4 port ack: b'StateParam 10 5 100 100 5\n'
+21:24:14 COM4 port ack: b'Error: Invalid usage of the CLI command\n'
+21:24:17 COM4 port ack: b'AllocationParam 250 250 0.25 10 1 2\n'
+21:24:17 COM4 port ack: b'Done\n'
+21:24:20 COM4 port ack: b'AccelerationParam 1 1 1\n'
+21:24:20 COM4 port ack: b"'AccelerationParam' is not recognized as a CLI command\n"
+21:24:23 COM4 port ack: b'trackingCfg 1 2 250 20 52 82 50 90\n'
+21:24:23 COM4 port ack: b'Done\n'
+21:24:26 COM4 port ack: b'sensorStart\n'
+21:24:26 COM4 port ack: b'Done\n'
+21:24:29 COM4 port closed.
+21:25:24 COM3 port opened
+21:25:24 COM3 port closed.
+21:25:24 data.txt file is closed.
+21:25:24 serials.log file closing...
+21:26:47 serials.log file is writable.
+21:26:47 data.txt file is writable.
+21:26:47 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+21:26:47 COM4 port opened.
+21:26:47 COM4 port ack: b'flushCfg\n'
+21:26:47 COM4 port ack: b'Done\n'
+21:26:50 COM4 port ack: b'dfeDataOutputMode 1\n'
+21:26:50 COM4 port ack: b'Done\n'
+21:26:54 COM4 port ack: b'channelCfg 15 5 0\n'
+21:26:54 COM4 port ack: b'Done\n'
+21:26:57 COM4 port ack: b'adcCfg 2 1\n'
+21:26:57 COM4 port ack: b'Done\n'
+21:27:0 COM4 port ack: b'adcbufCfg 0 1 1 1 \n'
+21:27:0 COM4 port ack: b'Done\n'
+21:27:3 COM4 port ack: b'profileCfg 0 60.6 30 10 62 0 0 53 1 128 2500 0 0 30\n'
+21:27:3 COM4 port ack: b'Done\n'
+21:27:6 COM4 port ack: b'chirpCfg 0 0 0 0 0 0 0 1\n'
+21:27:6 COM4 port ack: b'Done\n'
+21:27:9 COM4 port ack: b'chirpCfg 1 1 0 0 0 0 0 4\n'
+21:27:9 COM4 port ack: b'Done\n'
+21:27:12 COM4 port ack: b'frameCfg 0 1 128 0 50 1 0\n'
+21:27:12 COM4 port ack: b'Done\n'
+21:27:15 COM4 port ack: b'lowPower 0 1\n'
+21:27:15 COM4 port ack: b'Done\n'
+21:27:19 COM4 port ack: b'guiMonitor 1 1 0 0\n'
+21:27:19 COM4 port ack: b'Done\n'
+21:27:22 COM4 port ack: b'cfarCfg 6 4 4 4 4 16 16 4 4 50 62 0\n'
+21:27:22 COM4 port ack: b'Done\n'
+21:27:25 COM4 port ack: b'doaCfg 600 1875 30 1 1 0\n'
+21:27:25 COM4 port ack: b'Done\n'
+21:27:28 COM4 port ack: b'SceneryParam -6 6 0.5 6\n'
+21:27:28 COM4 port ack: b'Done\n'
+21:27:31 COM4 port ack: b'GatingParam 4 3 2 0\n'
+21:27:31 COM4 port ack: b'Done\n'
+21:27:34 COM4 port ack: b'StateParam 10 5 100 100 5\n'
+21:27:34 COM4 port ack: b'Error: Invalid usage of the CLI command\n'
+21:27:37 COM4 port ack: b'AllocationParam 250 250 0.25 10 1 2\n'
+21:27:37 COM4 port ack: b'Done\n'
+21:27:40 COM4 port ack: b'AccelerationParam 1 1 1\n'
+21:27:40 COM4 port ack: b"'AccelerationParam' is not recognized as a CLI command\n"
+21:27:44 COM4 port ack: b'trackingCfg 1 2 250 20 52 82 50 90\n'
+21:27:44 COM4 port ack: b'Done\n'
+21:27:47 COM4 port ack: b'sensorStart\n'
+21:27:47 COM4 port ack: b'Done\n'
+21:27:50 COM4 port closed.
+21:27:50 COM3 port opened
+21:28:0 COM3 port closed.
+21:28:0 data.txt file is closed.
+21:28:0 serials.log file closing...
+22:22:51 serials.log file is writable.
+22:22:51 data.txt file is writable.
+22:22:51 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+22:22:51 COM4 port opened.
+22:22:52 COM4 port ack: b'flushCfg\n'
+22:22:52 COM4 port ack: b'Done\n'
+22:22:55 COM4 port ack: b'dfeDataOutputMode 1\n'
+22:22:55 COM4 port ack: b'Done\n'
+22:22:58 COM4 port ack: b'channelCfg 15 5 0\n'
+22:22:58 COM4 port ack: b'Done\n'
+22:23:1 COM4 port ack: b'adcCfg 2 1\n'
+22:23:1 COM4 port ack: b'Done\n'
+22:23:4 COM4 port ack: b'adcbufCfg 0 1 1 1 \n'
+22:23:4 COM4 port ack: b'Done\n'
+22:23:7 COM4 port ack: b'profileCfg 0 60.6 30 10 62 0 0 53 1 128 2500 0 0 30\n'
+22:23:7 COM4 port ack: b'Done\n'
+22:23:10 COM4 port ack: b'chirpCfg 0 0 0 0 0 0 0 1\n'
+22:23:10 COM4 port ack: b'Done\n'
+22:23:13 COM4 port ack: b'chirpCfg 1 1 0 0 0 0 0 4\n'
+22:23:13 COM4 port ack: b'Done\n'
+22:23:16 COM4 port ack: b'frameCfg 0 1 128 0 50 1 0\n'
+22:23:16 COM4 port ack: b'Done\n'
+22:23:20 COM4 port ack: b'lowPower 0 1\n'
+22:23:20 COM4 port ack: b'Done\n'
+22:23:23 COM4 port ack: b'guiMonitor 1 1 0 0\n'
+22:23:23 COM4 port ack: b'Done\n'
+22:23:26 COM4 port ack: b'cfarCfg 6 4 4 4 4 16 16 4 4 50 62 0\n'
+22:23:26 COM4 port ack: b'Done\n'
+22:23:29 COM4 port ack: b'doaCfg 600 1875 30 1 1 0\n'
+22:23:29 COM4 port ack: b'Done\n'
+22:23:32 COM4 port ack: b'SceneryParam -6 6 0.5 6\n'
+22:23:32 COM4 port ack: b'Done\n'
+22:23:35 COM4 port ack: b'GatingParam 4 3 2 0\n'
+22:23:35 COM4 port ack: b'Done\n'
+22:23:38 COM4 port ack: b'StateParam 10 5 100 100 5\n'
+22:23:38 COM4 port ack: b'Error: Invalid usage of the CLI command\n'
+22:23:41 COM4 port ack: b'AllocationParam 250 250 0.25 10 1 2\n'
+22:23:41 COM4 port ack: b'Done\n'
+22:23:45 COM4 port ack: b'AccelerationParam 1 1 1\n'
+22:23:45 COM4 port ack: b"'AccelerationParam' is not recognized as a CLI command\n"
+22:23:48 COM4 port ack: b'trackingCfg 1 2 250 20 52 82 50 90\n'
+22:23:48 COM4 port ack: b'Done\n'
+22:23:51 COM4 port ack: b'sensorStart\n'
+22:23:51 COM4 port ack: b'Done\n'
+22:23:54 COM4 port closed.
+22:23:54 COM3 port opened
+22:24:4 COM3 port closed.
+22:24:4 data.txt file is closed.
+22:24:4 serials.log file closing...
