@@ -22,9 +22,9 @@ frame_header_length = struct.calcsize ( frame_header_struct )
 tlv_header_struct = '2I'
 tlv_header_length = struct.calcsize ( tlv_header_struct )
 point_cloud_unit_struct = '4f'
-point_cloud_unit_lenght = struct.calcsize ( point_cloud_unit_struct )
+point_cloud_unit_length = struct.calcsize ( point_cloud_unit_struct )
 point_struct = '2B2h'
-point_lenght = struct.calcsize ( point_struct )
+point_length = struct.calcsize ( point_struct )
 
 conf_com = serial.Serial ()
 data_com = serial.Serial ()
@@ -128,6 +128,7 @@ if data_com.is_open:
             data_file.write ( f'\nFrame header parse failed! {e}' )
             data_frame_ok = False
         if data_frame_ok and sync == hvac_control :
+            # Zapisz frame header
             data_frame_header = dict ( sync = sync , version = version , platform = platform , timestamp = timestamp , packet_length = packet_length , frame_number = frame_number , subframe_number = subframe_number , chirp_margin = chirp_margin , frame_margin = frame_margin , uart_sent_time = uart_sent_time , track_process_time = track_process_time , num_tlvs = num_tlvs , checksum = checksum )
             data_file.write ( f'\n{data_frame_header}' )
             data_frame = data_frame[frame_header_length:]
@@ -141,17 +142,26 @@ if data_com.is_open:
                         data_file.write ( f'\nTlv header parse failed! {e}' )
                         tlv_frame_ok = False
                     if tlv_frame_ok :
+                        # Zapisz TLV header
                         tlv_frame_header = dict ( tlv_type = tlv_type , tlv_length = tlv_length )
                         data_file.write ( f'\n{tlv_frame_header}' )
                         data_frame = data_frame[tlv_header_length:]
                         if tlv_type == 6 :
                             print ('continue here')
-                    else :
-                        data_file.write ( f'\nTLV header not ok!' )
+                            try :
+                                azimuth_unit , doppler_unit , range_unit , snr_unit = struct.unpack ( point_cloud_unit_struct , data_frame[:point_cloud_unit_length] )
+                                point_cloud_unit_ok = True
+                            except struct.error as e :
+                                data_file.write ( f'\nPoint cloud unit parse failed! {e}' )
+                                point_cloud_unit_ok = False
+                            if point_cloud_unit_ok :
+                                # Zapisz Point Cloud Unit
+                                point_cloud_unit = dict ( azimuth_unit = azimuth_unit , doppler_unit = doppler_unit , range_unit = range_unit, snr_unit = snr_unit )
+                                data_file.write ( f'\n{point_cloud_unit}' )
+                                data_frame = data_frame[point_cloud_unit_length:]
             else :
                 data_file.write ( f'\nNo TLV!' )
-        else :
-            data_file.write ( f'\nFrame header not ok!' )
+
 try:
     data_com.close ()
 except serial.SerialException as e :
