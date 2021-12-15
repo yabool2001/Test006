@@ -1585,3 +1585,1353 @@ Frame header parse failed! unpack requires a buffer of 52 bytes
 {'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2100059478, 'packet_length': 490, 'frame_number': 797352, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 2068, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 26318}
 {'tlv_type': 6, 'tlv_length': 438}
 {'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3201171131, 'packet_length': 478, 'frame_number': 812065, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1777, 'track_process_time': 5351, 'num_tlvs': 1, 'checksum': 19666}
+{'tlv_type': 6, 'tlv_length': 426}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3211171184, 'packet_length': 478, 'frame_number': 812066, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1830, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 46347}
+{'tlv_type': 6, 'tlv_length': 426}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3221171588, 'packet_length': 490, 'frame_number': 812067, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1824, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 7256}
+{'tlv_type': 6, 'tlv_length': 438}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3231172008, 'packet_length': 502, 'frame_number': 812068, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1942, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 33425}
+{'tlv_type': 6, 'tlv_length': 450}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3241171859, 'packet_length': 496, 'frame_number': 812069, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 2061, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 60179}
+{'tlv_type': 6, 'tlv_length': 444}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3251171412, 'packet_length': 484, 'frame_number': 812070, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 2010, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 22076}
+{'tlv_type': 6, 'tlv_length': 432}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3261172005, 'packet_length': 496, 'frame_number': 812071, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1875, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 48595}
+{'tlv_type': 6, 'tlv_length': 444}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3271171371, 'packet_length': 484, 'frame_number': 812072, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2001, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 10300}
+{'tlv_type': 6, 'tlv_length': 432}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3281171595, 'packet_length': 490, 'frame_number': 812073, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1891, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 37168}
+{'tlv_type': 6, 'tlv_length': 438}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3291171446, 'packet_length': 490, 'frame_number': 812074, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1941, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 64054}
+{'tlv_type': 6, 'tlv_length': 438}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3301171293, 'packet_length': 484, 'frame_number': 812075, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1937, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 25535}
+{'tlv_type': 6, 'tlv_length': 432}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3311172001, 'packet_length': 502, 'frame_number': 812076, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1882, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 51786}
+{'tlv_type': 6, 'tlv_length': 450}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3321171495, 'packet_length': 490, 'frame_number': 812077, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 2054, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 13248}
+{'tlv_type': 6, 'tlv_length': 438}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3331172187, 'packet_length': 508, 'frame_number': 812078, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1928, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 39653}
+{'tlv_type': 6, 'tlv_length': 456}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3341171600, 'packet_length': 490, 'frame_number': 812079, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 2123, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 1179}
+{'tlv_type': 6, 'tlv_length': 438}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3351176679, 'packet_length': 496, 'frame_number': 812080, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1952, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 23323}
+{'tlv_type': 6, 'tlv_length': 444}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3361171724, 'packet_length': 490, 'frame_number': 812081, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18928, 'uart_sent_time': 2000, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 55047}
+{'tlv_type': 6, 'tlv_length': 438}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3371171780, 'packet_length': 484, 'frame_number': 812082, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1937, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 16422}
+{'tlv_type': 6, 'tlv_length': 432}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3381171947, 'packet_length': 496, 'frame_number': 812083, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 1879, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 43224}
+{'tlv_type': 6, 'tlv_length': 444}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3391172434, 'packet_length': 502, 'frame_number': 812084, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2000, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 3793}
+{'tlv_type': 6, 'tlv_length': 450}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2066335741, 'packet_length': 496, 'frame_number': 814099, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18951, 'uart_sent_time': 2069, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 48316}
+{'tlv_type': 6, 'tlv_length': 444}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2076340072, 'packet_length': 490, 'frame_number': 814100, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18951, 'uart_sent_time': 1993, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 5454}
+{'tlv_type': 6, 'tlv_length': 438}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2086335621, 'packet_length': 496, 'frame_number': 814101, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18928, 'uart_sent_time': 1937, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 36900}
+{'tlv_type': 6, 'tlv_length': 444}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2096336121, 'packet_length': 508, 'frame_number': 814102, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2008, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 63079}
+{'tlv_type': 6, 'tlv_length': 456}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2106336265, 'packet_length': 508, 'frame_number': 814103, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18951, 'uart_sent_time': 2134, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 23993}
+{'tlv_type': 6, 'tlv_length': 456}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2116336337, 'packet_length': 514, 'frame_number': 814104, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18950, 'uart_sent_time': 2145, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 50759}
+{'tlv_type': 6, 'tlv_length': 462}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2126335390, 'packet_length': 496, 'frame_number': 814105, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18950, 'uart_sent_time': 2198, 'track_process_time': 5827, 'num_tlvs': 1, 'checksum': 12922}
+{'tlv_type': 6, 'tlv_length': 444}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2136335493, 'packet_length': 496, 'frame_number': 814106, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 2009, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 40063}
+{'tlv_type': 6, 'tlv_length': 444}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2146335902, 'packet_length': 508, 'frame_number': 814107, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2005, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 966}
+{'tlv_type': 6, 'tlv_length': 456}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2156335552, 'packet_length': 496, 'frame_number': 814108, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2125, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 27926}
+{'tlv_type': 6, 'tlv_length': 444}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1116465654, 'packet_length': 484, 'frame_number': 815722, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1953, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 52752}
+{'tlv_type': 6, 'tlv_length': 432}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1126466116, 'packet_length': 496, 'frame_number': 815723, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1900, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 13717}
+{'tlv_type': 6, 'tlv_length': 444}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1136465829, 'packet_length': 490, 'frame_number': 815724, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 2016, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 40613}
+{'tlv_type': 6, 'tlv_length': 438}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1146465752, 'packet_length': 490, 'frame_number': 815725, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1954, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 2138}
+{'tlv_type': 6, 'tlv_length': 438}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1156466233, 'packet_length': 490, 'frame_number': 815726, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1964, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 28501}
+{'tlv_type': 6, 'tlv_length': 438}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1166465695, 'packet_length': 484, 'frame_number': 815727, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 1955, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 55910}
+{'tlv_type': 6, 'tlv_length': 432}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1176467319, 'packet_length': 520, 'frame_number': 815728, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1897, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 15693}
+{'tlv_type': 6, 'tlv_length': 468}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1714395184, 'packet_length': 490, 'frame_number': 854007, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1885, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 26406}
+{'tlv_type': 6, 'tlv_length': 438}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 69, 'snr_point': 74}
+{'azimuth_point': 0, 'doppler_point': 4, 'range_point': 70, 'snr_point': 61}
+{'azimuth_point': 27, 'doppler_point': 0, 'range_point': 84, 'snr_point': 276}
+{'azimuth_point': 25, 'doppler_point': 0, 'range_point': 88, 'snr_point': 59}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 4, 'snr_point': 281}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 62, 'snr_point': 658}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 63, 'snr_point': 963}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 64, 'snr_point': 236}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 93, 'snr_point': 45}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 60, 'snr_point': 95}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 61, 'snr_point': 166}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 58, 'snr_point': 41}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 89, 'snr_point': 43}
+{'azimuth_point': 21, 'doppler_point': 0, 'range_point': 57, 'snr_point': 40}
+{'azimuth_point': 19, 'doppler_point': 0, 'range_point': 83, 'snr_point': 393}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 78, 'snr_point': 527}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 79, 'snr_point': 1175}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 80, 'snr_point': 639}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1174}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 82, 'snr_point': 1118}
+{'azimuth_point': 15, 'doppler_point': 0, 'range_point': 101, 'snr_point': 78}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 84, 'snr_point': 120}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 85, 'snr_point': 85}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 100, 'snr_point': 48}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 32, 'snr_point': 135}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 33, 'snr_point': 153}
+{'azimuth_point': 8, 'doppler_point': 0, 'range_point': 77, 'snr_point': 154}
+{'azimuth_point': 7, 'doppler_point': 0, 'range_point': 65, 'snr_point': 94}
+{'azimuth_point': 6, 'doppler_point': 0, 'range_point': 72, 'snr_point': 550}
+{'azimuth_point': 6, 'doppler_point': 0, 'range_point': 73, 'snr_point': 244}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 74, 'snr_point': 167}
+{'azimuth_point': 2, 'doppler_point': 0, 'range_point': 67, 'snr_point': 275}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 68, 'snr_point': 8162}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 69, 'snr_point': -27386}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 70, 'snr_point': -14439}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 111, 'snr_point': 120}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 112, 'snr_point': 263}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 71, 'snr_point': 7643}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 113, 'snr_point': 76}
+{'azimuth_point': 254, 'doppler_point': 0, 'range_point': 72, 'snr_point': 559}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 35, 'snr_point': 222}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 36, 'snr_point': 332}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 37, 'snr_point': 145}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 38, 'snr_point': 90}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 39, 'snr_point': 58}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 87, 'snr_point': 273}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 26, 'snr_point': 191}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 86, 'snr_point': 575}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 24, 'snr_point': 904}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 25, 'snr_point': 1443}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 27, 'snr_point': 349}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 28, 'snr_point': 337}
+{'azimuth_point': 246, 'doppler_point': 0, 'range_point': 113, 'snr_point': 46}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1244}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 82, 'snr_point': 2422}
+{'azimuth_point': 244, 'doppler_point': 0, 'range_point': 83, 'snr_point': 1366}
+{'azimuth_point': 241, 'doppler_point': 0, 'range_point': 84, 'snr_point': 347}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 17, 'snr_point': 190}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 18, 'snr_point': 106}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 104, 'snr_point': 101}
+{'azimuth_point': 239, 'doppler_point': 0, 'range_point': 105, 'snr_point': 56}
+{'azimuth_point': 238, 'doppler_point': 0, 'range_point': 19, 'snr_point': 42}
+{'azimuth_point': 237, 'doppler_point': 0, 'range_point': 85, 'snr_point': 156}
+{'azimuth_point': 235, 'doppler_point': 0, 'range_point': 13, 'snr_point': 43}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 12, 'snr_point': 66}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 58, 'snr_point': 75}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 59, 'snr_point': 55}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 11, 'snr_point': 45}
+{'azimuth_point': 232, 'doppler_point': 0, 'range_point': 30, 'snr_point': 51}
+Point parse failed! unpack requires a buffer of 6 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1724401634, 'packet_length': 496, 'frame_number': 854008, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18860, 'uart_sent_time': 1952, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 46763}
+{'tlv_type': 6, 'tlv_length': 444}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'azimuth_point': 249, 'doppler_point': 1, 'range_point': 25, 'snr_point': 43}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 70, 'snr_point': 65}
+{'azimuth_point': 0, 'doppler_point': 33, 'range_point': 69, 'snr_point': 58}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 70, 'snr_point': 69}
+{'azimuth_point': 27, 'doppler_point': 0, 'range_point': 84, 'snr_point': 274}
+{'azimuth_point': 25, 'doppler_point': 0, 'range_point': 4, 'snr_point': 230}
+{'azimuth_point': 25, 'doppler_point': 0, 'range_point': 88, 'snr_point': 66}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 62, 'snr_point': 652}
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1734410677, 'packet_length': 526, 'frame_number': 854009, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18829, 'uart_sent_time': 1975, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 64484}
+{'tlv_type': 6, 'tlv_length': 474}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 25, 'snr_point': 55}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 71, 'snr_point': 52}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 69, 'snr_point': 93}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 70, 'snr_point': 88}
+{'azimuth_point': 1, 'doppler_point': 1, 'range_point': 68, 'snr_point': 48}
+{'azimuth_point': 28, 'doppler_point': 0, 'range_point': 84, 'snr_point': 285}
+{'azimuth_point': 25, 'doppler_point': 0, 'range_point': 4, 'snr_point': 237}
+{'azimuth_point': 25, 'doppler_point': 0, 'range_point': 88, 'snr_point': 51}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 62, 'snr_point': 644}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 63, 'snr_point': 956}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 64, 'snr_point': 238}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 60, 'snr_point': 88}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 61, 'snr_point': 161}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 93, 'snr_point': 47}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 89, 'snr_point': 51}
+{'azimuth_point': 19, 'doppler_point': 0, 'range_point': 83, 'snr_point': 377}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 78, 'snr_point': 524}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 79, 'snr_point': 1095}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 80, 'snr_point': 601}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1130}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 82, 'snr_point': 1166}
+{'azimuth_point': 15, 'doppler_point': 0, 'range_point': 86, 'snr_point': 43}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 84, 'snr_point': 134}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 85, 'snr_point': 94}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 100, 'snr_point': 47}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 101, 'snr_point': 71}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 32, 'snr_point': 144}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 33, 'snr_point': 172}
+{'azimuth_point': 8, 'doppler_point': 0, 'range_point': 77, 'snr_point': 148}
+{'azimuth_point': 7, 'doppler_point': 0, 'range_point': 65, 'snr_point': 81}
+{'azimuth_point': 6, 'doppler_point': 0, 'range_point': 72, 'snr_point': 551}
+{'azimuth_point': 6, 'doppler_point': 0, 'range_point': 73, 'snr_point': 247}
+{'azimuth_point': 6, 'doppler_point': 0, 'range_point': 89, 'snr_point': 41}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 74, 'snr_point': 159}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 75, 'snr_point': 67}
+{'azimuth_point': 2, 'doppler_point': 0, 'range_point': 67, 'snr_point': 286}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 68, 'snr_point': 8092}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 69, 'snr_point': -26934}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 70, 'snr_point': -15075}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 111, 'snr_point': 124}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 112, 'snr_point': 262}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 71, 'snr_point': 7767}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 113, 'snr_point': 75}
+{'azimuth_point': 254, 'doppler_point': 0, 'range_point': 72, 'snr_point': 568}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 35, 'snr_point': 215}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 36, 'snr_point': 322}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 37, 'snr_point': 128}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 38, 'snr_point': 90}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 39, 'snr_point': 62}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 87, 'snr_point': 282}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 88, 'snr_point': 58}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 26, 'snr_point': 190}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 86, 'snr_point': 636}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 24, 'snr_point': 880}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 25, 'snr_point': 1398}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 85, 'snr_point': 302}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 27, 'snr_point': 339}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 28, 'snr_point': 329}
+{'azimuth_point': 246, 'doppler_point': 0, 'range_point': 113, 'snr_point': 59}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1094}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 82, 'snr_point': 2104}
+{'azimuth_point': 244, 'doppler_point': 0, 'range_point': 83, 'snr_point': 1185}
+{'azimuth_point': 241, 'doppler_point': 0, 'range_point': 84, 'snr_point': 305}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 17, 'snr_point': 187}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 18, 'snr_point': 105}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 104, 'snr_point': 83}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 105, 'snr_point': 49}
+{'azimuth_point': 238, 'doppler_point': 0, 'range_point': 19, 'snr_point': 43}
+{'azimuth_point': 237, 'doppler_point': 0, 'range_point': 85, 'snr_point': 142}
+{'azimuth_point': 235, 'doppler_point': 0, 'range_point': 13, 'snr_point': 44}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 12, 'snr_point': 67}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 58, 'snr_point': 79}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 59, 'snr_point': 54}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 11, 'snr_point': 46}
+{'azimuth_point': 232, 'doppler_point': 0, 'range_point': 30, 'snr_point': 59}
+Point parse failed! unpack requires a buffer of 6 bytes
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1744377259, 'packet_length': 496, 'frame_number': 854010, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18787, 'uart_sent_time': 2343, 'track_process_time': 5963, 'num_tlvs': 1, 'checksum': 58585}
+{'tlv_type': 6, 'tlv_length': 444}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'azimuth_point': 28, 'doppler_point': 0, 'range_point': 84, 'snr_point': 253}
+{'azimuth_point': 25, 'doppler_point': 0, 'range_point': 88, 'snr_point': 52}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 4, 'snr_point': 283}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 62, 'snr_point': 639}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 63, 'snr_point': 940}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 64, 'snr_point': 233}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 93, 'snr_point': 43}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 60, 'snr_point': 86}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 61, 'snr_point': 155}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 89, 'snr_point': 45}
+{'azimuth_point': 19, 'doppler_point': 0, 'range_point': 83, 'snr_point': 367}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 78, 'snr_point': 525}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 79, 'snr_point': 1083}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 80, 'snr_point': 707}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1130}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 82, 'snr_point': 1150}
+{'azimuth_point': 15, 'doppler_point': 0, 'range_point': 86, 'snr_point': 40}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 84, 'snr_point': 120}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 85, 'snr_point': 88}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 100, 'snr_point': 50}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 101, 'snr_point': 69}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 32, 'snr_point': 141}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 33, 'snr_point': 165}
+{'azimuth_point': 8, 'doppler_point': 0, 'range_point': 77, 'snr_point': 161}
+{'azimuth_point': 7, 'doppler_point': 0, 'range_point': 65, 'snr_point': 85}
+{'azimuth_point': 6, 'doppler_point': 0, 'range_point': 72, 'snr_point': 577}
+{'azimuth_point': 6, 'doppler_point': 0, 'range_point': 73, 'snr_point': 262}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 74, 'snr_point': 176}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 75, 'snr_point': 75}
+{'azimuth_point': 2, 'doppler_point': 0, 'range_point': 67, 'snr_point': 273}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 68, 'snr_point': 7949}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 69, 'snr_point': -28969}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 70, 'snr_point': -18680}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 111, 'snr_point': 127}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 112, 'snr_point': 251}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 71, 'snr_point': 7345}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 113, 'snr_point': 60}
+{'azimuth_point': 254, 'doppler_point': 0, 'range_point': 72, 'snr_point': 562}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 35, 'snr_point': 215}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 36, 'snr_point': 322}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 37, 'snr_point': 129}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 39, 'snr_point': 52}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 38, 'snr_point': 92}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 87, 'snr_point': 312}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 88, 'snr_point': 78}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 26, 'snr_point': 195}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 85, 'snr_point': 302}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 86, 'snr_point': 640}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 24, 'snr_point': 902}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 25, 'snr_point': 1432}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 27, 'snr_point': 353}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 28, 'snr_point': 339}
+{'azimuth_point': 246, 'doppler_point': 0, 'range_point': 113, 'snr_point': 44}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1125}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 82, 'snr_point': 2173}
+{'azimuth_point': 244, 'doppler_point': 0, 'range_point': 83, 'snr_point': 1244}
+{'azimuth_point': 241, 'doppler_point': 0, 'range_point': 84, 'snr_point': 312}
+{'azimuth_point': 241, 'doppler_point': 0, 'range_point': 103, 'snr_point': 41}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 17, 'snr_point': 192}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 18, 'snr_point': 108}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 104, 'snr_point': 90}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 105, 'snr_point': 56}
+{'azimuth_point': 238, 'doppler_point': 0, 'range_point': 19, 'snr_point': 43}
+{'azimuth_point': 237, 'doppler_point': 0, 'range_point': 85, 'snr_point': 147}
+{'azimuth_point': 235, 'doppler_point': 0, 'range_point': 13, 'snr_point': 44}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 12, 'snr_point': 67}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 58, 'snr_point': 83}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 59, 'snr_point': 55}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 11, 'snr_point': 46}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 30, 'snr_point': 79}
+Point parse failed! unpack requires a buffer of 6 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1754395141, 'packet_length': 496, 'frame_number': 854011, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18951, 'uart_sent_time': 2007, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 2534}
+{'tlv_type': 6, 'tlv_length': 444}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 69, 'snr_point': 52}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 70, 'snr_point': 52}
+{'azimuth_point': 28, 'doppler_point': 0, 'range_point': 84, 'snr_point': 269}
+{'azimuth_point': 25, 'doppler_point': 0, 'range_point': 4, 'snr_point': 244}
+{'azimuth_point': 25, 'doppler_point': 0, 'range_point': 88, 'snr_point': 58}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 62, 'snr_point': 647}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 63, 'snr_point': 946}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 64, 'snr_point': 237}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 93, 'snr_point': 45}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 60, 'snr_point': 90}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 61, 'snr_point': 163}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 89, 'snr_point': 60}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 58, 'snr_point': 42}
+{'azimuth_point': 19, 'doppler_point': 0, 'range_point': 83, 'snr_point': 375}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 78, 'snr_point': 517}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 79, 'snr_point': 1117}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 80, 'snr_point': 607}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1150}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 82, 'snr_point': 1138}
+{'azimuth_point': 15, 'doppler_point': 0, 'range_point': 101, 'snr_point': 72}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 84, 'snr_point': 115}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 85, 'snr_point': 82}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 100, 'snr_point': 52}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 32, 'snr_point': 142}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 33, 'snr_point': 169}
+{'azimuth_point': 8, 'doppler_point': 0, 'range_point': 77, 'snr_point': 163}
+{'azimuth_point': 6, 'doppler_point': 0, 'range_point': 72, 'snr_point': 561}
+{'azimuth_point': 6, 'doppler_point': 0, 'range_point': 73, 'snr_point': 256}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 74, 'snr_point': 176}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 75, 'snr_point': 73}
+{'azimuth_point': 2, 'doppler_point': 0, 'range_point': 67, 'snr_point': 278}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 68, 'snr_point': 7978}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 69, 'snr_point': -29322}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 70, 'snr_point': -18332}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 111, 'snr_point': 122}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 112, 'snr_point': 253}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 71, 'snr_point': 7405}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 113, 'snr_point': 78}
+{'azimuth_point': 254, 'doppler_point': 0, 'range_point': 72, 'snr_point': 577}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 35, 'snr_point': 219}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 36, 'snr_point': 331}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 37, 'snr_point': 131}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 87, 'snr_point': 170}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 38, 'snr_point': 91}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 39, 'snr_point': 61}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 88, 'snr_point': 85}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 26, 'snr_point': 195}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 86, 'snr_point': 568}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 24, 'snr_point': 897}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 25, 'snr_point': 1421}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 85, 'snr_point': 259}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 27, 'snr_point': 347}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 28, 'snr_point': 332}
+{'azimuth_point': 246, 'doppler_point': 0, 'range_point': 113, 'snr_point': 53}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1070}
+{'azimuth_point': 244, 'doppler_point': 0, 'range_point': 82, 'snr_point': 2075}
+{'azimuth_point': 244, 'doppler_point': 0, 'range_point': 83, 'snr_point': 1201}
+{'azimuth_point': 241, 'doppler_point': 0, 'range_point': 84, 'snr_point': 318}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 17, 'snr_point': 200}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 18, 'snr_point': 111}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 104, 'snr_point': 81}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 105, 'snr_point': 68}
+{'azimuth_point': 238, 'doppler_point': 0, 'range_point': 19, 'snr_point': 43}
+{'azimuth_point': 237, 'doppler_point': 0, 'range_point': 85, 'snr_point': 141}
+{'azimuth_point': 235, 'doppler_point': 0, 'range_point': 13, 'snr_point': 44}
+{'azimuth_point': 235, 'doppler_point': 0, 'range_point': 58, 'snr_point': 63}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 12, 'snr_point': 66}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 59, 'snr_point': 55}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 11, 'snr_point': 46}
+{'azimuth_point': 232, 'doppler_point': 0, 'range_point': 30, 'snr_point': 58}
+Point parse failed! unpack requires a buffer of 6 bytes
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1764395582, 'packet_length': 508, 'frame_number': 854012, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18861, 'uart_sent_time': 2016, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 29016}
+{'tlv_type': 6, 'tlv_length': 456}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'azimuth_point': 0, 'doppler_point': 1, 'range_point': 69, 'snr_point': 50}
+{'azimuth_point': 0, 'doppler_point': 1, 'range_point': 70, 'snr_point': 53}
+{'azimuth_point': 28, 'doppler_point': 0, 'range_point': 84, 'snr_point': 261}
+{'azimuth_point': 25, 'doppler_point': 0, 'range_point': 88, 'snr_point': 62}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 4, 'snr_point': 290}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 62, 'snr_point': 651}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 63, 'snr_point': 965}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 64, 'snr_point': 243}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 60, 'snr_point': 91}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 61, 'snr_point': 162}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 89, 'snr_point': 61}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 93, 'snr_point': 41}
+{'azimuth_point': 19, 'doppler_point': 0, 'range_point': 83, 'snr_point': 410}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 78, 'snr_point': 540}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 79, 'snr_point': 1178}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 80, 'snr_point': 843}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1357}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 82, 'snr_point': 1275}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 84, 'snr_point': 130}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 85, 'snr_point': 90}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 100, 'snr_point': 49}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 101, 'snr_point': 64}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 32, 'snr_point': 134}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 33, 'snr_point': 166}
+{'azimuth_point': 8, 'doppler_point': 0, 'range_point': 77, 'snr_point': 155}
+{'azimuth_point': 7, 'doppler_point': 0, 'range_point': 65, 'snr_point': 86}
+{'azimuth_point': 6, 'doppler_point': 0, 'range_point': 72, 'snr_point': 570}
+{'azimuth_point': 6, 'doppler_point': 0, 'range_point': 73, 'snr_point': 254}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 74, 'snr_point': 176}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 75, 'snr_point': 67}
+{'azimuth_point': 2, 'doppler_point': 0, 'range_point': 67, 'snr_point': 246}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 68, 'snr_point': 7359}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 69, 'snr_point': -30702}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 70, 'snr_point': -21544}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 111, 'snr_point': 140}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 112, 'snr_point': 257}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 71, 'snr_point': 6989}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 94, 'snr_point': 43}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 113, 'snr_point': 74}
+{'azimuth_point': 254, 'doppler_point': 0, 'range_point': 72, 'snr_point': 560}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 35, 'snr_point': 216}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 36, 'snr_point': 332}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 37, 'snr_point': 151}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 38, 'snr_point': 96}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 39, 'snr_point': 62}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 87, 'snr_point': 288}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 88, 'snr_point': 78}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 26, 'snr_point': 207}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 86, 'snr_point': 607}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 24, 'snr_point': 916}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 25, 'snr_point': 1481}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 85, 'snr_point': 326}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 27, 'snr_point': 354}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 28, 'snr_point': 343}
+{'azimuth_point': 246, 'doppler_point': 0, 'range_point': 113, 'snr_point': 43}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1074}
+{'azimuth_point': 244, 'doppler_point': 0, 'range_point': 82, 'snr_point': 2114}
+{'azimuth_point': 244, 'doppler_point': 0, 'range_point': 83, 'snr_point': 1239}
+{'azimuth_point': 241, 'doppler_point': 0, 'range_point': 84, 'snr_point': 304}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 17, 'snr_point': 189}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 18, 'snr_point': 106}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 104, 'snr_point': 123}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 105, 'snr_point': 98}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 106, 'snr_point': 65}
+{'azimuth_point': 238, 'doppler_point': 0, 'range_point': 19, 'snr_point': 43}
+{'azimuth_point': 237, 'doppler_point': 0, 'range_point': 85, 'snr_point': 143}
+{'azimuth_point': 235, 'doppler_point': 0, 'range_point': 13, 'snr_point': 44}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 12, 'snr_point': 65}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 58, 'snr_point': 83}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 59, 'snr_point': 64}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 11, 'snr_point': 46}
+{'azimuth_point': 232, 'doppler_point': 0, 'range_point': 30, 'snr_point': 56}
+Point parse failed! unpack requires a buffer of 6 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1774402745, 'packet_length': 526, 'frame_number': 854013, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18861, 'uart_sent_time': 2128, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 48441}
+{'tlv_type': 6, 'tlv_length': 474}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'azimuth_point': 0, 'doppler_point': 1, 'range_point': 70, 'snr_point': 61}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 69, 'snr_point': 56}
+{'azimuth_point': 0, 'doppler_point': 1, 'range_point': 70, 'snr_point': 59}
+{'azimuth_point': 1, 'doppler_point': 1, 'range_point': 68, 'snr_point': 46}
+{'azimuth_point': 28, 'doppler_point': 0, 'range_point': 84, 'snr_point': 270}
+{'azimuth_point': 25, 'doppler_point': 0, 'range_point': 4, 'snr_point': 246}
+{'azimuth_point': 25, 'doppler_point': 0, 'range_point': 88, 'snr_point': 59}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 62, 'snr_point': 648}
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3970519324, 'packet_length': 1000, 'frame_number': 864111, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 17459, 'uart_sent_time': 7303, 'track_process_time': 9434, 'num_tlvs': 1, 'checksum': 57227}
+{'tlv_type': 6, 'tlv_length': 948}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'azimuth_point': 229, 'doppler_point': 249, 'range_point': 22, 'snr_point': 59}
+{'azimuth_point': 229, 'doppler_point': 247, 'range_point': 23, 'snr_point': 69}
+{'azimuth_point': 230, 'doppler_point': 249, 'range_point': 22, 'snr_point': 61}
+{'azimuth_point': 230, 'doppler_point': 247, 'range_point': 23, 'snr_point': 81}
+{'azimuth_point': 231, 'doppler_point': 249, 'range_point': 22, 'snr_point': 61}
+{'azimuth_point': 231, 'doppler_point': 247, 'range_point': 23, 'snr_point': 93}
+{'azimuth_point': 231, 'doppler_point': 247, 'range_point': 24, 'snr_point': 77}
+{'azimuth_point': 232, 'doppler_point': 249, 'range_point': 23, 'snr_point': 104}
+{'azimuth_point': 232, 'doppler_point': 249, 'range_point': 24, 'snr_point': 129}
+{'azimuth_point': 232, 'doppler_point': 247, 'range_point': 25, 'snr_point': 105}
+{'azimuth_point': 232, 'doppler_point': 251, 'range_point': 26, 'snr_point': 92}
+{'azimuth_point': 232, 'doppler_point': 249, 'range_point': 27, 'snr_point': 74}
+{'azimuth_point': 232, 'doppler_point': 249, 'range_point': 28, 'snr_point': 58}
+{'azimuth_point': 233, 'doppler_point': 249, 'range_point': 22, 'snr_point': 59}
+{'azimuth_point': 233, 'doppler_point': 249, 'range_point': 23, 'snr_point': 113}
+{'azimuth_point': 233, 'doppler_point': 249, 'range_point': 24, 'snr_point': 228}
+{'azimuth_point': 233, 'doppler_point': 247, 'range_point': 25, 'snr_point': 196}
+{'azimuth_point': 233, 'doppler_point': 247, 'range_point': 26, 'snr_point': 143}
+{'azimuth_point': 233, 'doppler_point': 249, 'range_point': 27, 'snr_point': 94}
+{'azimuth_point': 234, 'doppler_point': 249, 'range_point': 23, 'snr_point': 114}
+{'azimuth_point': 234, 'doppler_point': 248, 'range_point': 24, 'snr_point': 306}
+{'azimuth_point': 234, 'doppler_point': 247, 'range_point': 25, 'snr_point': 308}
+{'azimuth_point': 234, 'doppler_point': 247, 'range_point': 26, 'snr_point': 167}
+{'azimuth_point': 234, 'doppler_point': 249, 'range_point': 27, 'snr_point': 90}
+{'azimuth_point': 235, 'doppler_point': 249, 'range_point': 23, 'snr_point': 106}
+{'azimuth_point': 235, 'doppler_point': 247, 'range_point': 24, 'snr_point': 223}
+{'azimuth_point': 235, 'doppler_point': 247, 'range_point': 25, 'snr_point': 231}
+{'azimuth_point': 235, 'doppler_point': 247, 'range_point': 26, 'snr_point': 122}
+{'azimuth_point': 236, 'doppler_point': 247, 'range_point': 24, 'snr_point': 127}
+{'azimuth_point': 254, 'doppler_point': 250, 'range_point': 19, 'snr_point': 155}
+{'azimuth_point': 255, 'doppler_point': 250, 'range_point': 16, 'snr_point': 125}
+{'azimuth_point': 255, 'doppler_point': 250, 'range_point': 20, 'snr_point': 162}
+{'azimuth_point': 255, 'doppler_point': 250, 'range_point': 21, 'snr_point': 97}
+{'azimuth_point': 255, 'doppler_point': 0, 'range_point': 70, 'snr_point': 1105}
+{'azimuth_point': 255, 'doppler_point': 1, 'range_point': 71, 'snr_point': 224}
+{'azimuth_point': 0, 'doppler_point': 247, 'range_point': 16, 'snr_point': 170}
+{'azimuth_point': 0, 'doppler_point': 252, 'range_point': 22, 'snr_point': 47}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 68, 'snr_point': 374}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 69, 'snr_point': 3241}
+{'azimuth_point': 0, 'doppler_point': 1, 'range_point': 70, 'snr_point': 3706}
+{'azimuth_point': 0, 'doppler_point': 1, 'range_point': 71, 'snr_point': 206}
+{'azimuth_point': 0, 'doppler_point': 247, 'range_point': 15, 'snr_point': 160}
+{'azimuth_point': 0, 'doppler_point': 247, 'range_point': 16, 'snr_point': 194}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 68, 'snr_point': 807}
+{'azimuth_point': 0, 'doppler_point': 1, 'range_point': 69, 'snr_point': 6115}
+{'azimuth_point': 0, 'doppler_point': 1, 'range_point': 70, 'snr_point': 4179}
+{'azimuth_point': 1, 'doppler_point': 247, 'range_point': 14, 'snr_point': 55}
+{'azimuth_point': 1, 'doppler_point': 247, 'range_point': 15, 'snr_point': 241}
+{'azimuth_point': 1, 'doppler_point': 247, 'range_point': 16, 'snr_point': 189}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 68, 'snr_point': 436}
+{'azimuth_point': 1, 'doppler_point': 1, 'range_point': 69, 'snr_point': 1794}
+{'azimuth_point': 1, 'doppler_point': 1, 'range_point': 70, 'snr_point': 1067}
+{'azimuth_point': 2, 'doppler_point': 247, 'range_point': 14, 'snr_point': 43}
+{'azimuth_point': 2, 'doppler_point': 247, 'range_point': 15, 'snr_point': 197}
+{'azimuth_point': 2, 'doppler_point': 247, 'range_point': 16, 'snr_point': 167}
+{'azimuth_point': 3, 'doppler_point': 247, 'range_point': 16, 'snr_point': 136}
+{'azimuth_point': 3, 'doppler_point': 249, 'range_point': 17, 'snr_point': 238}
+{'azimuth_point': 3, 'doppler_point': 249, 'range_point': 18, 'snr_point': 399}
+{'azimuth_point': 3, 'doppler_point': 247, 'range_point': 19, 'snr_point': 230}
+{'azimuth_point': 3, 'doppler_point': 248, 'range_point': 20, 'snr_point': 106}
+{'azimuth_point': 4, 'doppler_point': 249, 'range_point': 17, 'snr_point': 272}
+{'azimuth_point': 4, 'doppler_point': 247, 'range_point': 18, 'snr_point': 493}
+{'azimuth_point': 4, 'doppler_point': 247, 'range_point': 19, 'snr_point': 315}
+{'azimuth_point': 4, 'doppler_point': 248, 'range_point': 20, 'snr_point': 115}
+{'azimuth_point': 5, 'doppler_point': 248, 'range_point': 17, 'snr_point': 241}
+{'azimuth_point': 5, 'doppler_point': 247, 'range_point': 18, 'snr_point': 398}
+{'azimuth_point': 5, 'doppler_point': 246, 'range_point': 19, 'snr_point': 290}
+{'azimuth_point': 5, 'doppler_point': 248, 'range_point': 20, 'snr_point': 106}
+{'azimuth_point': 6, 'doppler_point': 247, 'range_point': 17, 'snr_point': 156}
+{'azimuth_point': 6, 'doppler_point': 246, 'range_point': 19, 'snr_point': 180}
+{'azimuth_point': 28, 'doppler_point': 0, 'range_point': 84, 'snr_point': 401}
+{'azimuth_point': 28, 'doppler_point': 0, 'range_point': 88, 'snr_point': 59}
+{'azimuth_point': 27, 'doppler_point': 0, 'range_point': 87, 'snr_point': 82}
+{'azimuth_point': 25, 'doppler_point': 0, 'range_point': 4, 'snr_point': 276}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 62, 'snr_point': 854}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 63, 'snr_point': 1283}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 64, 'snr_point': 312}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 60, 'snr_point': 127}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 61, 'snr_point': 228}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 57, 'snr_point': 55}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 58, 'snr_point': 57}
+{'azimuth_point': 21, 'doppler_point': 0, 'range_point': 59, 'snr_point': 64}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 78, 'snr_point': 435}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 79, 'snr_point': 1029}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 83, 'snr_point': 490}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 80, 'snr_point': 731}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1363}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 82, 'snr_point': 1256}
+{'azimuth_point': 16, 'doppler_point': 0, 'range_point': 71, 'snr_point': 95}
+{'azimuth_point': 15, 'doppler_point': 0, 'range_point': 84, 'snr_point': 190}
+{'azimuth_point': 15, 'doppler_point': 0, 'range_point': 101, 'snr_point': 59}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 85, 'snr_point': 101}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 32, 'snr_point': 149}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 33, 'snr_point': 194}
+{'azimuth_point': 9, 'doppler_point': 0, 'range_point': 64, 'snr_point': 384}
+{'azimuth_point': 8, 'doppler_point': 0, 'range_point': 77, 'snr_point': 151}
+{'azimuth_point': 7, 'doppler_point': 0, 'range_point': 65, 'snr_point': 240}
+{'azimuth_point': 6, 'doppler_point': 0, 'range_point': 66, 'snr_point': 66}
+{'azimuth_point': 6, 'doppler_point': 0, 'range_point': 71, 'snr_point': 276}
+{'azimuth_point': 5, 'doppler_point': 0, 'range_point': 72, 'snr_point': 461}
+{'azimuth_point': 5, 'doppler_point': 0, 'range_point': 73, 'snr_point': 227}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 40, 'snr_point': 62}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 74, 'snr_point': 110}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 103, 'snr_point': 44}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 104, 'snr_point': 44}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 67, 'snr_point': 183}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 68, 'snr_point': 7892}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 69, 'snr_point': -23554}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 70, 'snr_point': 30389}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 94, 'snr_point': 66}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 115, 'snr_point': 50}
+{'azimuth_point': 255, 'doppler_point': 0, 'range_point': 112, 'snr_point': 85}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 35, 'snr_point': 238}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 36, 'snr_point': 367}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 71, 'snr_point': 126}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 72, 'snr_point': 163}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 73, 'snr_point': 64}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 87, 'snr_point': 124}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 96, 'snr_point': 73}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 97, 'snr_point': 55}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 37, 'snr_point': 167}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 38, 'snr_point': 106}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 39, 'snr_point': 68}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 104, 'snr_point': 41}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 26, 'snr_point': 201}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 86, 'snr_point': 129}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 24, 'snr_point': 918}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 25, 'snr_point': 1457}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 94, 'snr_point': 54}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 27, 'snr_point': 359}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 28, 'snr_point': 338}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 93, 'snr_point': 71}
+{'azimuth_point': 247, 'doppler_point': 0, 'range_point': 67, 'snr_point': 107}
+{'azimuth_point': 246, 'doppler_point': 0, 'range_point': 70, 'snr_point': 8601}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 81, 'snr_point': 2850}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 82, 'snr_point': 6145}
+{'azimuth_point': 244, 'doppler_point': 0, 'range_point': 71, 'snr_point': 652}
+{'azimuth_point': 244, 'doppler_point': 0, 'range_point': 83, 'snr_point': 3748}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 17, 'snr_point': 197}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 18, 'snr_point': 110}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 103, 'snr_point': 62}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 104, 'snr_point': 106}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 106, 'snr_point': 68}
+{'azimuth_point': 238, 'doppler_point': 0, 'range_point': 19, 'snr_point': 41}
+{'azimuth_point': 238, 'doppler_point': 0, 'range_point': 105, 'snr_point': 79}
+{'azimuth_point': 236, 'doppler_point': 0, 'range_point': 13, 'snr_point': 40}
+{'azimuth_point': 236, 'doppler_point': 0, 'range_point': 87, 'snr_point': 214}
+{'azimuth_point': 235, 'doppler_point': 0, 'range_point': 58, 'snr_point': 56}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 12, 'snr_point': 66}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 59, 'snr_point': 52}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 86, 'snr_point': 217}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 11, 'snr_point': 46}
+{'azimuth_point': 232, 'doppler_point': 0, 'range_point': 30, 'snr_point': 78}
+{'azimuth_point': 231, 'doppler_point': 0, 'range_point': 95, 'snr_point': 86}
+Point parse failed! unpack requires a buffer of 6 bytes
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3980355814, 'packet_length': 808, 'frame_number': 864112, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 17067, 'uart_sent_time': 11304, 'track_process_time': 11333, 'num_tlvs': 1, 'checksum': 45670}
+{'tlv_type': 6, 'tlv_length': 756}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'azimuth_point': 231, 'doppler_point': 249, 'range_point': 22, 'snr_point': 102}
+{'azimuth_point': 231, 'doppler_point': 249, 'range_point': 24, 'snr_point': 129}
+{'azimuth_point': 232, 'doppler_point': 248, 'range_point': 21, 'snr_point': 84}
+{'azimuth_point': 232, 'doppler_point': 249, 'range_point': 22, 'snr_point': 126}
+{'azimuth_point': 232, 'doppler_point': 249, 'range_point': 24, 'snr_point': 202}
+{'azimuth_point': 232, 'doppler_point': 251, 'range_point': 25, 'snr_point': 118}
+{'azimuth_point': 233, 'doppler_point': 248, 'range_point': 21, 'snr_point': 89}
+{'azimuth_point': 233, 'doppler_point': 249, 'range_point': 22, 'snr_point': 142}
+{'azimuth_point': 233, 'doppler_point': 249, 'range_point': 23, 'snr_point': 121}
+{'azimuth_point': 233, 'doppler_point': 249, 'range_point': 24, 'snr_point': 245}
+{'azimuth_point': 233, 'doppler_point': 249, 'range_point': 25, 'snr_point': 152}
+{'azimuth_point': 233, 'doppler_point': 250, 'range_point': 26, 'snr_point': 43}
+{'azimuth_point': 234, 'doppler_point': 249, 'range_point': 24, 'snr_point': 187}
+{'azimuth_point': 234, 'doppler_point': 249, 'range_point': 25, 'snr_point': 132}
+{'azimuth_point': 240, 'doppler_point': 252, 'range_point': 19, 'snr_point': 52}
+{'azimuth_point': 240, 'doppler_point': 251, 'range_point': 21, 'snr_point': 41}
+{'azimuth_point': 241, 'doppler_point': 250, 'range_point': 18, 'snr_point': 49}
+{'azimuth_point': 241, 'doppler_point': 252, 'range_point': 20, 'snr_point': 47}
+{'azimuth_point': 253, 'doppler_point': 250, 'range_point': 20, 'snr_point': 110}
+{'azimuth_point': 253, 'doppler_point': 251, 'range_point': 21, 'snr_point': 41}
+{'azimuth_point': 254, 'doppler_point': 250, 'range_point': 19, 'snr_point': 95}
+{'azimuth_point': 254, 'doppler_point': 251, 'range_point': 20, 'snr_point': 88}
+{'azimuth_point': 0, 'doppler_point': 249, 'range_point': 15, 'snr_point': 93}
+{'azimuth_point': 0, 'doppler_point': 251, 'range_point': 18, 'snr_point': 127}
+{'azimuth_point': 0, 'doppler_point': 247, 'range_point': 14, 'snr_point': 54}
+{'azimuth_point': 0, 'doppler_point': 250, 'range_point': 15, 'snr_point': 122}
+{'azimuth_point': 0, 'doppler_point': 250, 'range_point': 16, 'snr_point': 189}
+{'azimuth_point': 0, 'doppler_point': 250, 'range_point': 17, 'snr_point': 225}
+{'azimuth_point': 0, 'doppler_point': 251, 'range_point': 18, 'snr_point': 125}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 69, 'snr_point': 106}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 70, 'snr_point': 99}
+{'azimuth_point': 1, 'doppler_point': 247, 'range_point': 14, 'snr_point': 56}
+{'azimuth_point': 1, 'doppler_point': 250, 'range_point': 15, 'snr_point': 136}
+{'azimuth_point': 1, 'doppler_point': 250, 'range_point': 16, 'snr_point': 207}
+{'azimuth_point': 1, 'doppler_point': 250, 'range_point': 17, 'snr_point': 235}
+{'azimuth_point': 1, 'doppler_point': 251, 'range_point': 18, 'snr_point': 122}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 69, 'snr_point': 140}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 70, 'snr_point': 119}
+{'azimuth_point': 2, 'doppler_point': 250, 'range_point': 15, 'snr_point': 118}
+{'azimuth_point': 2, 'doppler_point': 250, 'range_point': 16, 'snr_point': 194}
+{'azimuth_point': 2, 'doppler_point': 250, 'range_point': 17, 'snr_point': 229}
+{'azimuth_point': 2, 'doppler_point': 251, 'range_point': 18, 'snr_point': 113}
+{'azimuth_point': 2, 'doppler_point': 0, 'range_point': 69, 'snr_point': 139}
+{'azimuth_point': 2, 'doppler_point': 0, 'range_point': 70, 'snr_point': 131}
+{'azimuth_point': 3, 'doppler_point': 250, 'range_point': 15, 'snr_point': 83}
+{'azimuth_point': 3, 'doppler_point': 248, 'range_point': 16, 'snr_point': 154}
+{'azimuth_point': 3, 'doppler_point': 250, 'range_point': 17, 'snr_point': 198}
+{'azimuth_point': 3, 'doppler_point': 0, 'range_point': 69, 'snr_point': 102}
+{'azimuth_point': 3, 'doppler_point': 0, 'range_point': 70, 'snr_point': 116}
+{'azimuth_point': 4, 'doppler_point': 248, 'range_point': 17, 'snr_point': 146}
+{'azimuth_point': 28, 'doppler_point': 0, 'range_point': 87, 'snr_point': 62}
+{'azimuth_point': 27, 'doppler_point': 0, 'range_point': 84, 'snr_point': 377}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 4, 'snr_point': 309}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 62, 'snr_point': 752}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 63, 'snr_point': 1154}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 64, 'snr_point': 318}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 60, 'snr_point': 98}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 61, 'snr_point': 187}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 57, 'snr_point': 52}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 58, 'snr_point': 48}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 65, 'snr_point': 45}
+{'azimuth_point': 20, 'doppler_point': 0, 'range_point': 83, 'snr_point': 554}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 78, 'snr_point': 466}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 79, 'snr_point': 1009}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 80, 'snr_point': 814}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 82, 'snr_point': 1232}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1238}
+{'azimuth_point': 16, 'doppler_point': 0, 'range_point': 101, 'snr_point': 71}
+{'azimuth_point': 15, 'doppler_point': 0, 'range_point': 74, 'snr_point': 47}
+{'azimuth_point': 15, 'doppler_point': 0, 'range_point': 100, 'snr_point': 42}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 84, 'snr_point': 143}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 85, 'snr_point': 97}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 32, 'snr_point': 140}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 33, 'snr_point': 179}
+{'azimuth_point': 8, 'doppler_point': 0, 'range_point': 65, 'snr_point': 123}
+{'azimuth_point': 8, 'doppler_point': 0, 'range_point': 77, 'snr_point': 227}
+{'azimuth_point': 5, 'doppler_point': 0, 'range_point': 40, 'snr_point': 70}
+{'azimuth_point': 3, 'doppler_point': 0, 'range_point': 72, 'snr_point': 1587}
+{'azimuth_point': 3, 'doppler_point': 0, 'range_point': 73, 'snr_point': 1037}
+{'azimuth_point': 3, 'doppler_point': 0, 'range_point': 75, 'snr_point': 106}
+{'azimuth_point': 2, 'doppler_point': 0, 'range_point': 74, 'snr_point': 589}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 115, 'snr_point': 53}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 68, 'snr_point': 1015}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 69, 'snr_point': 4460}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 113, 'snr_point': 100}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 70, 'snr_point': 4907}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 71, 'snr_point': 969}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 112, 'snr_point': 345}
+{'azimuth_point': 255, 'doppler_point': 0, 'range_point': 111, 'snr_point': 134}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 34, 'snr_point': 43}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 35, 'snr_point': 268}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 36, 'snr_point': 423}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 39, 'snr_point': 57}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 37, 'snr_point': 197}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 38, 'snr_point': 111}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 87, 'snr_point': 114}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 26, 'snr_point': 201}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 85, 'snr_point': 92}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 86, 'snr_point': 201}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 24, 'snr_point': 892}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 25, 'snr_point': 1444}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 27, 'snr_point': 344}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 28, 'snr_point': 332}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 70, 'snr_point': 2040}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 81, 'snr_point': 2174}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 82, 'snr_point': 5857}
+{'azimuth_point': 244, 'doppler_point': 0, 'range_point': 83, 'snr_point': 4171}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 17, 'snr_point': 201}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 18, 'snr_point': 108}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 104, 'snr_point': 46}
+{'azimuth_point': 239, 'doppler_point': 0, 'range_point': 103, 'snr_point': 42}
+{'azimuth_point': 239, 'doppler_point': 0, 'range_point': 105, 'snr_point': 69}
+{'azimuth_point': 238, 'doppler_point': 0, 'range_point': 19, 'snr_point': 41}
+{'azimuth_point': 235, 'doppler_point': 0, 'range_point': 58, 'snr_point': 54}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 12, 'snr_point': 65}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 59, 'snr_point': 52}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 95, 'snr_point': 67}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 11, 'snr_point': 45}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 30, 'snr_point': 100}
+{'azimuth_point': 231, 'doppler_point': 0, 'range_point': 86, 'snr_point': 238}
+{'azimuth_point': 230, 'doppler_point': 0, 'range_point': 83, 'snr_point': 996}
+{'azimuth_point': 230, 'doppler_point': 0, 'range_point': 94, 'snr_point': 49}
+Point parse failed! unpack requires a buffer of 6 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3990248533, 'packet_length': 658, 'frame_number': 864113, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 17859, 'uart_sent_time': 6788, 'track_process_time': 9158, 'num_tlvs': 1, 'checksum': 54784}
+{'tlv_type': 6, 'tlv_length': 606}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'azimuth_point': 230, 'doppler_point': 250, 'range_point': 22, 'snr_point': 57}
+{'azimuth_point': 230, 'doppler_point': 0, 'range_point': 74, 'snr_point': 45}
+{'azimuth_point': 231, 'doppler_point': 250, 'range_point': 22, 'snr_point': 69}
+{'azimuth_point': 232, 'doppler_point': 250, 'range_point': 22, 'snr_point': 78}
+{'azimuth_point': 232, 'doppler_point': 250, 'range_point': 23, 'snr_point': 66}
+{'azimuth_point': 233, 'doppler_point': 253, 'range_point': 22, 'snr_point': 79}
+{'azimuth_point': 233, 'doppler_point': 253, 'range_point': 23, 'snr_point': 73}
+{'azimuth_point': 234, 'doppler_point': 253, 'range_point': 23, 'snr_point': 74}
+{'azimuth_point': 234, 'doppler_point': 252, 'range_point': 24, 'snr_point': 53}
+{'azimuth_point': 240, 'doppler_point': 255, 'range_point': 21, 'snr_point': 43}
+{'azimuth_point': 252, 'doppler_point': 251, 'range_point': 20, 'snr_point': 46}
+{'azimuth_point': 253, 'doppler_point': 250, 'range_point': 18, 'snr_point': 53}
+{'azimuth_point': 253, 'doppler_point': 251, 'range_point': 19, 'snr_point': 71}
+{'azimuth_point': 0, 'doppler_point': 252, 'range_point': 15, 'snr_point': 91}
+{'azimuth_point': 0, 'doppler_point': 252, 'range_point': 16, 'snr_point': 148}
+{'azimuth_point': 0, 'doppler_point': 250, 'range_point': 14, 'snr_point': 44}
+{'azimuth_point': 0, 'doppler_point': 252, 'range_point': 15, 'snr_point': 116}
+{'azimuth_point': 0, 'doppler_point': 252, 'range_point': 16, 'snr_point': 194}
+{'azimuth_point': 0, 'doppler_point': 252, 'range_point': 17, 'snr_point': 120}
+{'azimuth_point': 1, 'doppler_point': 252, 'range_point': 15, 'snr_point': 111}
+{'azimuth_point': 1, 'doppler_point': 252, 'range_point': 16, 'snr_point': 202}
+{'azimuth_point': 1, 'doppler_point': 252, 'range_point': 17, 'snr_point': 127}
+{'azimuth_point': 2, 'doppler_point': 252, 'range_point': 15, 'snr_point': 84}
+{'azimuth_point': 2, 'doppler_point': 252, 'range_point': 16, 'snr_point': 182}
+{'azimuth_point': 2, 'doppler_point': 252, 'range_point': 17, 'snr_point': 129}
+{'azimuth_point': 3, 'doppler_point': 249, 'range_point': 16, 'snr_point': 149}
+{'azimuth_point': 3, 'doppler_point': 252, 'range_point': 17, 'snr_point': 121}
+{'azimuth_point': 4, 'doppler_point': 249, 'range_point': 17, 'snr_point': 98}
+{'azimuth_point': 28, 'doppler_point': 0, 'range_point': 84, 'snr_point': 315}
+{'azimuth_point': 27, 'doppler_point': 0, 'range_point': 87, 'snr_point': 67}
+{'azimuth_point': 27, 'doppler_point': 0, 'range_point': 88, 'snr_point': 44}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 4, 'snr_point': 308}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 62, 'snr_point': 808}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 63, 'snr_point': 1235}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 64, 'snr_point': 343}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 60, 'snr_point': 101}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 61, 'snr_point': 204}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 57, 'snr_point': 53}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 58, 'snr_point': 51}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 65, 'snr_point': 49}
+{'azimuth_point': 21, 'doppler_point': 0, 'range_point': 59, 'snr_point': 51}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 78, 'snr_point': 438}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 79, 'snr_point': 987}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 83, 'snr_point': 411}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 80, 'snr_point': 667}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1285}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 82, 'snr_point': 1102}
+{'azimuth_point': 16, 'doppler_point': 0, 'range_point': 100, 'snr_point': 56}
+{'azimuth_point': 16, 'doppler_point': 0, 'range_point': 101, 'snr_point': 76}
+{'azimuth_point': 15, 'doppler_point': 0, 'range_point': 74, 'snr_point': 46}
+{'azimuth_point': 15, 'doppler_point': 0, 'range_point': 84, 'snr_point': 140}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 85, 'snr_point': 82}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 32, 'snr_point': 140}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 33, 'snr_point': 184}
+{'azimuth_point': 8, 'doppler_point': 0, 'range_point': 65, 'snr_point': 104}
+{'azimuth_point': 8, 'doppler_point': 0, 'range_point': 77, 'snr_point': 265}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 40, 'snr_point': 46}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 75, 'snr_point': 73}
+{'azimuth_point': 2, 'doppler_point': 0, 'range_point': 73, 'snr_point': 2152}
+{'azimuth_point': 2, 'doppler_point': 0, 'range_point': 74, 'snr_point': 571}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 72, 'snr_point': 4842}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 68, 'snr_point': 392}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 69, 'snr_point': 1620}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 113, 'snr_point': 208}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 111, 'snr_point': 181}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 112, 'snr_point': 493}
+{'azimuth_point': 255, 'doppler_point': 0, 'range_point': 70, 'snr_point': 2001}
+{'azimuth_point': 255, 'doppler_point': 0, 'range_point': 71, 'snr_point': 975}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 35, 'snr_point': 193}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 36, 'snr_point': 282}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 39, 'snr_point': 57}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 37, 'snr_point': 136}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 38, 'snr_point': 102}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 87, 'snr_point': 63}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 26, 'snr_point': 188}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 86, 'snr_point': 110}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 24, 'snr_point': 896}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 25, 'snr_point': 1432}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 27, 'snr_point': 344}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 28, 'snr_point': 337}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 81, 'snr_point': 2872}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 82, 'snr_point': 6434}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 83, 'snr_point': 3228}
+{'azimuth_point': 241, 'doppler_point': 0, 'range_point': 84, 'snr_point': 312}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 17, 'snr_point': 190}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 18, 'snr_point': 111}
+{'azimuth_point': 239, 'doppler_point': 0, 'range_point': 104, 'snr_point': 71}
+{'azimuth_point': 239, 'doppler_point': 0, 'range_point': 105, 'snr_point': 80}
+{'azimuth_point': 238, 'doppler_point': 0, 'range_point': 19, 'snr_point': 41}
+{'azimuth_point': 238, 'doppler_point': 0, 'range_point': 103, 'snr_point': 70}
+{'azimuth_point': 235, 'doppler_point': 0, 'range_point': 58, 'snr_point': 49}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 12, 'snr_point': 64}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 29, 'snr_point': 119}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 11, 'snr_point': 45}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 30, 'snr_point': 78}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 96, 'snr_point': 41}
+{'azimuth_point': 232, 'doppler_point': 0, 'range_point': 95, 'snr_point': 110}
+Point parse failed! unpack requires a buffer of 6 bytes
+Frame header parse failed! unpack requires a buffer of 52 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4000244852, 'packet_length': 646, 'frame_number': 864114, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18376, 'uart_sent_time': 4200, 'track_process_time': 7458, 'num_tlvs': 1, 'checksum': 23567}
+{'tlv_type': 6, 'tlv_length': 594}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'azimuth_point': 231, 'doppler_point': 254, 'range_point': 21, 'snr_point': 54}
+{'azimuth_point': 255, 'doppler_point': 253, 'range_point': 15, 'snr_point': 145}
+{'azimuth_point': 255, 'doppler_point': 253, 'range_point': 16, 'snr_point': 181}
+{'azimuth_point': 255, 'doppler_point': 253, 'range_point': 19, 'snr_point': 77}
+{'azimuth_point': 0, 'doppler_point': 253, 'range_point': 14, 'snr_point': 46}
+{'azimuth_point': 0, 'doppler_point': 253, 'range_point': 15, 'snr_point': 167}
+{'azimuth_point': 0, 'doppler_point': 253, 'range_point': 16, 'snr_point': 207}
+{'azimuth_point': 0, 'doppler_point': 255, 'range_point': 18, 'snr_point': 58}
+{'azimuth_point': 0, 'doppler_point': 253, 'range_point': 14, 'snr_point': 54}
+{'azimuth_point': 0, 'doppler_point': 253, 'range_point': 15, 'snr_point': 170}
+{'azimuth_point': 0, 'doppler_point': 253, 'range_point': 16, 'snr_point': 203}
+{'azimuth_point': 1, 'doppler_point': 253, 'range_point': 14, 'snr_point': 64}
+{'azimuth_point': 1, 'doppler_point': 250, 'range_point': 16, 'snr_point': 198}
+{'azimuth_point': 2, 'doppler_point': 0, 'range_point': 14, 'snr_point': 75}
+{'azimuth_point': 2, 'doppler_point': 250, 'range_point': 15, 'snr_point': 178}
+{'azimuth_point': 2, 'doppler_point': 250, 'range_point': 16, 'snr_point': 207}
+{'azimuth_point': 2, 'doppler_point': 253, 'range_point': 17, 'snr_point': 112}
+{'azimuth_point': 3, 'doppler_point': 251, 'range_point': 14, 'snr_point': 77}
+{'azimuth_point': 3, 'doppler_point': 250, 'range_point': 15, 'snr_point': 191}
+{'azimuth_point': 3, 'doppler_point': 251, 'range_point': 16, 'snr_point': 226}
+{'azimuth_point': 3, 'doppler_point': 251, 'range_point': 17, 'snr_point': 129}
+{'azimuth_point': 4, 'doppler_point': 251, 'range_point': 14, 'snr_point': 60}
+{'azimuth_point': 4, 'doppler_point': 251, 'range_point': 15, 'snr_point': 183}
+{'azimuth_point': 4, 'doppler_point': 251, 'range_point': 16, 'snr_point': 219}
+{'azimuth_point': 4, 'doppler_point': 251, 'range_point': 17, 'snr_point': 123}
+{'azimuth_point': 5, 'doppler_point': 251, 'range_point': 15, 'snr_point': 139}
+{'azimuth_point': 5, 'doppler_point': 251, 'range_point': 16, 'snr_point': 163}
+{'azimuth_point': 28, 'doppler_point': 0, 'range_point': 84, 'snr_point': 370}
+{'azimuth_point': 28, 'doppler_point': 0, 'range_point': 87, 'snr_point': 60}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 4, 'snr_point': 314}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 62, 'snr_point': 817}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 63, 'snr_point': 1224}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 64, 'snr_point': 325}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 60, 'snr_point': 114}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 61, 'snr_point': 214}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 57, 'snr_point': 62}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 65, 'snr_point': 49}
+{'azimuth_point': 21, 'doppler_point': 0, 'range_point': 58, 'snr_point': 69}
+{'azimuth_point': 21, 'doppler_point': 0, 'range_point': 59, 'snr_point': 61}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 78, 'snr_point': 510}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 79, 'snr_point': 1189}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 83, 'snr_point': 412}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 80, 'snr_point': 694}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1161}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 82, 'snr_point': 976}
+{'azimuth_point': 16, 'doppler_point': 0, 'range_point': 100, 'snr_point': 50}
+{'azimuth_point': 15, 'doppler_point': 0, 'range_point': 74, 'snr_point': 53}
+{'azimuth_point': 15, 'doppler_point': 0, 'range_point': 101, 'snr_point': 71}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 84, 'snr_point': 158}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 85, 'snr_point': 89}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 32, 'snr_point': 134}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 33, 'snr_point': 175}
+{'azimuth_point': 8, 'doppler_point': 0, 'range_point': 65, 'snr_point': 125}
+{'azimuth_point': 8, 'doppler_point': 0, 'range_point': 77, 'snr_point': 168}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 40, 'snr_point': 52}
+{'azimuth_point': 3, 'doppler_point': 0, 'range_point': 72, 'snr_point': 1845}
+{'azimuth_point': 3, 'doppler_point': 0, 'range_point': 73, 'snr_point': 1181}
+{'azimuth_point': 3, 'doppler_point': 0, 'range_point': 74, 'snr_point': 423}
+{'azimuth_point': 3, 'doppler_point': 0, 'range_point': 75, 'snr_point': 64}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 113, 'snr_point': 207}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 68, 'snr_point': 334}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 111, 'snr_point': 190}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 112, 'snr_point': 539}
+{'azimuth_point': 255, 'doppler_point': 0, 'range_point': 69, 'snr_point': 2872}
+{'azimuth_point': 255, 'doppler_point': 0, 'range_point': 70, 'snr_point': 3808}
+{'azimuth_point': 255, 'doppler_point': 0, 'range_point': 71, 'snr_point': 1123}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 35, 'snr_point': 192}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 36, 'snr_point': 286}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 39, 'snr_point': 55}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 37, 'snr_point': 133}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 38, 'snr_point': 98}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 87, 'snr_point': 110}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 26, 'snr_point': 199}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 86, 'snr_point': 197}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 24, 'snr_point': 897}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 25, 'snr_point': 1426}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 27, 'snr_point': 380}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 28, 'snr_point': 349}
+{'azimuth_point': 244, 'doppler_point': 0, 'range_point': 81, 'snr_point': 2255}
+{'azimuth_point': 244, 'doppler_point': 0, 'range_point': 82, 'snr_point': 4308}
+{'azimuth_point': 244, 'doppler_point': 0, 'range_point': 83, 'snr_point': 2671}
+{'azimuth_point': 241, 'doppler_point': 0, 'range_point': 84, 'snr_point': 343}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 17, 'snr_point': 199}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 18, 'snr_point': 113}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 37, 'snr_point': 108}
+{'azimuth_point': 239, 'doppler_point': 0, 'range_point': 104, 'snr_point': 54}
+{'azimuth_point': 239, 'doppler_point': 0, 'range_point': 105, 'snr_point': 63}
+{'azimuth_point': 238, 'doppler_point': 0, 'range_point': 19, 'snr_point': 43}
+{'azimuth_point': 236, 'doppler_point': 0, 'range_point': 13, 'snr_point': 41}
+{'azimuth_point': 235, 'doppler_point': 0, 'range_point': 58, 'snr_point': 49}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 12, 'snr_point': 67}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 11, 'snr_point': 46}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 95, 'snr_point': 115}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 96, 'snr_point': 44}
+{'azimuth_point': 232, 'doppler_point': 0, 'range_point': 30, 'snr_point': 62}
+Point parse failed! unpack requires a buffer of 6 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4010277282, 'packet_length': 712, 'frame_number': 864115, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18398, 'uart_sent_time': 4007, 'track_process_time': 7327, 'num_tlvs': 1, 'checksum': 18227}
+{'tlv_type': 6, 'tlv_length': 660}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'azimuth_point': 232, 'doppler_point': 1, 'range_point': 23, 'snr_point': 45}
+{'azimuth_point': 0, 'doppler_point': 253, 'range_point': 14, 'snr_point': 96}
+{'azimuth_point': 0, 'doppler_point': 253, 'range_point': 13, 'snr_point': 52}
+{'azimuth_point': 0, 'doppler_point': 253, 'range_point': 14, 'snr_point': 115}
+{'azimuth_point': 0, 'doppler_point': 253, 'range_point': 15, 'snr_point': 155}
+{'azimuth_point': 0, 'doppler_point': 255, 'range_point': 17, 'snr_point': 50}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 68, 'snr_point': 133}
+{'azimuth_point': 0, 'doppler_point': 1, 'range_point': 69, 'snr_point': 480}
+{'azimuth_point': 0, 'doppler_point': 1, 'range_point': 70, 'snr_point': 285}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 73, 'snr_point': 66}
+{'azimuth_point': 1, 'doppler_point': 253, 'range_point': 13, 'snr_point': 51}
+{'azimuth_point': 1, 'doppler_point': 253, 'range_point': 14, 'snr_point': 117}
+{'azimuth_point': 1, 'doppler_point': 255, 'range_point': 16, 'snr_point': 111}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 73, 'snr_point': 76}
+{'azimuth_point': 2, 'doppler_point': 255, 'range_point': 14, 'snr_point': 111}
+{'azimuth_point': 2, 'doppler_point': 255, 'range_point': 16, 'snr_point': 113}
+{'azimuth_point': 2, 'doppler_point': 0, 'range_point': 73, 'snr_point': 56}
+{'azimuth_point': 3, 'doppler_point': 255, 'range_point': 14, 'snr_point': 100}
+{'azimuth_point': 3, 'doppler_point': 255, 'range_point': 15, 'snr_point': 153}
+{'azimuth_point': 3, 'doppler_point': 255, 'range_point': 16, 'snr_point': 110}
+{'azimuth_point': 4, 'doppler_point': 255, 'range_point': 14, 'snr_point': 84}
+{'azimuth_point': 4, 'doppler_point': 255, 'range_point': 15, 'snr_point': 148}
+{'azimuth_point': 4, 'doppler_point': 254, 'range_point': 16, 'snr_point': 96}
+{'azimuth_point': 28, 'doppler_point': 0, 'range_point': 84, 'snr_point': 293}
+{'azimuth_point': 28, 'doppler_point': 0, 'range_point': 88, 'snr_point': 46}
+{'azimuth_point': 28, 'doppler_point': 0, 'range_point': 112, 'snr_point': 92}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 4, 'snr_point': 312}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 62, 'snr_point': 823}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 63, 'snr_point': 1250}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 64, 'snr_point': 344}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 60, 'snr_point': 106}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 61, 'snr_point': 201}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 65, 'snr_point': 53}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 57, 'snr_point': 55}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 58, 'snr_point': 52}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 59, 'snr_point': 40}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 78, 'snr_point': 478}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 79, 'snr_point': 1062}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 83, 'snr_point': 456}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 80, 'snr_point': 687}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1315}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 82, 'snr_point': 1232}
+{'azimuth_point': 15, 'doppler_point': 0, 'range_point': 84, 'snr_point': 130}
+{'azimuth_point': 15, 'doppler_point': 0, 'range_point': 100, 'snr_point': 42}
+{'azimuth_point': 15, 'doppler_point': 0, 'range_point': 101, 'snr_point': 74}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 85, 'snr_point': 82}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 32, 'snr_point': 138}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 33, 'snr_point': 183}
+{'azimuth_point': 8, 'doppler_point': 0, 'range_point': 77, 'snr_point': 147}
+{'azimuth_point': 7, 'doppler_point': 0, 'range_point': 71, 'snr_point': 152}
+{'azimuth_point': 6, 'doppler_point': 0, 'range_point': 65, 'snr_point': 165}
+{'azimuth_point': 5, 'doppler_point': 0, 'range_point': 40, 'snr_point': 61}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 73, 'snr_point': 286}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 75, 'snr_point': 59}
+{'azimuth_point': 3, 'doppler_point': 0, 'range_point': 72, 'snr_point': 1419}
+{'azimuth_point': 3, 'doppler_point': 0, 'range_point': 74, 'snr_point': 173}
+{'azimuth_point': 2, 'doppler_point': 0, 'range_point': 85, 'snr_point': 63}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 67, 'snr_point': 75}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 68, 'snr_point': 3196}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 69, 'snr_point': 13656}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 70, 'snr_point': 9280}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 111, 'snr_point': 106}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 112, 'snr_point': 227}
+{'azimuth_point': 254, 'doppler_point': 0, 'range_point': 71, 'snr_point': 517}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 34, 'snr_point': 42}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 35, 'snr_point': 259}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 36, 'snr_point': 403}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 39, 'snr_point': 62}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 37, 'snr_point': 190}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 38, 'snr_point': 115}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 26, 'snr_point': 201}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 86, 'snr_point': 234}
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4020241361, 'packet_length': 646, 'frame_number': 864116, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18240, 'uart_sent_time': 4942, 'track_process_time': 8070, 'num_tlvs': 1, 'checksum': 14013}
+{'tlv_type': 6, 'tlv_length': 594}
+{'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}
+{'azimuth_point': 250, 'doppler_point': 1, 'range_point': 71, 'snr_point': 84}
+{'azimuth_point': 0, 'doppler_point': 1, 'range_point': 70, 'snr_point': 660}
+{'azimuth_point': 0, 'doppler_point': 1, 'range_point': 69, 'snr_point': 616}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 70, 'snr_point': 720}
+{'azimuth_point': 0, 'doppler_point': 255, 'range_point': 71, 'snr_point': 134}
+{'azimuth_point': 1, 'doppler_point': 255, 'range_point': 14, 'snr_point': 57}
+{'azimuth_point': 1, 'doppler_point': 1, 'range_point': 69, 'snr_point': 617}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 70, 'snr_point': 612}
+{'azimuth_point': 2, 'doppler_point': 1, 'range_point': 15, 'snr_point': 62}
+{'azimuth_point': 2, 'doppler_point': 255, 'range_point': 16, 'snr_point': 44}
+{'azimuth_point': 2, 'doppler_point': 1, 'range_point': 68, 'snr_point': 122}
+{'azimuth_point': 2, 'doppler_point': 1, 'range_point': 69, 'snr_point': 453}
+{'azimuth_point': 2, 'doppler_point': 0, 'range_point': 72, 'snr_point': 51}
+{'azimuth_point': 28, 'doppler_point': 0, 'range_point': 88, 'snr_point': 43}
+{'azimuth_point': 28, 'doppler_point': 0, 'range_point': 112, 'snr_point': 112}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 4, 'snr_point': 288}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 62, 'snr_point': 829}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 63, 'snr_point': 1223}
+{'azimuth_point': 24, 'doppler_point': 0, 'range_point': 64, 'snr_point': 337}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 60, 'snr_point': 110}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 61, 'snr_point': 199}
+{'azimuth_point': 23, 'doppler_point': 0, 'range_point': 65, 'snr_point': 46}
+{'azimuth_point': 22, 'doppler_point': 0, 'range_point': 57, 'snr_point': 55}
+{'azimuth_point': 21, 'doppler_point': 0, 'range_point': 58, 'snr_point': 76}
+{'azimuth_point': 21, 'doppler_point': 0, 'range_point': 59, 'snr_point': 65}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 78, 'snr_point': 483}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 79, 'snr_point': 1039}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 83, 'snr_point': 468}
+{'azimuth_point': 18, 'doppler_point': 0, 'range_point': 84, 'snr_point': 175}
+{'azimuth_point': 17, 'doppler_point': 0, 'range_point': 80, 'snr_point': 751}
+{'azimuth_point': 16, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1137}
+{'azimuth_point': 16, 'doppler_point': 0, 'range_point': 82, 'snr_point': 1101}
+{'azimuth_point': 15, 'doppler_point': 0, 'range_point': 101, 'snr_point': 60}
+{'azimuth_point': 14, 'doppler_point': 0, 'range_point': 85, 'snr_point': 81}
+{'azimuth_point': 13, 'doppler_point': 0, 'range_point': 86, 'snr_point': 49}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 32, 'snr_point': 131}
+{'azimuth_point': 11, 'doppler_point': 0, 'range_point': 33, 'snr_point': 176}
+{'azimuth_point': 8, 'doppler_point': 0, 'range_point': 77, 'snr_point': 168}
+{'azimuth_point': 6, 'doppler_point': 0, 'range_point': 73, 'snr_point': 147}
+{'azimuth_point': 5, 'doppler_point': 0, 'range_point': 15, 'snr_point': 85}
+{'azimuth_point': 5, 'doppler_point': 0, 'range_point': 40, 'snr_point': 61}
+{'azimuth_point': 5, 'doppler_point': 0, 'range_point': 74, 'snr_point': 59}
+{'azimuth_point': 5, 'doppler_point': 0, 'range_point': 75, 'snr_point': 62}
+{'azimuth_point': 5, 'doppler_point': 0, 'range_point': 103, 'snr_point': 52}
+{'azimuth_point': 4, 'doppler_point': 0, 'range_point': 16, 'snr_point': 114}
+{'azimuth_point': 2, 'doppler_point': 0, 'range_point': 85, 'snr_point': 93}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 115, 'snr_point': 86}
+{'azimuth_point': 1, 'doppler_point': 0, 'range_point': 116, 'snr_point': 51}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 68, 'snr_point': 2746}
+{'azimuth_point': 0, 'doppler_point': 0, 'range_point': 69, 'snr_point': 7595}
+{'azimuth_point': 255, 'doppler_point': 0, 'range_point': 70, 'snr_point': 5102}
+{'azimuth_point': 255, 'doppler_point': 0, 'range_point': 71, 'snr_point': 2238}
+{'azimuth_point': 255, 'doppler_point': 0, 'range_point': 72, 'snr_point': 891}
+{'azimuth_point': 254, 'doppler_point': 0, 'range_point': 97, 'snr_point': 80}
+{'azimuth_point': 253, 'doppler_point': 0, 'range_point': 96, 'snr_point': 63}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 35, 'snr_point': 222}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 36, 'snr_point': 342}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 39, 'snr_point': 56}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 73, 'snr_point': 69}
+{'azimuth_point': 252, 'doppler_point': 0, 'range_point': 103, 'snr_point': 86}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 37, 'snr_point': 160}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 38, 'snr_point': 104}
+{'azimuth_point': 251, 'doppler_point': 0, 'range_point': 104, 'snr_point': 55}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 26, 'snr_point': 176}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 87, 'snr_point': 228}
+{'azimuth_point': 250, 'doppler_point': 0, 'range_point': 88, 'snr_point': 54}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 24, 'snr_point': 856}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 25, 'snr_point': 1390}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 85, 'snr_point': 246}
+{'azimuth_point': 249, 'doppler_point': 0, 'range_point': 86, 'snr_point': 381}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 27, 'snr_point': 364}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 28, 'snr_point': 345}
+{'azimuth_point': 248, 'doppler_point': 0, 'range_point': 94, 'snr_point': 42}
+{'azimuth_point': 247, 'doppler_point': 0, 'range_point': 67, 'snr_point': 51}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 81, 'snr_point': 1273}
+{'azimuth_point': 245, 'doppler_point': 0, 'range_point': 82, 'snr_point': 2985}
+{'azimuth_point': 244, 'doppler_point': 0, 'range_point': 70, 'snr_point': 1961}
+{'azimuth_point': 244, 'doppler_point': 0, 'range_point': 83, 'snr_point': 2100}
+{'azimuth_point': 243, 'doppler_point': 0, 'range_point': 107, 'snr_point': 67}
+{'azimuth_point': 241, 'doppler_point': 0, 'range_point': 84, 'snr_point': 287}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 17, 'snr_point': 195}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 18, 'snr_point': 110}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 104, 'snr_point': 100}
+{'azimuth_point': 240, 'doppler_point': 0, 'range_point': 106, 'snr_point': 70}
+{'azimuth_point': 239, 'doppler_point': 0, 'range_point': 105, 'snr_point': 117}
+{'azimuth_point': 238, 'doppler_point': 0, 'range_point': 19, 'snr_point': 41}
+{'azimuth_point': 236, 'doppler_point': 0, 'range_point': 13, 'snr_point': 41}
+{'azimuth_point': 236, 'doppler_point': 0, 'range_point': 89, 'snr_point': 55}
+{'azimuth_point': 235, 'doppler_point': 0, 'range_point': 86, 'snr_point': 90}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 12, 'snr_point': 66}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 58, 'snr_point': 72}
+{'azimuth_point': 234, 'doppler_point': 0, 'range_point': 59, 'snr_point': 53}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 11, 'snr_point': 45}
+{'azimuth_point': 233, 'doppler_point': 0, 'range_point': 30, 'snr_point': 78}
+{'azimuth_point': 230, 'doppler_point': 0, 'range_point': 94, 'snr_point': 55}
+Point parse failed! unpack requires a buffer of 6 bytes

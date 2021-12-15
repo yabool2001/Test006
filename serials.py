@@ -1,6 +1,6 @@
 import datetime
 import json
-from os import system
+from os import error, system
 import time
 import serial
 import struct
@@ -14,7 +14,7 @@ data_file_name = 'data.txt'
 conf_file_name = 'chirp_cfg/mmw_pplcount_demo_default.cfg'
 # conf_file_name = 'chirp_cfg/sense_and_direct_68xx.cfg'
 # conf_file_name = 'chirp_cfg/long_range_people_counting.cfg'
-data_com_delta_seconds = 1
+data_com_delta_seconds = 0.3
 
 hvac_control = 506660481457717506
 frame_header_struct = 'Q10I2H'
@@ -131,6 +131,7 @@ if data_com.is_open:
             # Zapisz frame header
             data_frame_header = dict ( sync = sync , version = version , platform = platform , timestamp = timestamp , packet_length = packet_length , frame_number = frame_number , subframe_number = subframe_number , chirp_margin = chirp_margin , frame_margin = frame_margin , uart_sent_time = uart_sent_time , track_process_time = track_process_time , num_tlvs = num_tlvs , checksum = checksum )
             data_file.write ( f'\n{data_frame_header}' )
+            del data_frame_header
             data_frame = data_frame[frame_header_length:]
             # Rozpakuj i zapisz dane z nagłówka tlv
             if num_tlvs > 0 :
@@ -145,9 +146,9 @@ if data_com.is_open:
                         # Zapisz TLV header
                         tlv_frame_header = dict ( tlv_type = tlv_type , tlv_length = tlv_length )
                         data_file.write ( f'\n{tlv_frame_header}' )
+                        del tlv_frame_header
                         data_frame = data_frame[tlv_header_length:]
                         if tlv_type == 6 :
-                            print ('continue here')
                             try :
                                 azimuth_unit , doppler_unit , range_unit , snr_unit = struct.unpack ( point_cloud_unit_struct , data_frame[:point_cloud_unit_length] )
                                 point_cloud_unit_ok = True
@@ -158,9 +159,25 @@ if data_com.is_open:
                                 # Zapisz Point Cloud Unit
                                 point_cloud_unit = dict ( azimuth_unit = azimuth_unit , doppler_unit = doppler_unit , range_unit = range_unit, snr_unit = snr_unit )
                                 data_file.write ( f'\n{point_cloud_unit}' )
+                                del point_cloud_unit
                                 data_frame = data_frame[point_cloud_unit_length:]
+                                points_number = int ( ( tlv_length - point_cloud_unit_length ) / point_length )
+                                for j in range ( points_number ) :
+                                    try :
+                                        azimuth_point , doppler_point , range_point , snr_point = struct.unpack ( point_struct , data_frame[:point_length] )
+                                        point_ok = True
+                                    except struct.error as e :
+                                        data_file.write ( f'\nPoint parse failed! {e}' )
+                                        point_ok = False
+                                    if point_ok :
+                                        # Zapisz punkt
+                                        point = dict ( azimuth_point = azimuth_point , doppler_point = doppler_point , range_point = range_point , snr_point = snr_point )
+                                        data_file.write ( f'\n{point}' )
+                                        del point
+                                        data_frame = data_frame[point_length:]
+                                        # Tutaj skońzyłem i coś nie działa z ostatnim punktem
             else :
-                data_file.write ( f'\nNo TLV!' )
+                data_file.write ( f'\nNo TLV ' )
 
 try:
     data_com.close ()
