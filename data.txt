@@ -652,3 +652,754 @@ Frame header parse failed! unpack requires a buffer of 52 bytes
 Tlv header parse failed! unpack requires a buffer of 8 bytes
 Frame header parse failed! unpack requires a buffer of 52 bytes
 {'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3265357692, 'packet_length': 472, 'frame_number': 203343, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18949, 'uart_sent_time': 1805, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 10693}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3511108869, 'packet_length': 478, 'frame_number': 213246, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1811, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 5775}
+{'tlv_type': 6, 'tlv_length': 426}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3521109241, 'packet_length': 484, 'frame_number': 213247, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1756, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 32374}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3531109867, 'packet_length': 502, 'frame_number': 213248, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1820, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 58453}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3541109419, 'packet_length': 490, 'frame_number': 213249, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1988, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 19861}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3551114160, 'packet_length': 496, 'frame_number': 213250, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1875, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 42216}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3561109531, 'packet_length': 490, 'frame_number': 213251, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18933, 'uart_sent_time': 1928, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 8072}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3571110474, 'packet_length': 508, 'frame_number': 213252, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1863, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 34076}
+{'tlv_type': 6, 'tlv_length': 456}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3581109584, 'packet_length': 490, 'frame_number': 213253, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 2046, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 61453}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3591110343, 'packet_length': 502, 'frame_number': 213254, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1870, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 22379}
+{'tlv_type': 6, 'tlv_length': 450}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3601109779, 'packet_length': 496, 'frame_number': 213255, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1990, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 49549}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3611109144, 'packet_length': 484, 'frame_number': 213256, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1933, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 11638}
+{'tlv_type': 6, 'tlv_length': 432}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3621109746, 'packet_length': 496, 'frame_number': 213257, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1823, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 38122}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3631109711, 'packet_length': 496, 'frame_number': 213258, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1929, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 64771}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3641109542, 'packet_length': 490, 'frame_number': 213259, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1935, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 26259}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3651110587, 'packet_length': 514, 'frame_number': 213260, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1866, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 52181}
+{'tlv_type': 6, 'tlv_length': 462}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3661110175, 'packet_length': 502, 'frame_number': 213261, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 2106, 'track_process_time': 5827, 'num_tlvs': 1, 'checksum': 13414}
+{'tlv_type': 6, 'tlv_length': 450}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3671109958, 'packet_length': 502, 'frame_number': 213262, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1986, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 40740}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3681109162, 'packet_length': 484, 'frame_number': 213263, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1981, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 2877}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3691109380, 'packet_length': 490, 'frame_number': 213264, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1821, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 29869}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3701109495, 'packet_length': 490, 'frame_number': 213265, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1869, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 56493}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3711110264, 'packet_length': 508, 'frame_number': 213266, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1877, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 17017}
+{'tlv_type': 6, 'tlv_length': 456}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3721109364, 'packet_length': 490, 'frame_number': 213267, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 2045, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 44419}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3731108898, 'packet_length': 478, 'frame_number': 213268, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1932, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 6531}
+{'tlv_type': 6, 'tlv_length': 426}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3741109412, 'packet_length': 490, 'frame_number': 213269, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1763, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 33163}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3751113633, 'packet_length': 484, 'frame_number': 213270, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1878, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 55552}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3761109411, 'packet_length': 490, 'frame_number': 213271, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18934, 'uart_sent_time': 1824, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 21231}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3771108983, 'packet_length': 478, 'frame_number': 213272, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1869, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 48390}
+{'tlv_type': 6, 'tlv_length': 426}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3781108876, 'packet_length': 472, 'frame_number': 213273, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1759, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 10067}
+{'tlv_type': 6, 'tlv_length': 420}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3791108738, 'packet_length': 472, 'frame_number': 213274, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1706, 'track_process_time': 5351, 'num_tlvs': 1, 'checksum': 37181}
+{'tlv_type': 6, 'tlv_length': 420}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3801108970, 'packet_length': 478, 'frame_number': 213275, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1758, 'track_process_time': 5351, 'num_tlvs': 1, 'checksum': 63744}
+{'tlv_type': 6, 'tlv_length': 426}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3811108888, 'packet_length': 478, 'frame_number': 213276, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1761, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 25074}
+{'tlv_type': 6, 'tlv_length': 426}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3821108203, 'packet_length': 460, 'frame_number': 213277, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1753, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 52639}
+{'tlv_type': 6, 'tlv_length': 408}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3831108397, 'packet_length': 466, 'frame_number': 213278, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18958, 'uart_sent_time': 1644, 'track_process_time': 5215, 'num_tlvs': 1, 'checksum': 14070}
+{'tlv_type': 6, 'tlv_length': 414}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3841108169, 'packet_length': 460, 'frame_number': 213279, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18958, 'uart_sent_time': 1699, 'track_process_time': 5283, 'num_tlvs': 1, 'checksum': 41035}
+{'tlv_type': 6, 'tlv_length': 408}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3851108259, 'packet_length': 460, 'frame_number': 213280, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18958, 'uart_sent_time': 1645, 'track_process_time': 5215, 'num_tlvs': 1, 'checksum': 2386}
+{'tlv_type': 6, 'tlv_length': 408}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3861108748, 'packet_length': 472, 'frame_number': 213281, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18958, 'uart_sent_time': 1645, 'track_process_time': 5215, 'num_tlvs': 1, 'checksum': 28739}
+{'tlv_type': 6, 'tlv_length': 420}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3871108472, 'packet_length': 466, 'frame_number': 213282, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1758, 'track_process_time': 5351, 'num_tlvs': 1, 'checksum': 55627}
+{'tlv_type': 6, 'tlv_length': 414}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3881108613, 'packet_length': 472, 'frame_number': 213283, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18958, 'uart_sent_time': 1702, 'track_process_time': 5283, 'num_tlvs': 1, 'checksum': 16922}
+{'tlv_type': 6, 'tlv_length': 420}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3891109064, 'packet_length': 478, 'frame_number': 213284, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18958, 'uart_sent_time': 1757, 'track_process_time': 5351, 'num_tlvs': 1, 'checksum': 43196}
+{'tlv_type': 6, 'tlv_length': 426}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3901108416, 'packet_length': 466, 'frame_number': 213285, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1816, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 5050}
+{'tlv_type': 6, 'tlv_length': 414}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3911109169, 'packet_length': 484, 'frame_number': 213286, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18958, 'uart_sent_time': 1702, 'track_process_time': 5283, 'num_tlvs': 1, 'checksum': 31381}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3921108710, 'packet_length': 472, 'frame_number': 213287, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1816, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 58390}
+{'tlv_type': 6, 'tlv_length': 420}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3931108204, 'packet_length': 466, 'frame_number': 213288, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1759, 'track_process_time': 5351, 'num_tlvs': 1, 'checksum': 20413}
+{'tlv_type': 6, 'tlv_length': 414}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3941108492, 'packet_length': 472, 'frame_number': 213289, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18959, 'uart_sent_time': 1701, 'track_process_time': 5283, 'num_tlvs': 1, 'checksum': 47097}
+{'tlv_type': 6, 'tlv_length': 420}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3951112625, 'packet_length': 472, 'frame_number': 213290, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18958, 'uart_sent_time': 1757, 'track_process_time': 5351, 'num_tlvs': 1, 'checksum': 4160}
+{'tlv_type': 6, 'tlv_length': 420}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3961108807, 'packet_length': 478, 'frame_number': 213291, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18937, 'uart_sent_time': 1766, 'track_process_time': 5351, 'num_tlvs': 1, 'checksum': 34838}
+{'tlv_type': 6, 'tlv_length': 426}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3971109011, 'packet_length': 484, 'frame_number': 213292, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1766, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 61394}
+{'tlv_type': 6, 'tlv_length': 432}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3981109023, 'packet_length': 478, 'frame_number': 213293, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1819, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 22586}
+{'tlv_type': 6, 'tlv_length': 426}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3991109434, 'packet_length': 490, 'frame_number': 213294, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1768, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 49137}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4001109869, 'packet_length': 496, 'frame_number': 213295, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1930, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 9717}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4011109627, 'packet_length': 490, 'frame_number': 213296, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1932, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 36751}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4021109561, 'packet_length': 490, 'frame_number': 213297, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1876, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 63794}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4031108992, 'packet_length': 478, 'frame_number': 213298, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1870, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 25700}
+{'tlv_type': 6, 'tlv_length': 426}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4041109293, 'packet_length': 490, 'frame_number': 213299, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1815, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 52430}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4051109286, 'packet_length': 490, 'frame_number': 213300, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1877, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 13558}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4061109345, 'packet_length': 490, 'frame_number': 213301, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1875, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 40355}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4071109602, 'packet_length': 496, 'frame_number': 213302, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1926, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 1361}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4081109730, 'packet_length': 490, 'frame_number': 213303, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1929, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 28022}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4091109083, 'packet_length': 478, 'frame_number': 213304, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1874, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 55660}
+{'tlv_type': 6, 'tlv_length': 426}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4101109809, 'packet_length': 496, 'frame_number': 213305, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1811, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 16432}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4111109303, 'packet_length': 484, 'frame_number': 213306, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1924, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 43488}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4121109764, 'packet_length': 490, 'frame_number': 213307, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1813, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 4586}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4131110161, 'packet_length': 508, 'frame_number': 213308, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1929, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 30843}
+{'tlv_type': 6, 'tlv_length': 456}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4141110011, 'packet_length': 496, 'frame_number': 213309, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 2033, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 57550}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4151114471, 'packet_length': 502, 'frame_number': 213310, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1922, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 14651}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4161109857, 'packet_length': 496, 'frame_number': 213311, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18932, 'uart_sent_time': 1970, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 46031}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4171109186, 'packet_length': 484, 'frame_number': 213312, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1917, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 8131}
+{'tlv_type': 6, 'tlv_length': 432}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4181109199, 'packet_length': 478, 'frame_number': 213313, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1861, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 35169}
+{'tlv_type': 6, 'tlv_length': 426}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4191109281, 'packet_length': 490, 'frame_number': 213314, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1796, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 62063}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4201109349, 'packet_length': 484, 'frame_number': 213315, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1864, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 23114}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4211110431, 'packet_length': 508, 'frame_number': 213316, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1862, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 48933}
+{'tlv_type': 6, 'tlv_length': 456}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4221110192, 'packet_length': 502, 'frame_number': 213317, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 2043, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 10047}
+{'tlv_type': 6, 'tlv_length': 450}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4231109952, 'packet_length': 502, 'frame_number': 213318, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1979, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 37272}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4241109351, 'packet_length': 490, 'frame_number': 213319, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1970, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 64747}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4251110276, 'packet_length': 508, 'frame_number': 213320, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1922, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 25306}
+{'tlv_type': 6, 'tlv_length': 456}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4261110000, 'packet_length': 496, 'frame_number': 213321, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 2035, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 52133}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4271109807, 'packet_length': 490, 'frame_number': 213322, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1962, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 13860}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4281109616, 'packet_length': 490, 'frame_number': 213323, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1853, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 41082}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 4291110334, 'packet_length': 502, 'frame_number': 213324, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1914, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 1609}
+{'tlv_type': 6, 'tlv_length': 450}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 6142577, 'packet_length': 490, 'frame_number': 213325, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1974, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 28743}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 16142595, 'packet_length': 490, 'frame_number': 213326, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1861, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 55827}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 26143376, 'packet_length': 508, 'frame_number': 213327, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1859, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 16349}
+{'tlv_type': 6, 'tlv_length': 456}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 36142856, 'packet_length': 502, 'frame_number': 213328, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2036, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 43350}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 46142490, 'packet_length': 496, 'frame_number': 213329, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1976, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 5167}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 56147131, 'packet_length': 496, 'frame_number': 213330, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1970, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 27453}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 66142322, 'packet_length': 490, 'frame_number': 213331, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18931, 'uart_sent_time': 1916, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 59200}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 76142162, 'packet_length': 490, 'frame_number': 213332, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1864, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 20775}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 86141858, 'packet_length': 484, 'frame_number': 213333, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1919, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 47883}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 96141609, 'packet_length': 478, 'frame_number': 213334, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1863, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 9581}
+{'tlv_type': 6, 'tlv_length': 426}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 106142618, 'packet_length': 496, 'frame_number': 213335, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1811, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 35527}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 116142607, 'packet_length': 496, 'frame_number': 213336, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1975, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 62027}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 126142057, 'packet_length': 484, 'frame_number': 213337, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1975, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 23908}
+{'tlv_type': 6, 'tlv_length': 432}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 136142178, 'packet_length': 484, 'frame_number': 213338, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1861, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 50890}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 146143448, 'packet_length': 508, 'frame_number': 213339, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1801, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 10975}
+{'tlv_type': 6, 'tlv_length': 456}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 156142537, 'packet_length': 490, 'frame_number': 213340, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2025, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 38265}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 166142404, 'packet_length': 490, 'frame_number': 213341, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1865, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 79}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 176143529, 'packet_length': 514, 'frame_number': 213342, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1866, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 25782}
+{'tlv_type': 6, 'tlv_length': 462}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 186142390, 'packet_length': 490, 'frame_number': 213343, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2096, 'track_process_time': 5827, 'num_tlvs': 1, 'checksum': 53300}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 196143004, 'packet_length': 502, 'frame_number': 213344, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1867, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 14491}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 206143785, 'packet_length': 514, 'frame_number': 213345, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1976, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 40309}
+{'tlv_type': 6, 'tlv_length': 462}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 216143499, 'packet_length': 508, 'frame_number': 213346, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18951, 'uart_sent_time': 2092, 'track_process_time': 5827, 'num_tlvs': 1, 'checksum': 1670}
+{'tlv_type': 6, 'tlv_length': 456}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 226144133, 'packet_length': 520, 'frame_number': 213347, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2035, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 28002}
+{'tlv_type': 6, 'tlv_length': 468}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 236143543, 'packet_length': 508, 'frame_number': 213348, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18950, 'uart_sent_time': 2152, 'track_process_time': 5895, 'num_tlvs': 1, 'checksum': 55207}
+{'tlv_type': 6, 'tlv_length': 456}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 246143214, 'packet_length': 502, 'frame_number': 213349, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18951, 'uart_sent_time': 2029, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 17119}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 256147233, 'packet_length': 496, 'frame_number': 213350, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 1974, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 40082}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 266143096, 'packet_length': 502, 'frame_number': 213351, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18931, 'uart_sent_time': 1916, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 5679}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 276142514, 'packet_length': 490, 'frame_number': 213352, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1974, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 32979}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 286142334, 'packet_length': 490, 'frame_number': 213353, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1908, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 60214}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 296142788, 'packet_length': 496, 'frame_number': 213354, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1857, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 21123}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 306143117, 'packet_length': 502, 'frame_number': 213355, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1919, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 47514}
+{'tlv_type': 6, 'tlv_length': 450}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 316143297, 'packet_length': 508, 'frame_number': 213356, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1978, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 8520}
+{'tlv_type': 6, 'tlv_length': 456}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 326144111, 'packet_length': 526, 'frame_number': 213357, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2039, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 34414}
+{'tlv_type': 6, 'tlv_length': 474}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 336143399, 'packet_length': 508, 'frame_number': 213358, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18951, 'uart_sent_time': 2212, 'track_process_time': 5963, 'num_tlvs': 1, 'checksum': 61622}
+{'tlv_type': 6, 'tlv_length': 456}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 346143508, 'packet_length': 514, 'frame_number': 213359, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2034, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 23207}
+{'tlv_type': 6, 'tlv_length': 462}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 356142770, 'packet_length': 496, 'frame_number': 213360, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2096, 'track_process_time': 5827, 'num_tlvs': 1, 'checksum': 50687}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 366142895, 'packet_length': 496, 'frame_number': 213361, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1921, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 12258}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 376143131, 'packet_length': 502, 'frame_number': 213362, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1921, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 38871}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 386142550, 'packet_length': 490, 'frame_number': 213363, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1980, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 656}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 396143656, 'packet_length': 514, 'frame_number': 213364, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1868, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 26627}
+{'tlv_type': 6, 'tlv_length': 462}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 406143484, 'packet_length': 508, 'frame_number': 213365, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18951, 'uart_sent_time': 2095, 'track_process_time': 5827, 'num_tlvs': 1, 'checksum': 53163}
+{'tlv_type': 6, 'tlv_length': 456}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 416143084, 'packet_length': 502, 'frame_number': 213366, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2038, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 15012}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 426142612, 'packet_length': 490, 'frame_number': 213367, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1979, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 42476}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 436142048, 'packet_length': 478, 'frame_number': 213368, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1863, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 4622}
+{'tlv_type': 6, 'tlv_length': 426}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 446142114, 'packet_length': 484, 'frame_number': 213369, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1755, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 31647}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 456146597, 'packet_length': 484, 'frame_number': 213370, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1804, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 53901}
+{'tlv_type': 6, 'tlv_length': 432}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 466143162, 'packet_length': 502, 'frame_number': 213371, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18933, 'uart_sent_time': 1805, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 18658}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 476142724, 'packet_length': 490, 'frame_number': 213372, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 1976, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 45568}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 486143381, 'packet_length': 508, 'frame_number': 213373, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1862, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 6461}
+{'tlv_type': 6, 'tlv_length': 456}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 496141954, 'packet_length': 478, 'frame_number': 213374, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2038, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 34393}
+{'tlv_type': 6, 'tlv_length': 426}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 506142617, 'packet_length': 496, 'frame_number': 213375, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1756, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 61185}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 516142641, 'packet_length': 496, 'frame_number': 213376, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1921, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 22112}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 526143445, 'packet_length': 514, 'frame_number': 213377, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1922, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 48143}
+{'tlv_type': 6, 'tlv_length': 462}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 536143052, 'packet_length': 502, 'frame_number': 213378, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2089, 'track_process_time': 5827, 'num_tlvs': 1, 'checksum': 9498}
+{'tlv_type': 6, 'tlv_length': 450}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 546142495, 'packet_length': 490, 'frame_number': 213379, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1977, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 37168}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 556142887, 'packet_length': 496, 'frame_number': 213380, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1862, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 63874}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 566143403, 'packet_length': 502, 'frame_number': 213381, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1918, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 24548}
+{'tlv_type': 6, 'tlv_length': 450}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 576143586, 'packet_length': 514, 'frame_number': 213382, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18951, 'uart_sent_time': 1979, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 51080}
+{'tlv_type': 6, 'tlv_length': 462}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 586143136, 'packet_length': 502, 'frame_number': 213383, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2090, 'track_process_time': 5827, 'num_tlvs': 1, 'checksum': 12613}
+{'tlv_type': 6, 'tlv_length': 450}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 596143584, 'packet_length': 508, 'frame_number': 213384, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 1977, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 39262}
+{'tlv_type': 6, 'tlv_length': 456}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 606142900, 'packet_length': 496, 'frame_number': 213385, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18951, 'uart_sent_time': 2036, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 1151}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 616143368, 'packet_length': 508, 'frame_number': 213386, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1917, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 27778}
+{'tlv_type': 6, 'tlv_length': 456}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 626142938, 'packet_length': 496, 'frame_number': 213387, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2037, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 54819}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 636142855, 'packet_length': 496, 'frame_number': 213388, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1920, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 16473}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 646143285, 'packet_length': 502, 'frame_number': 213389, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1918, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 42893}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 656147286, 'packet_length': 496, 'frame_number': 213390, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 1981, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 87}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 666143011, 'packet_length': 496, 'frame_number': 213391, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18931, 'uart_sent_time': 1923, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 31363}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 676143753, 'packet_length': 508, 'frame_number': 213392, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 1927, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 57438}
+{'tlv_type': 6, 'tlv_length': 456}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 686142822, 'packet_length': 490, 'frame_number': 213393, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18950, 'uart_sent_time': 2039, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 19460}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 696143340, 'packet_length': 502, 'frame_number': 213394, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1867, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 46157}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 706142522, 'packet_length': 484, 'frame_number': 213395, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18951, 'uart_sent_time': 1975, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 8070}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 716142553, 'packet_length': 490, 'frame_number': 213396, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1815, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 35249}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 726142174, 'packet_length': 478, 'frame_number': 213397, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1871, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 62369}
+{'tlv_type': 6, 'tlv_length': 426}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 736142828, 'packet_length': 496, 'frame_number': 213398, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1762, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 23261}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 746142705, 'packet_length': 496, 'frame_number': 213399, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1929, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 49868}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 756142643, 'packet_length': 496, 'frame_number': 213400, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1926, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 11251}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 766141988, 'packet_length': 478, 'frame_number': 213401, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1925, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 38779}
+{'tlv_type': 6, 'tlv_length': 426}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 776142249, 'packet_length': 478, 'frame_number': 213402, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1758, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 207}
+{'tlv_type': 6, 'tlv_length': 426}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 786142548, 'packet_length': 490, 'frame_number': 213403, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1762, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 26747}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 796142518, 'packet_length': 484, 'frame_number': 213404, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1865, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 53398}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 806142330, 'packet_length': 484, 'frame_number': 213405, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1809, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 15030}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 816142442, 'packet_length': 490, 'frame_number': 213406, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1815, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 41759}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 826142831, 'packet_length': 496, 'frame_number': 213407, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1868, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 2562}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 836142772, 'packet_length': 496, 'frame_number': 213408, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1916, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 29360}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 846142156, 'packet_length': 484, 'frame_number': 213409, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1922, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 56835}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 856146585, 'packet_length': 484, 'frame_number': 213410, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1812, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 13970}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 866142991, 'packet_length': 502, 'frame_number': 213411, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18933, 'uart_sent_time': 1814, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 44420}
+{'tlv_type': 6, 'tlv_length': 450}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 876143448, 'packet_length': 508, 'frame_number': 213412, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1981, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 4885}
+{'tlv_type': 6, 'tlv_length': 456}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 886142983, 'packet_length': 502, 'frame_number': 213413, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2034, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 32090}
+{'tlv_type': 6, 'tlv_length': 450}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 896142703, 'packet_length': 490, 'frame_number': 213414, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1980, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 59357}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 906142480, 'packet_length': 490, 'frame_number': 213415, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1867, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 21148}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 916142565, 'packet_length': 490, 'frame_number': 213416, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1867, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 47916}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 926142994, 'packet_length': 502, 'frame_number': 213417, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1869, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 8792}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 936142954, 'packet_length': 496, 'frame_number': 213418, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1979, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 35447}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 946143553, 'packet_length': 514, 'frame_number': 213419, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1920, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 61811}
+{'tlv_type': 6, 'tlv_length': 462}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 956143470, 'packet_length': 508, 'frame_number': 213420, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2095, 'track_process_time': 5827, 'num_tlvs': 1, 'checksum': 22841}
+{'tlv_type': 6, 'tlv_length': 456}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 966142981, 'packet_length': 496, 'frame_number': 213421, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2034, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 50325}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 976143048, 'packet_length': 502, 'frame_number': 213422, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 1924, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 11817}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 986142682, 'packet_length': 496, 'frame_number': 213423, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1979, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 38919}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 996143385, 'packet_length': 508, 'frame_number': 213424, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1928, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 65176}
+{'tlv_type': 6, 'tlv_length': 456}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1006142899, 'packet_length': 496, 'frame_number': 213425, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2038, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 26749}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1016142483, 'packet_length': 490, 'frame_number': 213426, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1916, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 54282}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1026142814, 'packet_length': 496, 'frame_number': 213427, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1866, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 15381}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1036142968, 'packet_length': 502, 'frame_number': 213428, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1923, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 41951}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1046142881, 'packet_length': 496, 'frame_number': 213429, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1980, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 3238}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1056146909, 'packet_length': 490, 'frame_number': 213430, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1923, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 26195}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1066142914, 'packet_length': 496, 'frame_number': 213431, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18932, 'uart_sent_time': 1862, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 57188}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1076143182, 'packet_length': 502, 'frame_number': 213432, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1917, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 18089}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1086142972, 'packet_length': 496, 'frame_number': 213433, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 1979, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 45030}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1096142993, 'packet_length': 496, 'frame_number': 213434, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1925, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 6449}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1106142701, 'packet_length': 490, 'frame_number': 213435, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 1919, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 33608}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1116143137, 'packet_length': 502, 'frame_number': 213436, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1866, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 60134}
+{'tlv_type': 6, 'tlv_length': 450}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1126142531, 'packet_length': 490, 'frame_number': 213437, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1968, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 21833}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1136142776, 'packet_length': 490, 'frame_number': 213438, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1863, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 48682}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1146141482, 'packet_length': 466, 'frame_number': 213439, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1869, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 11314}
+{'tlv_type': 6, 'tlv_length': 414}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1156142072, 'packet_length': 478, 'frame_number': 213440, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1703, 'track_process_time': 5283, 'num_tlvs': 1, 'checksum': 38001}
+{'tlv_type': 6, 'tlv_length': 426}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1166141810, 'packet_length': 472, 'frame_number': 213441, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1757, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 64934}
+{'tlv_type': 6, 'tlv_length': 420}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1176142133, 'packet_length': 484, 'frame_number': 213442, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1704, 'track_process_time': 5351, 'num_tlvs': 1, 'checksum': 26039}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1186143191, 'packet_length': 508, 'frame_number': 213443, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1815, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 51564}
+{'tlv_type': 6, 'tlv_length': 456}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1196141746, 'packet_length': 478, 'frame_number': 213444, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 2041, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 13862}
+{'tlv_type': 6, 'tlv_length': 426}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1206142062, 'packet_length': 484, 'frame_number': 213445, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1755, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 41017}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 619360398, 'packet_length': 490, 'frame_number': 58, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 2009, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 38611}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2265275525, 'packet_length': 514, 'frame_number': 11819, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18833, 'uart_sent_time': 2299, 'track_process_time': 5963, 'num_tlvs': 1, 'checksum': 22715}
+{'tlv_type': 6, 'tlv_length': 462}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2275265906, 'packet_length': 484, 'frame_number': 11820, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18799, 'uart_sent_time': 2225, 'track_process_time': 5827, 'num_tlvs': 1, 'checksum': 59462}
+{'tlv_type': 6, 'tlv_length': 432}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2285262114, 'packet_length': 508, 'frame_number': 11821, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18843, 'uart_sent_time': 1917, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 25153}
+{'tlv_type': 6, 'tlv_length': 456}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2295262316, 'packet_length': 508, 'frame_number': 11822, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18865, 'uart_sent_time': 2151, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 51277}
+{'tlv_type': 6, 'tlv_length': 456}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2305243484, 'packet_length': 484, 'frame_number': 11823, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18864, 'uart_sent_time': 2153, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 31451}
+{'tlv_type': 6, 'tlv_length': 432}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2315263674, 'packet_length': 514, 'frame_number': 11824, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1910, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 38509}
+{'tlv_type': 6, 'tlv_length': 462}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2325244602, 'packet_length': 502, 'frame_number': 11825, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18858, 'uart_sent_time': 2218, 'track_process_time': 5827, 'num_tlvs': 1, 'checksum': 18361}
+{'tlv_type': 6, 'tlv_length': 450}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2335244357, 'packet_length': 496, 'frame_number': 11826, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2078, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 45648}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2345254204, 'packet_length': 484, 'frame_number': 11827, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2029, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 62784}
+{'tlv_type': 6, 'tlv_length': 432}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2355244415, 'packet_length': 502, 'frame_number': 11828, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18902, 'uart_sent_time': 1898, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 34191}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2365243997, 'packet_length': 490, 'frame_number': 11829, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 2090, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 61028}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2375243464, 'packet_length': 484, 'frame_number': 11830, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1967, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 23144}
+{'tlv_type': 6, 'tlv_length': 432}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2385243166, 'packet_length': 478, 'frame_number': 11831, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1907, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 50429}
+{'tlv_type': 6, 'tlv_length': 426}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2395243379, 'packet_length': 490, 'frame_number': 11832, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1847, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 11650}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2405243833, 'packet_length': 490, 'frame_number': 11833, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1966, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 37794}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2415242756, 'packet_length': 472, 'frame_number': 11834, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1964, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 213}
+{'tlv_type': 6, 'tlv_length': 420}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2425243182, 'packet_length': 478, 'frame_number': 11835, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1796, 'track_process_time': 5351, 'num_tlvs': 1, 'checksum': 27004}
+{'tlv_type': 6, 'tlv_length': 426}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2435255630, 'packet_length': 508, 'frame_number': 11836, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1851, 'track_process_time': 5419, 'num_tlvs': 1, 'checksum': 41258}
+{'tlv_type': 6, 'tlv_length': 456}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2445244177, 'packet_length': 502, 'frame_number': 11837, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18898, 'uart_sent_time': 2156, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 13449}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2455243933, 'packet_length': 496, 'frame_number': 11838, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 2094, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 40627}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2465255849, 'packet_length': 508, 'frame_number': 11839, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 2026, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 55688}
+{'tlv_type': 6, 'tlv_length': 456}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2475260657, 'packet_length': 502, 'frame_number': 11840, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18896, 'uart_sent_time': 2150, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 12004}
+{'tlv_type': 6, 'tlv_length': 450}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2485244127, 'packet_length': 502, 'frame_number': 11841, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18872, 'uart_sent_time': 2088, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 55542}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2495244111, 'packet_length': 502, 'frame_number': 11842, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 2087, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 16796}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2505262104, 'packet_length': 508, 'frame_number': 11843, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 2091, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 25646}
+{'tlv_type': 6, 'tlv_length': 456}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2515262535, 'packet_length': 514, 'frame_number': 11844, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18865, 'uart_sent_time': 2167, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 52009}
+{'tlv_type': 6, 'tlv_length': 462}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2525243468, 'packet_length': 490, 'frame_number': 11845, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18864, 'uart_sent_time': 2219, 'track_process_time': 5827, 'num_tlvs': 1, 'checksum': 32300}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2535243988, 'packet_length': 502, 'frame_number': 11846, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1983, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 59038}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2545244199, 'packet_length': 502, 'frame_number': 11847, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 2091, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 19903}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2555243245, 'packet_length': 484, 'frame_number': 11848, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 2098, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 47723}
+{'tlv_type': 6, 'tlv_length': 432}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2565243756, 'packet_length': 496, 'frame_number': 11849, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18957, 'uart_sent_time': 1917, 'track_process_time': 5487, 'num_tlvs': 1, 'checksum': 8901}
+{'tlv_type': 6, 'tlv_length': 444}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2575244602, 'packet_length': 508, 'frame_number': 11850, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 2041, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 34639}
+{'tlv_type': 6, 'tlv_length': 456}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2585244540, 'packet_length': 502, 'frame_number': 11851, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 2150, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 61318}
+{'tlv_type': 6, 'tlv_length': 450}
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2595244153, 'packet_length': 490, 'frame_number': 11852, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18952, 'uart_sent_time': 2098, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 23157}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2605244097, 'packet_length': 496, 'frame_number': 11853, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18953, 'uart_sent_time': 1970, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 50324}
+{'tlv_type': 6, 'tlv_length': 444}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2615243870, 'packet_length': 490, 'frame_number': 11854, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 2032, 'track_process_time': 5623, 'num_tlvs': 1, 'checksum': 11745}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2625243555, 'packet_length': 490, 'frame_number': 11855, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18954, 'uart_sent_time': 1959, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 39055}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2635243550, 'packet_length': 490, 'frame_number': 11856, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1958, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 378}
+{'tlv_type': 6, 'tlv_length': 438}
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2645243778, 'packet_length': 490, 'frame_number': 11857, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18956, 'uart_sent_time': 1966, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 26996}
+{'tlv_type': 6, 'tlv_length': 438}
+Frame header parse failed! unpack requires a buffer of 52 bytes
+Frame header not ok!
+{'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2655244626, 'packet_length': 502, 'frame_number': 11858, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 1961, 'track_process_time': 5555, 'num_tlvs': 1, 'checksum': 52996}
+{'tlv_type': 6, 'tlv_length': 450}

@@ -14,10 +14,17 @@ data_file_name = 'data.txt'
 conf_file_name = 'chirp_cfg/mmw_pplcount_demo_default.cfg'
 # conf_file_name = 'chirp_cfg/sense_and_direct_68xx.cfg'
 # conf_file_name = 'chirp_cfg/long_range_people_counting.cfg'
-data_com_delta_seconds = 10
-frame_header_length = 52
-tlv_header_length = 8
+data_com_delta_seconds = 1
+
 hvac_control = 506660481457717506
+frame_header_struct = 'Q10I2H'
+frame_header_length = struct.calcsize ( frame_header_struct )
+tlv_header_struct = '2I'
+tlv_header_length = struct.calcsize ( tlv_header_struct )
+point_cloud_unit_struct = '4f'
+point_cloud_unit_lenght = struct.calcsize ( point_cloud_unit_struct )
+point_struct = '2B2h'
+point_lenght = struct.calcsize ( point_struct )
 
 conf_com = serial.Serial ()
 data_com = serial.Serial ()
@@ -115,7 +122,7 @@ if data_com.is_open:
         # Rozpakuj i zapisz dane z nagłówka pakietu
         data_frame = data_com.read ( 4666 )
         try:
-            sync , version , platform , timestamp , packet_length , frame_number , subframe_number , chirp_margin , frame_margin , uart_sent_time , track_process_time , num_tlvs , checksum = struct.unpack ( 'Q10I2H', data_frame[:frame_header_length] )
+            sync , version , platform , timestamp , packet_length , frame_number , subframe_number , chirp_margin , frame_margin , uart_sent_time , track_process_time , num_tlvs , checksum = struct.unpack ( frame_header_struct , data_frame[:frame_header_length] )
             data_frame_ok = True
         except struct.error as e :
             data_file.write ( f'\nFrame header parse failed! {e}' )
@@ -123,20 +130,26 @@ if data_com.is_open:
         if data_frame_ok and sync == hvac_control :
             data_frame_header = dict ( sync = sync , version = version , platform = platform , timestamp = timestamp , packet_length = packet_length , frame_number = frame_number , subframe_number = subframe_number , chirp_margin = chirp_margin , frame_margin = frame_margin , uart_sent_time = uart_sent_time , track_process_time = track_process_time , num_tlvs = num_tlvs , checksum = checksum )
             data_file.write ( f'\n{data_frame_header}' )
+            data_frame = data_frame[frame_header_length:]
             # Rozpakuj i zapisz dane z nagłówka tlv
             if num_tlvs > 0 :
-                data_frame = data_frame[frame_header_length:]
-                try:
-                    tlv_type, tlv_length = struct.unpack ( '2I' , data_frame[:tlv_header_length] )
-                    tlv_frame_ok = True
-                except struct.error as e :
-                    data_file.write ( f'\nTlv header parse failed! {e}' )
-                    tlv_frame_ok = False
-                if tlv_frame_ok :
-                    tlv_frame_header = dict ( tlv_type = tlv_type , tlv_length = tlv_length )
-                    data_file.write ( f'\n{tlv_frame_header}' )
+                for i in range ( num_tlvs ) :
+                    try:
+                        tlv_type, tlv_length = struct.unpack ( tlv_header_struct , data_frame[:tlv_header_length] )
+                        tlv_frame_ok = True
+                    except struct.error as e :
+                        data_file.write ( f'\nTlv header parse failed! {e}' )
+                        tlv_frame_ok = False
+                    if tlv_frame_ok :
+                        tlv_frame_header = dict ( tlv_type = tlv_type , tlv_length = tlv_length )
+                        data_file.write ( f'\n{tlv_frame_header}' )
+                        data_frame = data_frame[tlv_header_length:]
+                        if tlv_type == 6 :
+                            print ('continue here')
+                    else :
+                        data_file.write ( f'\nTLV header not ok!' )
             else :
-                data_file.write ( f'\nnum_tlvs = 0!' )
+                data_file.write ( f'\nNo TLV!' )
         else :
             data_file.write ( f'\nFrame header not ok!' )
 try:
