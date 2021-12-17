@@ -5,10 +5,13 @@ import time
 import serial
 import struct
 import sys
-
 # import sys
 # sys.setdefaultencoding('utf-8')
 
+global                  chirp_cfg
+global                  log_file , data_file
+global                  conf_com , data_com
+raw_frame_bytes               = b"\x02\x01\x04\x03\x06\x05\x08\x07\x04\x00\x05\x03B\x16\n\x00\xe6\xees;\xc6\x01\x00\x00:\x00\x00\x00\x00\x00\x00\x00K\x00\x00\x00\x11J\x00\x00\xa4\x06\x00\x00\xa3\x14\x00\x00\x01\x00\x98D\x06\x00\x00\x00\x92\x01\x00\x00\x01\x00\xf0?\r\x87\xd2=\xa7\x85b=\x00\x00\x00>\x1c\x00g\x00R\x00\x1a\x00f\x00G\x00\x19\x00\x04\x00\xc1\x00\x19\x00@\x00\x9a\x01\x19\x00T\x00_\x00\x18\x00<\x00-\x00\x18\x00=\x00\x0f\x01\x18\x00>\x00\x9b\x08\x18\x00?\x00^\x0b\x18\x00U\x00\x87\x00\x17\x00V\x00b\x00\x15\x009\x00*\x00\x14\x00:\x002\x00\x12\x00N\x00\xba\x02\x12\x00O\x00N\x07\x12\x00P\x00\xf3\x03\x11\x00Q\x00P\x06\x11\x00R\x00%\x06\x11\x00S\x00S\x01\x0c\x00T\x00\x8c\x00\x0c\x00U\x00o\x00\x0c\x00V\x00+\x00\x0b\x00 \x00m\x00\x0b\x00!\x00q\x00\x08\x00M\x00\x96\x00\x07\x00A\x000\x00\x06\x00H\x00\xff\x01\x06\x00I\x00\x07\x01\x04\x00J\x00\xb8\x00\x02\x00C\x00\xdb\x00\x01\x00D\x00\x84\x1a\x00\x00E\x00\xc5\x93\x00\x00F\x00B\xe7\x00\x00o\x00\x93\x00\x00\x00p\x00\x06\x01\x00\x00G\x00\xf0\x1e\x00\x00q\x00=\x00\xfe\x00H\x00b\x02\xfc\x00#\x00\xc9\x00\xfc\x00$\x005\x01\xfc\x00%\x00s\x00\xfc\x00'\x00?\x00\xfb\x00&\x00V\x00\xfa\x00\x1a\x00\xbe\x00\xf9\x00\x18\x009\x03\xf9\x00\x19\x00x\x05\xf8\x00\x1b\x00F\x01\xf8\x00\x1c\x00?\x01\xf5\x00Q\x00\x88\x04\xf5\x00R\x00\x86\x07\xf5\x00q\x00)\x00\xf4\x00S\x00\xc0\x02\xf0\x00\x11\x00\xbf\x00\xf0\x00\x12\x00d\x00\xf0\x00W\x00*\x00\xef\x00X\x00+\x00\xee\x00\x13\x00)\x00\xeb\x00\x1d\x00V\x00\xeb\x00K\x00+\x00\xea\x00\x0c\x00B\x00\xe8\x00\x0b\x00T\x00\xe8\x00\x1e\x006\x00\xe6\x00\n\x006\x00"
 log_file_name           = 'serials.log'
 data_file_name          = 'data.txt'
 conf_file_name          = 'chirp_cfg/mmw_pplcount_demo_default.cfg'
@@ -31,7 +34,68 @@ conf_com.timeout        = 0.3
 data_com.timeout        = 0.025
 conf_com.write_timeout  = 1
 
-data_com_delta_seconds = 10
+data_com_delta_seconds = 1
+
+################################################################
+############ OPEN LOG, DATA AND CHIRP CONF FILE ################
+################################################################
+
+# Open log file
+try:
+    log_file = open ( log_file_name , 'a' , encoding='utf-8' )
+    if log_file.writable() :
+        log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {log_file.name} file is writable.' )
+except IOError as e :
+    print ( f'{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {log_file.name} file opening problem... {str(e)}' )
+
+# Open data file
+try:
+    data_file = open ( data_file_name , 'a' , encoding='utf-8' )
+    if data_file.writable() :
+        log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_file.name} file is writable.' )
+except IOError as e :
+    print ( f'{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_file.name} file opening problem... {str(e)}' )
+
+# Open Chirp configuration file and read configuration to chirp_cfg
+try:
+    with open ( f'{conf_file_name}' , 'r' , encoding='utf-8' ) as conf_file:
+        if conf_file.readable () :
+            log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_file.name} file is readable.' )
+        chirp_cfg = conf_file.readlines()
+except IOError as e :
+    log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_file.name} file opening problem... {str(e)}' )
+
+################################################################
+################ OPEN CONF AND DATA COM PORTS ##################
+################################################################
+
+# Open CONF COM port
+try: 
+    conf_com.open ()
+    log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port opened.' )
+except serial.SerialException as e :
+    log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port error opening: {str(e)}' )
+
+# Open DATA COM port
+try: 
+    data_com.open ()
+    log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_com.name} port opened' )
+except serial.SerialException as e:
+    log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_com.name} port error opening: {str(e)}' )
+
+################################################################
+##################### CHIRP CONFIGURATION ######################
+################################################################
+def chirp_conf () :
+    for line in chirp_cfg :
+        time.sleep(.1)
+        conf_com.write ( line.encode () )
+        ack = conf_com.readline ()
+        log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port ack: {ack}' )
+        ack = conf_com.readline ()
+        log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port ack: {ack}' )
+        time.sleep ( 3 )
+        conf_com.reset_input_buffer ()
 
 class Sense_and_detect_hvac_control_frame_data :
     def __init__ ( self , frame_data ) :
@@ -131,85 +195,29 @@ class Sense_and_detect_hvac_control_frame_data :
             data_file.write ( f'\n{self.data}' )
         else :
             data_file.write ( f'\n{self.data["frame_header_data"]["num_tlvs"]} TLVs in frame no. {self.data["frame_header_data"]["frame_number"]}' )
-                        
-#### Otwieranie pliku z logami i pliku z danymi ####
-try:
-    log_file = open ( log_file_name , 'a' , encoding='utf-8' )
-    if log_file.writable() :
-        log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {log_file.name} file is writable.' )
-except IOError as e :
-    print ( f'{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {log_file.name} file opening problem... {str(e)}' )
-try:
-    data_file = open ( data_file_name , 'a' , encoding='utf-8' )
-    if data_file.writable() :
-        log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_file.name} file is writable.' )
-except IOError as e :
-    print ( f'{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_file.name} file opening problem... {str(e)}' )
+
+# Configure chirp 
+conf_com.reset_input_buffer()
+conf_com.reset_output_buffer()
+chirp_conf ()
+# Read data
+data_com.reset_input_buffer ()
+time_up = datetime.datetime.utcnow () + datetime.timedelta ( seconds = data_com_delta_seconds )
+while datetime.datetime.utcnow () < time_up :
+    # Rozpakuj i zapisz dane z nagłówka pakietu
+    frame_data = data_com.read ( 4666 )
+    if frame_data :
+        hvac = Sense_and_detect_hvac_control_frame_data ( frame_data )
+        #hvac = Sense_and_detect_hvac_control_frame_data ( raw_frame_bytes )
+        hvac.get_frame_data ()
+    else :
+        log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} Frame is empty!' )
+        time.sleep(.2)
+        data_com.reset_input_buffer ()
 
 ################################################################
-###################### KONFIGURACJA CHIRP ######################
+##################### CLOSE DATA COM PORT ######################
 ################################################################
-
-#### Otwieranie pliku z konfiguracją chirp
-try:
-    with open ( f'{conf_file_name}' , 'r' , encoding='utf-8' ) as conf_file:
-        if conf_file.readable () :
-            log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_file.name} file is readable.' )
-        cfg = conf_file.readlines()
-except IOError as e :
-    log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_file.name} file opening problem... {str(e)}' )
-
-#### Otwieranie portu CONF COM do konfiguracji
-try: 
-    conf_com.open ()
-    if conf_com.is_open :
-        log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port opened.' )
-        conf_com.reset_output_buffer()
-    #### Wysyłanie konfiguracji chirp do portu CONF COM
-    for line in cfg :
-        time.sleep(.1)
-        conf_com.write ( line.encode () )
-        ack = conf_com.readline ()
-        log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port ack: {ack}' )
-        ack = conf_com.readline ()
-        log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port ack: {ack}' )
-        time.sleep ( 3 )
-        conf_com.reset_input_buffer ()
-except serial.SerialException as e :
-    log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port error opening: {str(e)}' )
-
-
-
-################################################################
-################################################################
-################################################################
-
-################################################################
-######################## ODBIÓR DANYCH #########################
-################################################################
-# Otwórz port danych
-try: 
-    data_com.open ()
-    log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_com.name} port opened' )
-except serial.SerialException as e:
-    log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_com.name} port error opening: {str(e)}' )
-# Odczytaj, rozpakuj i zapisz dane z portu COM danych
-if data_com.is_open:
-    data_com.reset_output_buffer ()
-    data_com.reset_input_buffer ()
-    time_up = datetime.datetime.utcnow () + datetime.timedelta ( seconds = data_com_delta_seconds )
-    while datetime.datetime.utcnow () < time_up :
-        # Rozpakuj i zapisz dane z nagłówka pakietu
-        frame_data = data_com.read ( 4666 )
-        if frame_data :
-            hvac = Sense_and_detect_hvac_control_frame_data ( frame_data )
-            hvac.get_frame_data ()
-        else :
-            log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} Frame is empty!' )
-            time.sleep(.2)
-            data_com.reset_output_buffer ()
-            data_com.reset_input_buffer ()
-            
 try:
     data_com.close ()
 except serial.SerialException as e :
@@ -217,17 +225,10 @@ except serial.SerialException as e :
 if not data_com.is_open :
     log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_com.name} port closed.' )
 
-
-#### Zamykanie pliku z danymi ####
-try:
-    data_file.close ()
-    if data_file.closed :
-        log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_file.name} file is closed.' )
-except IOError as e :
-    log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_file.name} file closing problem... {str(e)}' )
-
-#### Zatrzymanie pracy radaru i zamykanie portu CONF COM do konfiguracji
-# Zatrzymanie pracy sensora
+################################################################
+############# STOP SENSOR AND CLOSE CONF COM PORT ##############
+################################################################
+# Stop sensor (freez until know how to start it properly)
 # conf_com.write ( 'sensorStop\n'.encode () )
 # ack = conf_com.readline ()
 # log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port ack: {ack}' )
@@ -235,7 +236,7 @@ except IOError as e :
 # log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port ack: {ack}' )
 # time.sleep ( 3 )
 # conf_com.reset_input_buffer ()
-#### Zamykanie portu CONF COM do konfiguracji
+# Close CONF COM Port
 if conf_com.is_open :
     try:
         conf_com.close ()
@@ -246,7 +247,17 @@ if conf_com.is_open :
 else:
     log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {conf_com.name} port closed.' )
 
-# Zamykanie plików z logami powinno być zawsze na samym końcu programu
+################################################################
+################## CLOSE LOG AND DATA FILE #####################
+################################################################
+# Close data file
+try:
+    data_file.close ()
+    if data_file.closed :
+        log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_file.name} file is closed.' )
+except IOError as e :
+    log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_file.name} file closing problem... {str(e)}' )
+# Close log file (must be at the end of the program)
 log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {log_file.name} file closing...' )
 try:
     log_file.close ()
