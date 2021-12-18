@@ -1,0 +1,57 @@
+
+{}
+{}
+{}
+{}
+{'frame_header_data': {'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 997453542, 'packet_length': 454, 'frame_number': 58, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18961, 'uart_sent_time': 1700, 'track_process_time': 5283, 'num_tlvs': 1, 'checksum': 17560}}
+{'frame_header_data': {'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 997453542, 'packet_length': 454, 'frame_number': 58, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18961, 'uart_sent_time': 1700, 'track_process_time': 5283, 'num_tlvs': 1, 'checksum': 17560}, 'tlv_header': {'tlv_type': 6, 'tlv_length': 402}, 'pointcloud_unit': {'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}}
+{'frame_header_data': {'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 997453542, 'packet_length': 454, 'frame_number': 58, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18961, 'uart_sent_time': 1700, 'track_process_time': 5283, 'num_tlvs': 1, 'checksum': 17560}, 'tlv_header_data': {'tlv_type': 6, 'tlv_length': 402}}
+{'frame_header_data': {'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 997453542, 'packet_length': 454, 'frame_number': 58, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18961, 'uart_sent_time': 1700, 'track_process_time': 5283, 'num_tlvs': 1, 'checksum': 17560}, 'tlv_header_data': {'tlv_type': 6, 'tlv_length': 402}, 'pointcloud_unit': {'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}}
+{'frame_header_data': {'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1419908958, 'packet_length': 502, 'frame_number': 62465, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18904, 'uart_sent_time': 2131, 'track_process_time': 5695, 'num_tlvs': 1, 'checksum': 3048}, 'tlv_header_data': {'tlv_type': 6, 'tlv_length': 450}, 'pointcloud_unit': {'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}}
+{'frame_header_data': {'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2045978296, 'packet_length': 502, 'frame_number': 76701, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18948, 'uart_sent_time': 2234, 'track_process_time': 5759, 'num_tlvs': 1, 'checksum': 40653}, 'tlv_header_data': {'tlv_type': 6, 'tlv_length': 450}, 'pointcloud_unit': {'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}}
+Point parse failed! unpack requires a buffer of 6 bytes
+{'frame_header_data': {'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 3241467400, 'packet_length': 496, 'frame_number': 83263, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18955, 'uart_sent_time': 2175, 'track_process_time': 5691, 'num_tlvs': 1, 'checksum': 34583}, 'tlv_header_data': {'tlv_type': 6, 'tlv_length': 444}, 'pointcloud_unit': {'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}, 'point': {'azimuth_point': 231, 'doppler_point': 0, 'range_point': 92, 'snr_point': 44}}
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+Point parse failed! unpack requires a buffer of 6 bytes
+{'frame_header_data': {'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 2997417026, 'packet_length': 508, 'frame_number': 95694, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18951, 'uart_sent_time': 2375, 'track_process_time': 5963, 'num_tlvs': 1, 'checksum': 19706}, 'tlv_header_data': {'tlv_type': 6, 'tlv_length': 456}, 'pointcloud_unit': {'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}, 'point': {'azimuth_point': 4, 'doppler_point': 0, 'range_point': 73, 'snr_point': 262}}
+{'frame_header_data': {'sync': 506660481457717506, 'version': 50659332, 'platform': 661058, 'timestamp': 1293497860, 'packet_length': 532, 'frame_number': 109697, 'subframe_number': 0, 'chirp_margin': 75, 'frame_margin': 18945, 'uart_sent_time': 2605, 'track_process_time': 6167, 'num_tlvs': 1, 'checksum': 14417}, 'tlv_header_data': {'tlv_type': 6, 'tlv_length': 480}, 'pointcloud_unit': {'azimuth_unit': 1.8750001192092896, 'doppler_unit': 0.10279665142297745, 'range_unit': 0.055303242057561874, 'snr_unit': 0.125}, 'point': {'azimuth_point': 230, 'doppler_point': 0, 'range_point': 11, 'snr_point': 50}}
