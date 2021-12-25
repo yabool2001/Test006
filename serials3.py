@@ -190,8 +190,7 @@ if data_com.is_open:
             data_file.write ( f'\nError: Frame header unpack failed! {e}. Frame size: {sys.getsizeof ( frame )}. Sync: {sync}' )
         if sync == hvac_control :
             # Store frame header
-            #frame_header = f"'sync':{sync},'version':{version},'platform':{platform},'timestamp':{timestamp},'packet_length':{packet_length},'frame_number':{frame_number},'subframe_number':{subframe_number},'chirp_margin':{chirp_margin},'frame_margin':{frame_margin},'uart_sent_time':{uart_sent_time},'track_process_time':{track_process_time},'num_tlvs':{num_tlvs},'checksum':{checksum}"
-            frame_header = "{frame_header:{'sync':" + str ( sync ) + ",'version':" + str ( version ) + ",'platform':" + str ( platform ) + ",'timestamp':" + str ( timestamp ) + ",'packet_length':" + str ( packet_length ) + ",'frame_number':" + str ( frame_number ) + ",'subframe_number':" + str ( subframe_number ) + ",'chirp_margin':" + str ( chirp_margin ) + ",'frame_margin':" + str ( frame_margin ) + ",'uart_sent_time':" + str ( uart_sent_time ) + ",'track_process_time':" + str ( track_process_time ) + ",'num_tlvs':" + str ( num_tlvs ) + ",'checksum':" + str ( checksum ) + "}}"
+            frame_header = f"{{frame_header:{{'sync':{sync},'version':{version},'platform':{platform},'timestamp':{timestamp},'packet_length':{packet_length},'frame_number':{frame_number},'subframe_number':{subframe_number},'chirp_margin':{chirp_margin},'frame_margin':{frame_margin},'uart_sent_time':{uart_sent_time},'track_process_time':{track_process_time},'num_tlvs':{num_tlvs},'checksum':{checksum}}}}}"
             # Remove frame header to simplify next TLVs calculations
             frame = frame[frame_header_length:]
             time_frame_header_d = time.perf_counter_ns() - time_frame_header_0
@@ -206,8 +205,7 @@ if data_com.is_open:
                     data_file.write ( f'\nError: Tlv header parse failed! {e}. Exiting frame because not now how to get next TLV!' )
                     break
                 if tlv_type == tlv_type_pointcloud_2d :
-                    #tlv_header = f"'tlv_type':{tlv_type},'tlv_length':{tlv_length}"
-                    tlv_header = "{" + "'tlv_header:{'tlv_type':" + str(tlv_type) + ",'tlv_length':" + str(tlv_length) + "}}},"
+                    tlv_header = f"{{tlv_header:{{'tlv_type':{tlv_type},'tlv_length':{tlv_length}}}}}"
                     time_tlv_header_d = time.perf_counter_ns() - time_tlv_header_0
                     frame_time.append (time_tlv_header_d)
 
@@ -220,7 +218,7 @@ if data_com.is_open:
                         data_file.write ( f'\npoint_cloud_unit parse failed! {e}.' )
                         try_result = False
                     if try_result :
-                        point_cloud_unit = f"'azimuth_unit':{azimuth_unit},'doppler_unit':{doppler_unit},'range_unit':{range_unit},'snr_unit':{snr_unit}"
+                        point_cloud_unit = f"{{point_cloud_unit:{{'azimuth_unit':{azimuth_unit},'doppler_unit':{doppler_unit},'range_unit':{range_unit},'snr_unit':{snr_unit}}}}}"
                         time_point_cloud_unit_d = time.perf_counter_ns() - time_point_cloud_unit_0
                         frame_time.append (time_point_cloud_unit_d)
                     # Next line here
