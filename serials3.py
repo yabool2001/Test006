@@ -32,8 +32,10 @@ tlv_type_pointcloud_2d = 6
 
 conf_com = serial.Serial ()
 data_com = serial.Serial ()
-conf_com.port = 'COM4' # Choose: Silicon Labs Dual CP2105 USB to UART Bridge: Enhanced COM Port from Device manager
-data_com.port = 'COM3' # Choose: Silicon Labs Dual CP2105 USB to UART Bridge: Standard COM Port from Device manager
+#conf_com.port = 'COM4' # Choose: Silicon Labs Dual CP2105 USB to UART Bridge: Enhanced COM Port from Device manager on Wacom
+#data_com.port = 'COM3' # Choose: Silicon Labs Dual CP2105 USB to UART Bridge: Standard COM Port from Device manager on Wacom
+conf_com.port = 'COM10' # Choose: Silicon Labs Dual CP2105 USB to UART Bridge: Enhanced COM Port from Device manager on MS GO3
+data_com.port = 'COM11' # Choose: Silicon Labs Dual CP2105 USB to UART Bridge: Standard COM Port from Device manager on MS GO3
 conf_com.baudrate = 115200
 data_com.baudrate = 921600
 conf_com.bytesize = serial.EIGHTBITS
