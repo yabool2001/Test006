@@ -6,27 +6,21 @@ import struct
 import sys
 
 
-log_file_name = 'serials3_log.txt'
-data_file_name = 'serials3_data.txt'
+log_file_name = 'serials4_log.txt'
+data_file_name = 'serials4_data.txt'
 conf_file_name = 'chirp_cfg/mmw_pplcount_demo_default.cfg'
 # conf_file_name = 'chirp_cfg/sense_and_direct_68xx.cfg'
 # conf_file_name = 'chirp_cfg/long_range_people_counting.cfg'
 
-frame_list = []
-tlv_list = []
-point_list = []
-#frame_header = ""
-#tlv_header = ""
-#tlvs = ""
-#point_cloud_unit = ""
+frame = bytes ( 1 )
 
 hvac_control = 506660481457717506
 frame_header_struct = 'Q10I2H'
 frame_header_length = struct.calcsize ( frame_header_struct )
 tlv_header_struct = '2I'
 tlv_header_length = struct.calcsize ( tlv_header_struct )
-pointcloud_unit_struct = '4f'
-pointcloud_unit_length = struct.calcsize ( pointcloud_unit_struct )
+point_cloud_unit_struct = '4f'
+point_cloud_unit_length = struct.calcsize ( point_cloud_unit_struct )
 point_struct = '2B2h'
 point_length = struct.calcsize ( point_struct )
 tlv_type_pointcloud_2d = 6
@@ -50,12 +44,6 @@ data_com.timeout = 0.025
 conf_com.write_timeout = 1
 
 data_com_delta_seconds = 0.2
-
-data_frame_bytes = bytes (1)
-frame_time = []
-data_frame_size = []
-
-data = ""
 
 hello = "\n\n#########################################\n########## serials3.py started ##########\n#########################################\n"
 
@@ -95,44 +83,19 @@ def close_COM ( port ) :
             log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {port.name} port error closing: {str(e)}' )
     else:
         log_file.write ( f'\n{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {port.name} port closed.' )
-#### Create time report
-def time_report ( a ) :
-    time_total = 0
-    for i in a :
-        time_total += i
-    if len ( a ) > 0 :
-        print ( f'Average time: {time_total / len ( a )}   Number of frames: {len ( a )}' )
-    else :
-        print ( f'No data for time report.' )
 
-#### Create size report
-def size_report ( a ) :
-    size_total = 0
-    for i in a :
-        size_total += i
-    if len ( a ) > 0 :
-        print ( f'Average size: {size_total / len ( a )}   Total size: {size_total}   number of frames: {len ( a )}' )
-    else :
-        print ( f'No data for size report.' )
-#### Create global report
-def report ( size , time ) :
-    size_total = 0
-    time_total = 0
-    for i in size :
-        size_total += i
-    if len ( size ) > 0 :
-        print ( f'Average size: {int ( size_total / len ( size ) )}   Total size: {size_total}' )
-    else :
-        print ( f'No data for size report.' )
-    for i in time :
-        time_total += i
-    if len ( time ) > 0 :
-        print ( f'Average time: {int ( time_total / len ( time ) )}   Number of frames: {len ( time )}' )
-    else :
-        print ( f'No data for time report.' )
-    if len ( size ) > 0 and len ( time ) > 0 :
-        print ( f'Time total / number of frames: {int ( time_total / len ( time ) )}.  Time total: {time_total}, number of frames: {len ( time )}' )
-
+# Unpack frame header
+def get_frame_header () :
+    try:
+        sync , version , platform , timestamp , packet_length , frame_number , subframe_number , chirp_margin , frame_margin , uart_sent_time , track_process_time , num_tlvs , checksum = struct.unpack ( frame_header_struct , frame[:frame_header_length] )
+    except struct.error as e :
+        data_file.write ( f'\nError: Frame header unpack failed! {e}. Frame size: {sys.getsizeof ( frame )}. Sync: {sync}' )
+    if sync == hvac_control :
+        # Store frame header
+        frame_header = f"{{frame_header:{{'sync':{sync},'version':{version},'platform':{platform},'timestamp':{timestamp},'packet_length':{packet_length},'frame_number':{frame_number},'subframe_number':{subframe_number},'chirp_margin':{chirp_margin},'frame_margin':{frame_margin},'uart_sent_time':{uart_sent_time},'track_process_time':{track_process_time},'num_tlvs':{num_tlvs},'checksum':{checksum}}}}}"
+        # Remove frame header to simplify next TLVs calculations
+        frame = frame[frame_header_length:]
+    return f"{{'frames':[{{frame:{frame_header},{tlvs}}}]}}"
 
 ################################################################
 ####################### START PROGRAM ##########################
@@ -182,59 +145,34 @@ if data_com.is_open:
         data_com.reset_input_buffer ()
         frame = data_com.read ( 4666 )
 
-        # Unpack frame header
-        # sync = 0 check if it's local and deleting itself
-        try:
-            sync , version , platform , timestamp , packet_length , frame_number , subframe_number , chirp_margin , frame_margin , uart_sent_time , track_process_time , num_tlvs , checksum = struct.unpack ( frame_header_struct , frame[:frame_header_length] )
-        except struct.error as e :
-            data_file.write ( f"\n\nError: Frame header unpack failed! {e}. Frame size: {sys.getsizeof ( frame )}. Sync: {sync}\n\n" )
-        if sync == hvac_control :
-            # Store frame header
-            frame_header = f"{{frame_header:{{'sync':{sync},'version':{version},'platform':{platform},'timestamp':{timestamp},'packet_length':{packet_length},'frame_number':{frame_number},'subframe_number':{subframe_number},'chirp_margin':{chirp_margin},'frame_margin':{frame_margin},'uart_sent_time':{uart_sent_time},'track_process_time':{track_process_time},'num_tlvs':{num_tlvs},'checksum':{checksum}}}}}"
-            # Remove frame header to simplify next TLVs calculations
-            frame = frame[frame_header_length:]
+        frame_header = get_frame_header ()
+
             # Unpack tlv header
             for i in range ( num_tlvs ) :
                 try:
                     tlv_type, tlv_length = struct.unpack ( tlv_header_struct , frame[:tlv_header_length] )
                     tlv_header = f"{{tlv_header:{{'tlv_type':{tlv_type},'tlv_length':{tlv_length}}}}}"
                 except struct.error as e :
-                    data_file.write ( f"\n\nError: Tlv header parse failed! {e}.!\n\n" )
+                    data_file.write ( f'\nError: Tlv header parse failed! {e}. Exiting frame because not now how to get next TLV!' )
                     break
                 if tlv_type == tlv_type_pointcloud_2d :
                     # Unpack point_cloud_unit
                     try :
-                        azimuth_unit , doppler_unit , range_unit , snr_unit = struct.unpack ( pointcloud_unit_struct , frame[tlv_header_length:][:pointcloud_unit_length] )
+                        azimuth_unit , doppler_unit , range_unit , snr_unit = struct.unpack ( point_cloud_unit_struct , frame[tlv_header_length:][:point_cloud_unit_length] )
                         point_cloud_unit = f"'point_cloud_unit':{{'azimuth_unit':{azimuth_unit},'doppler_unit':{doppler_unit},'range_unit':{range_unit},'snr_unit':{snr_unit}}}"
                     except struct.error as e :
-                        data_file.write ( f"\n\nPoint_cloud_unit parse failed! {e}.\n\n" )
-                        break
-                    points_number = int ( ( tlv_length - tlv_header_length - pointcloud_unit_length ) / point_length )
-                    for k in range ( points_number ) :
-                        try :
-                            azimuth_point , doppler_point , range_point , snr_point = struct.unpack ( point_struct , frame[(tlv_header_length+pointcloud_unit_length)+(k*point_length):][:point_length] )
-                            # Zapisz punkt
-                            point_list.append ( f"{{'point':{{'azimuth_point':{azimuth_point},'doppler_point':{doppler_point}, 'range_point':{range_point},'snr_point':{snr_point}}}}}" )
-                        except struct.error as e :
-                            data_file.write ( f'\nPoint parse failed! {e}' )
-                    l = len ( point_list )
-                    points = "'points':["
-                    for k in range ( len ( point_list ) ) :
-                        points = points + str ( point_list[i] )
-                        if i < ( l - 1 ) :
-                            points = points + ","
-                    points = points + "]"
-                    tlv_list.append ( f"{{tlv:{tlv_header},{point_cloud_unit},{points}}}" )
-                    del points
-                    del point_list
+                        data_file.write ( f'\npoint_cloud_unit parse failed! {e}.' )
+                    tlv_list.append ( f"{{tlv:{tlv_header},{point_cloud_unit}}}" )
                     # Next line here
                     # Sprawdzić czy:
                     # 1. Kasują sie zmienne tlv_type i tlv_length
                     # 2. Czy są sytuacje, że nie znam tlv_length i nie wiem jak obciąć ramkę tvl, żeby poprawnie rozpakować następną
+                    
                     frame = frame[tlv_length:]
+                    # Create JSON comprises all frame component
                 else :
+                    #data_file.write ( f'\nInfo: Tlv type {tlv_type} not {tlv_type_pointcloud_2d}!' )
                     tlv_list.append ( f"{{tlv:{tlv_header}}}" )
-                    frame = frame[tlv_length:]
             l = len ( tlv_list )
             tlvs = "'tlvs':["
             for i in range ( len ( tlv_list ) ) :
@@ -242,7 +180,7 @@ if data_com.is_open:
                 if i < ( l - 1 ) :
                     tlvs = tlvs + ","
             tlvs = tlvs + "]"
-            del tlv_list
+            tlv_list.clear ()
         frame_list.append ( f"{{'frames':[{{frame:{frame_header},{tlvs}}}]}}" )
         # Write JSON frame to the file 
         for i in frame_list :
