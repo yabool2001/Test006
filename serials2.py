@@ -34,7 +34,7 @@ conf_com.timeout        = 0.3
 data_com.timeout        = 0.025
 conf_com.write_timeout  = 1
 
-data_com_delta_seconds = 0.1
+data_com_delta_seconds = 10
 
 hello = "\n\n#########################################\n########## serials3.py started ##########\n#########################################\n"
 
@@ -119,6 +119,7 @@ class Sense_and_detect_hvac_control_raw_data :
         self.frame_header = None
         self.tlv_header = None
         self.pointcloud_unit = None
+        self.points = None
         self.tlv_list = []
         self.point_list = []
         #self.frame_header_data = dict ()
@@ -129,26 +130,23 @@ class Sense_and_detect_hvac_control_raw_data :
     # Zdekodowanie wszystkich punktów z ramki zaczynającej się od Punktów
     # Zapisanie punktów do dict, zapisanie słownika do pliku i skasowanie słownika
     # Usunięcie Punktu z ramki w każdej iteracji
-    def get_points_data ( self ) :
-        print (self.data["tlv_header_data"]["tlv_length"])
-        print (self.tlv_header_length)
-        print (self.pointcloud_unit_length)
-        print (self.point_length)
-        points_number = int ( ( self.data["tlv_header_data"]["tlv_length"] - self.tlv_header_length - self.pointcloud_unit_length ) / self.point_length ) # 
-        for j in range ( points_number ) :
+    def get_points ( self , tlv_length ) :
+        points_number = int ( ( tlv_length - self.tlv_header_length - self.pointcloud_unit_length ) / self.point_length )
+        for i in range ( points_number ) :
             try :
-                azimuth_point , doppler_point , range_point , snr_point = struct.unpack ( self.point_struct , self.raw_data[:self.point_length] )
-                try_result = True
-            except struct.error as e :
-                data_file.write ( f'\nPoint parse failed! {e}' )
-                try_result = False
-            if try_result :
+                azimuth_point , doppler_point , range_point , snr_point = struct.unpack (self. point_struct , self.raw_data[(self.tlv_header_length + self.pointcloud_unit_length ) + ( i * self.point_length ):][:self.point_length] )
                 # Zapisz punkt
-                point = { "point" : { "azimuth_point" : azimuth_point , "doppler_point" : doppler_point , "range_point" : range_point , "snr_point" : snr_point } }
-                self.data.update ( point )
-                del point
-                self.raw_data = self.raw_data[self.point_length:]
-                # Tutaj skońzyłem i coś nie działa z ostatnim punktem
+                self.point_list.append ( f"{{'azimuth_point':{azimuth_point},'doppler_point':{doppler_point}, 'range_point':{range_point},'snr_point':{snr_point}}}" )
+            except struct.error as e :
+                self.point_list.append ( f"{{'error':'{e}'}}" )
+        l = len ( self.point_list )
+        self.points = "'points':["
+        for i in range ( len ( self.point_list ) ) :
+            self.points += str ( self.point_list[i] ) #self.points = self.points + str ( self.point_list[i] )
+            if i < ( l - 1 ) :
+                self.points = self.points + ","
+        self.points = self.points + "]"
+
 
     # Zdekodowanie chmury punktów z ramki zaczynającej się od chmury punktów
     # Zapisanie chmury punktów do dict, zapisanie słownika do pliku i skasowanie słownika
@@ -157,27 +155,33 @@ class Sense_and_detect_hvac_control_raw_data :
         try :
             azimuth_unit , doppler_unit , range_unit , snr_unit = struct.unpack ( self.pointcloud_unit_struct , self.raw_data[self.tlv_header_length:][:self.pointcloud_unit_length] )
             self.pointcloud_unit = f"'point_cloud_unit':{{'azimuth_unit':{azimuth_unit},'doppler_unit':{doppler_unit},'range_unit':{range_unit},'snr_unit':{snr_unit}}}"
+            return True
         except struct.error as e :
-            data_file.write ( f'\nPoint cloud unit parsing failed! {e}' )
-            self.pointcloud_unit = f"{{'point_cloud_unit':0}}"
+            self.pointcloud_unit = f"{{'point_cloud_unit':{{'error':'{e}'}}}}"
+            return False
 
     def get_tlv ( self ) :
         try:
             tlv_type, tlv_length = struct.unpack ( self.tlv_header_struct , self.raw_data[:self.tlv_header_length] )
-            self.tlv_header = f"{{tlv_header:{{'tlv_type':{tlv_type},'tlv_length':{tlv_length}}}}}"
+            self.tlv_header = f"'tlv_header':{{'tlv_type':{tlv_type},'tlv_length':{tlv_length}}}"
+            if tlv_type == self.tlv_type_pointcloud_2d :
+                if self.get_pointcloud2d_unit () :
+                    self.get_points ( tlv_length )
+                    self.tlv_list.append ( f"{{tlv:{{{self.tlv_header},{self.pointcloud_unit},{self.points}}}}}" )
+                else :
+                    self.tlv_list.append ( f"{{tlv:{{{self.tlv_header},{self.pointcloud_unit}}}}}" )
+            elif tlv_type > self.tlv_type_pointcloud_2d :
+                self.tlv_list.append ( f"{{tlv:{{{self.tlv_header}}}}}" )
+            self.raw_data = self.raw_data[tlv_length:]
+            return True
         except struct.error as e :
-            data_file.write ( f"\n\nError: Tlv header parse failed! {e}.!\n\n" )
-            tlv_type = None
-        if tlv_type == self.tlv_type_pointcloud_2d :
-            self.get_pointcloud2d_unit ()
-            self.tlv_list.append ( f"{{tlv:{self.tlv_header},{self.pointcloud_unit}}}" )
-        elif tlv_type > self.tlv_type_pointcloud_2d :
-            self.tlv_list.append ( f"{{tlv:{self.tlv_header}}}" )
-        self.raw_data = self.raw_data[tlv_length:]
+            self.tlv_header = f"'tlv_header':{{'error':{e}}}"
+            return False
 
     def get_tlvs ( self ) :
         for i in range ( self.num_tlvs ) :
-            self.get_tlv ()
+            if not self.get_tlv () :
+                break
         l = len ( self.tlv_list )
         self.tlvs = "'tlvs':["
         for i in range ( l ) :
@@ -192,18 +196,12 @@ class Sense_and_detect_hvac_control_raw_data :
         try:
             sync , version , platform , timestamp , packet_length , frame_number , subframe_number , chirp_margin , frame_margin , uart_sent_time , track_process_time , num_tlvs , checksum = struct.unpack ( self.frame_header_struct , self.raw_data[:self.frame_header_length] )
             self.num_tlvs = num_tlvs
+            if sync == self.control :
+                self.frame_header = f"{{'frame_header':{{'sync':{sync},'version':{version},'platform':{platform},'timestamp':{timestamp},'packet_length':{packet_length},'frame_number':{frame_number},'subframe_number':{subframe_number},'chirp_margin':{chirp_margin},'frame_margin':{frame_margin},'uart_sent_time':{uart_sent_time},'track_process_time':{track_process_time},'num_tlvs':{num_tlvs},'checksum':{checksum}}}}}"
+            else :
+                self.frame_header = f"{{'frame_header':{{'error':'control = {sync}'}}}}"
         except struct.error as e :
-            # data_file.write ( f'\n\nFrame header parse failed! {e}' )
-            sync = None
-        if sync == self.control :
-            self.frame_header = f"{{frame_header:{{'sync':{sync},'version':{version},'platform':{platform},'timestamp':{timestamp},'packet_length':{packet_length},'frame_number':{frame_number},'subframe_number':{subframe_number},'chirp_margin':{chirp_margin},'frame_margin':{frame_margin},'uart_sent_time':{uart_sent_time},'track_process_time':{track_process_time},'num_tlvs':{num_tlvs},'checksum':{checksum}}}}}"
-    
-    # Get frame data from raw_data to self dict
-    def get_data ( self ) :
-        self.get_frame_header ()
-        self.raw_data = self.raw_data[self.frame_header_length:]
-        if self.num_tlvs :
-            self.get_tlvs ()
+            self.frame_header = f"{{'frame_header':{{'error':'{e}'}}}}"
 
 print ( hello )
 
@@ -217,7 +215,6 @@ data_com.reset_output_buffer()
 data_com.reset_input_buffer ()
 frame_read_time_up = datetime.datetime.utcnow () + datetime.timedelta ( seconds = data_com_delta_seconds )
 while datetime.datetime.utcnow () < frame_read_time_up :
-    # Rozpakuj i zapisz dane z nagłówka pakietu
     raw_data = data_com.read ( 4666 )
     hvac = Sense_and_detect_hvac_control_raw_data ( raw_data )
     #hvac.get_data ()
@@ -225,9 +222,6 @@ while datetime.datetime.utcnow () < frame_read_time_up :
     if hvac.num_tlvs :
         hvac.raw_data = hvac.raw_data[hvac.frame_header_length:]
         hvac.get_tlvs ()
-    else :
-        del hvac
-        continue
     hvac.write_data ( data_file )
     del hvac
 
