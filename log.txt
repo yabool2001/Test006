@@ -1,0 +1,16 @@
+
+12:37:49 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+12:37:49 log.txt file is writable.
+12:37:49 data.txt file is writable.
+12:37:49 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+12:37:49 COM10 port opened.
+12:37:49 COM11 port opened
+12:37:59 COM11 port closed.
+12:37:59 COM10 port closed.
+12:37:59 data.txt file is closed.
+12:37:59 log.txt file closing...
