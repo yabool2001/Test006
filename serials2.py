@@ -217,7 +217,6 @@ frame_read_time_up = datetime.datetime.utcnow () + datetime.timedelta ( seconds 
 while datetime.datetime.utcnow () < frame_read_time_up :
     raw_data = data_com.read ( 4666 )
     hvac = Sense_and_detect_hvac_control_raw_data ( raw_data )
-    #hvac.get_data ()
     hvac.get_frame_header ()
     if hvac.num_tlvs :
         hvac.raw_data = hvac.raw_data[hvac.frame_header_length:]
