@@ -1,0 +1,351 @@
+
+22:58:3 serials2log.txt file is writable.
+22:58:3 serials2data.txt file is writable.
+22:58:3 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+22:58:3 COM4 port error opening: could not open port 'COM4': FileNotFoundError(2, 'Nie można odnaleźć określonego pliku.', None, 2)
+22:58:3 COM3 port error opening: could not open port 'COM3': FileNotFoundError(2, 'Nie można odnaleźć określonego pliku.', None, 2)
+22:58:51 serials2log.txt file is writable.
+22:58:51 serials2data.txt file is writable.
+22:58:51 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+22:58:51 COM10 port opened.
+22:58:51 COM11 port opened
+23:0:3 serials2log.txt file is writable.
+23:0:3 serials2data.txt file is writable.
+23:0:3 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:0:3 COM10 port opened.
+23:0:3 COM11 port opened
+23:0:52 serials2log.txt file is writable.
+23:0:52 serials2data.txt file is writable.
+23:0:52 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:0:52 COM10 port opened.
+23:0:52 COM11 port opened
+23:0:54 COM11 port closed.
+23:0:54 COM10 port closed.
+23:0:54 serials2data.txt file is closed.
+23:0:54 serials2log.txt file closing...
+23:7:51 serials2log.txt file is writable.
+23:7:51 serials2data.txt file is writable.
+23:7:51 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:7:51 COM10 port opened.
+23:7:51 COM11 port opened
+23:7:51 COM11 port closed.
+23:7:51 COM10 port closed.
+23:7:51 serials2data.txt file is closed.
+23:7:51 serials2log.txt file closing...
+23:10:47 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:10:47 serials2log.txt file is writable.
+23:10:47 serials2data.txt file is writable.
+23:10:47 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:10:47 COM10 port opened.
+23:10:47 COM11 port opened
+23:10:48 COM11 port closed.
+23:10:48 COM10 port closed.
+23:10:48 serials2data.txt file is closed.
+23:10:48 serials2log.txt file closing...
+23:13:2 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:13:2 serials2log.txt file is writable.
+23:13:2 serials2data.txt file is writable.
+23:13:2 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:13:2 COM10 port opened.
+23:13:2 COM11 port opened
+23:13:3 COM11 port closed.
+23:13:3 COM10 port closed.
+23:13:3 serials2data.txt file is closed.
+23:13:3 serials2log.txt file closing...
+23:14:5 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:14:5 serials2log.txt file is writable.
+23:14:5 serials2data.txt file is writable.
+23:14:5 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:14:5 COM10 port opened.
+23:14:5 COM11 port opened
+23:14:6 COM11 port closed.
+23:14:6 COM10 port closed.
+23:14:6 serials2data.txt file is closed.
+23:14:6 serials2log.txt file closing...
+23:15:12 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:15:12 serials2log.txt file is writable.
+23:15:12 serials2data.txt file is writable.
+23:15:12 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:15:12 COM10 port opened.
+23:15:12 COM11 port opened
+23:15:13 COM11 port closed.
+23:15:13 COM10 port closed.
+23:15:13 serials2data.txt file is closed.
+23:15:13 serials2log.txt file closing...
+23:21:46 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:21:46 serials2log.txt file is writable.
+23:21:46 serials2data.txt file is writable.
+23:21:46 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:21:46 COM10 port opened.
+23:21:46 COM11 port opened
+23:22:7 COM11 port closed.
+23:22:7 COM10 port closed.
+23:22:7 serials2data.txt file is closed.
+23:22:7 serials2log.txt file closing...
+23:30:29 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:30:29 serials2log.txt file is writable.
+23:30:29 serials2data.txt file is writable.
+23:30:29 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:30:29 COM10 port opened.
+23:30:29 COM11 port opened
+23:31:2 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:31:2 serials2log.txt file is writable.
+23:31:2 serials2data.txt file is writable.
+23:31:2 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:31:2 COM10 port opened.
+23:31:2 COM11 port opened
+23:41:47 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:41:47 serials2log.txt file is writable.
+23:41:47 serials2data.txt file is writable.
+23:41:47 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:41:47 COM10 port opened.
+23:41:47 COM11 port opened
+23:42:53 COM11 port closed.
+23:42:53 COM10 port closed.
+23:42:53 serials2data.txt file is closed.
+23:42:53 serials2log.txt file closing...
+23:45:14 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:45:14 serials2log.txt file is writable.
+23:45:14 serials2data.txt file is writable.
+23:45:14 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:45:14 COM10 port opened.
+23:45:14 COM11 port opened
+23:50:24 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:50:24 serials2log.txt file is writable.
+23:50:24 serials2data.txt file is writable.
+23:50:24 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:50:24 COM10 port opened.
+23:50:24 COM11 port opened
+23:50:24 COM11 port closed.
+23:50:24 COM10 port closed.
+23:50:24 serials2data.txt file is closed.
+23:50:24 serials2log.txt file closing...
+23:52:9 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:52:9 serials2log.txt file is writable.
+23:52:9 serials2data.txt file is writable.
+23:52:9 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:52:9 COM10 port opened.
+23:52:9 COM11 port opened
+23:54:4 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:54:4 serials2log.txt file is writable.
+23:54:4 serials2data.txt file is writable.
+23:54:4 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:54:4 COM10 port opened.
+23:54:5 COM11 port opened
+23:54:5 COM11 port closed.
+23:54:5 COM10 port closed.
+23:54:5 serials2data.txt file is closed.
+23:54:5 serials2log.txt file closing...
+23:54:34 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:54:34 serials2log.txt file is writable.
+23:54:34 serials2data.txt file is writable.
+23:54:34 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:54:34 COM10 port opened.
+23:54:34 COM11 port opened
+23:54:34 COM11 port closed.
+23:54:34 COM10 port closed.
+23:54:34 serials2data.txt file is closed.
+23:54:34 serials2log.txt file closing...
+23:55:3 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:55:3 serials2log.txt file is writable.
+23:55:3 serials2data.txt file is writable.
+23:55:3 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:55:3 COM10 port opened.
+23:55:3 COM11 port opened
+23:55:3 COM11 port closed.
+23:55:3 COM10 port closed.
+23:55:3 serials2data.txt file is closed.
+23:55:3 serials2log.txt file closing...
+23:55:46 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:55:46 serials2log.txt file is writable.
+23:55:46 serials2data.txt file is writable.
+23:55:46 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:55:46 COM10 port opened.
+23:55:46 COM11 port opened
+23:55:46 COM11 port closed.
+23:55:46 COM10 port closed.
+23:55:46 serials2data.txt file is closed.
+23:55:46 serials2log.txt file closing...
+23:58:11 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:58:11 serials2log.txt file is writable.
+23:58:11 serials2data.txt file is writable.
+23:58:11 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:58:11 COM10 port opened.
+23:58:11 COM11 port opened
+23:58:11 COM11 port closed.
+23:58:11 COM10 port closed.
+23:58:11 serials2data.txt file is closed.
+23:58:11 serials2log.txt file closing...
+23:59:21 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+23:59:21 serials2log.txt file is writable.
+23:59:21 serials2data.txt file is writable.
+23:59:21 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+23:59:21 COM10 port opened.
+23:59:21 COM11 port opened
+0:17:48 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+0:17:48 serials2log.txt file is writable.
+0:17:48 serials2data.txt file is writable.
+0:17:48 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+0:17:48 COM10 port opened.
+0:17:48 COM11 port opened
+0:17:48 COM11 port closed.
+0:17:48 COM10 port closed.
+0:17:48 serials2data.txt file is closed.
+0:17:48 serials2log.txt file closing...
+0:43:54 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+0:43:54 serials2log.txt file is writable.
+0:43:54 serials2data.txt file is writable.
+0:43:54 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+0:43:54 COM10 port opened.
+0:43:54 COM11 port opened
+0:44:43 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+0:44:43 serials2log.txt file is writable.
+0:44:43 serials2data.txt file is writable.
+0:44:43 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+0:44:43 COM10 port opened.
+0:44:43 COM11 port opened
+0:44:44 COM11 port closed.
+0:44:44 COM10 port closed.
+0:44:44 serials2data.txt file is closed.
+0:44:44 serials2log.txt file closing...
+0:45:15 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+0:45:15 serials2log.txt file is writable.
+0:45:15 serials2data.txt file is writable.
+0:45:15 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+0:45:15 COM10 port opened.
+0:45:15 COM11 port opened
+0:45:15 COM11 port closed.
+0:45:15 COM10 port closed.
+0:45:15 serials2data.txt file is closed.
+0:45:15 serials2log.txt file closing...
+0:50:18 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+0:50:18 serials2log.txt file is writable.
+0:50:18 serials2data.txt file is writable.
+0:50:18 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+0:50:18 COM10 port opened.
+0:50:18 COM11 port opened
+0:50:18 COM11 port closed.
+0:50:18 COM10 port closed.
+0:50:18 serials2data.txt file is closed.
+0:50:18 serials2log.txt file closing...
+0:50:35 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+0:50:35 serials2log.txt file is writable.
+0:50:35 serials2data.txt file is writable.
+0:50:35 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+0:50:35 COM10 port opened.
+0:50:35 COM11 port opened

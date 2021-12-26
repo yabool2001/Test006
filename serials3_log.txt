@@ -420,3 +420,201 @@
 19:5:36 COM10 port opened
 19:5:36 COM10 port closed.
 19:5:36 COM11 port opened
+19:10:9 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:10:9 serials3_log.txt file is writable.
+19:10:9 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+19:10:9 serials3_data.txt file is writable.
+19:10:9 COM10 port opened
+19:10:9 COM10 port closed.
+19:10:9 COM11 port opened
+19:11:12 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:11:12 serials3_log.txt file is writable.
+19:11:12 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+19:11:12 serials3_data.txt file is writable.
+19:11:12 COM10 port opened
+19:11:12 COM10 port closed.
+19:11:12 COM11 port opened
+19:11:18 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:11:18 serials3_log.txt file is writable.
+19:11:18 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+19:11:18 serials3_data.txt file is writable.
+19:11:18 COM10 port opened
+19:11:18 COM10 port closed.
+19:11:18 COM11 port opened
+19:12:2 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:12:2 serials3_log.txt file is writable.
+19:12:2 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+19:12:2 serials3_data.txt file is writable.
+19:12:2 COM10 port opened
+19:12:2 COM10 port closed.
+19:12:2 COM11 port opened
+19:13:5 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:13:5 serials3_log.txt file is writable.
+19:13:5 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+19:13:5 serials3_data.txt file is writable.
+19:13:5 COM10 port opened
+19:13:5 COM10 port closed.
+19:13:5 COM11 port opened
+19:13:45 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:13:45 serials3_log.txt file is writable.
+19:13:45 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+19:13:45 serials3_data.txt file is writable.
+19:13:45 COM10 port opened
+19:13:45 COM10 port closed.
+19:13:45 COM11 port opened
+19:14:35 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:14:35 serials3_log.txt file is writable.
+19:14:35 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+19:14:35 serials3_data.txt file is writable.
+19:14:35 COM10 port opened
+19:14:35 COM10 port closed.
+19:14:35 COM11 port opened
+19:14:35 COM11 port closed.
+19:14:35 serials3_log.txt file closing...
+19:15:7 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:15:7 serials3_log.txt file is writable.
+19:15:7 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+19:15:7 serials3_data.txt file is writable.
+19:15:7 COM10 port opened
+19:15:7 COM10 port closed.
+19:15:7 COM11 port opened
+19:15:7 COM11 port closed.
+19:15:7 serials3_log.txt file closing...
+19:15:24 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:15:24 serials3_log.txt file is writable.
+19:15:24 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+19:15:24 serials3_data.txt file is writable.
+19:15:24 COM10 port opened
+19:15:24 COM10 port closed.
+19:15:24 COM11 port opened
+19:15:24 COM11 port closed.
+19:15:24 serials3_log.txt file closing...
+19:18:20 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:18:20 serials3_log.txt file is writable.
+19:18:20 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+19:18:20 serials3_data.txt file is writable.
+19:18:20 COM10 port opened
+19:18:20 COM10 port closed.
+19:18:20 COM11 port opened
+19:18:20 COM11 port closed.
+19:18:20 serials3_log.txt file closing...
+19:18:44 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:18:44 serials3_log.txt file is writable.
+19:18:44 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+19:18:44 serials3_data.txt file is writable.
+19:18:44 COM10 port opened
+19:18:44 COM10 port closed.
+19:18:44 COM11 port opened
+19:18:44 COM11 port closed.
+19:18:44 serials3_log.txt file closing...
+19:21:42 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:21:42 serials3_log.txt file is writable.
+19:21:42 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+19:21:42 serials3_data.txt file is writable.
+19:21:42 COM10 port opened
+19:21:42 COM10 port closed.
+19:21:42 COM11 port opened
+19:21:42 COM11 port closed.
+19:21:42 serials3_log.txt file closing...
+19:23:59 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:23:59 serials3_log.txt file is writable.
+19:23:59 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+19:23:59 serials3_data.txt file is writable.
+19:23:59 COM10 port opened
+19:23:59 COM10 port closed.
+19:23:59 COM11 port opened
+19:23:59 COM11 port closed.
+19:23:59 serials3_log.txt file closing...
+19:24:8 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:24:8 serials3_log.txt file is writable.
+19:24:8 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+19:24:8 serials3_data.txt file is writable.
+19:24:8 COM10 port opened
+19:24:8 COM10 port closed.
+19:24:8 COM11 port opened
+19:24:8 COM11 port closed.
+19:24:8 serials3_log.txt file closing...
+19:25:46 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:25:46 serials3_log.txt file is writable.
+19:25:46 chirp_cfg/mmw_pplcount_demo_default.cfg file is readable.
+19:25:46 serials3_data.txt file is writable.
+19:25:46 COM10 port opened
+19:25:46 COM10 port closed.
+19:25:46 COM11 port opened
+19:25:47 COM11 port closed.
+19:25:47 serials3_log.txt file closing...

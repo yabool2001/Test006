@@ -49,7 +49,7 @@ conf_com.timeout = 0.3
 data_com.timeout = 0.025
 conf_com.write_timeout = 1
 
-data_com_delta_seconds = 0.2
+data_com_delta_seconds = 1
 
 data_frame_bytes = bytes (1)
 frame_time = []
@@ -187,7 +187,8 @@ if data_com.is_open:
         try:
             sync , version , platform , timestamp , packet_length , frame_number , subframe_number , chirp_margin , frame_margin , uart_sent_time , track_process_time , num_tlvs , checksum = struct.unpack ( frame_header_struct , frame[:frame_header_length] )
         except struct.error as e :
-            data_file.write ( f"\n\nError: Frame header unpack failed! {e}. Frame size: {sys.getsizeof ( frame )}. Sync: {sync}\n\n" )
+            #data_file.write ( f"\n\nError: Frame header unpack failed! {e}. Frame size: {sys.getsizeof ( frame )}.\n\n" )
+            continue
         if sync == hvac_control :
             # Store frame header
             frame_header = f"{{frame_header:{{'sync':{sync},'version':{version},'platform':{platform},'timestamp':{timestamp},'packet_length':{packet_length},'frame_number':{frame_number},'subframe_number':{subframe_number},'chirp_margin':{chirp_margin},'frame_margin':{frame_margin},'uart_sent_time':{uart_sent_time},'track_process_time':{track_process_time},'num_tlvs':{num_tlvs},'checksum':{checksum}}}}}"
@@ -200,7 +201,7 @@ if data_com.is_open:
                     tlv_header = f"{{tlv_header:{{'tlv_type':{tlv_type},'tlv_length':{tlv_length}}}}}"
                 except struct.error as e :
                     data_file.write ( f"\n\nError: Tlv header parse failed! {e}.!\n\n" )
-                    break
+                    continue
                 if tlv_type == tlv_type_pointcloud_2d :
                     # Unpack point_cloud_unit
                     try :
@@ -208,7 +209,7 @@ if data_com.is_open:
                         point_cloud_unit = f"'point_cloud_unit':{{'azimuth_unit':{azimuth_unit},'doppler_unit':{doppler_unit},'range_unit':{range_unit},'snr_unit':{snr_unit}}}"
                     except struct.error as e :
                         data_file.write ( f"\n\nPoint_cloud_unit parse failed! {e}.\n\n" )
-                        break
+                        continue
                     points_number = int ( ( tlv_length - tlv_header_length - pointcloud_unit_length ) / point_length )
                     for k in range ( points_number ) :
                         try :
@@ -226,7 +227,7 @@ if data_com.is_open:
                     points = points + "]"
                     tlv_list.append ( f"{{tlv:{tlv_header},{point_cloud_unit},{points}}}" )
                     del points
-                    del point_list
+                    point_list.clear ()
                     # Next line here
                     # Sprawdzić czy:
                     # 1. Kasują sie zmienne tlv_type i tlv_length
@@ -242,8 +243,8 @@ if data_com.is_open:
                 if i < ( l - 1 ) :
                     tlvs = tlvs + ","
             tlvs = tlvs + "]"
-            del tlv_list
-        frame_list.append ( f"{{'frames':[{{frame:{frame_header},{tlvs}}}]}}" )
+            tlv_list.clear ()
+            frame_list.append ( f"{{frame:{frame_header},{tlvs}}}" )
         # Write JSON frame to the file 
         for i in frame_list :
             data_file.write ( str ( i ) )
