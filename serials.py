@@ -18,16 +18,15 @@ global                  conf_com , data_com
 raws                    = bytes(1)
 log_file_name           = 'log.txt'
 data_file_name          = 'data.txt'
-# conf_file_name          = 'chirp_cfg/mmw_pplcount_demo_default.cfg'
-conf_file_name          = 'chirp_cfg/sense_and_direct_68xx-mzo1.cfg'
-# conf_file_name          = 'chirp_cfg/long_range_people_counting.cfg'
+hvac_cfg_file_name      = 'chirp_cfg/sense_and_direct_68xx-mzo1.cfg'
+tdpc_cfg_file_name      = 'chirp_cfg/ISK_6m_default-mzo-v.1.cfg'
 conf_com                = serial.Serial ()
 data_com                = serial.Serial ()
 conf_com.port           = 'COM10' # Choose: Silicon Labs Dual CP2105 USB to UART Bridge: Enhanced COM Port from Device manager on MS GO3
 data_com.port           = 'COM11' # Choose: Silicon Labs Dual CP2105 USB to UART Bridge: Standard COM Port from Device manager on MS GO3
 # Chose from Device manager: Silicon Labs Dual CP2105 USB to UART Bridge: Standard COM Port 
 conf_com.baudrate       = 115200
-data_com.baudrate       = 921600
+data_com.baudrate       = 921600*1
 conf_com.bytesize       = serial.EIGHTBITS
 data_com.bytesize       = serial.EIGHTBITS
 conf_com.parity         = serial.PARITY_NONE
@@ -39,6 +38,9 @@ data_com.timeout        = 0.025
 conf_com.write_timeout  = 1
 
 data_com_delta_seconds = 1
+
+# people_counting_mode: 'hvac' - Sense And Direct Hvac Control; 'tdpc' - 3d People Counting
+people_counting_mode = 'tdpc'
 
 hello = "\n\n#########################################\n########## serials3.py started ##########\n#########################################\n"
 
@@ -64,6 +66,13 @@ except IOError as e :
     print ( f'{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} {data_file.name} file opening problem... {str(e)}' )
 
 # Open Chirp configuration file and read configuration to chirp_cfg
+match people_counting_mode:
+    case 'tdpc':
+        conf_file_name = tdpc_cfg_file_name
+    case 'hvac':
+        conf_file_name = hvac_cfg_file_name
+    case _:
+        print ( f'{time.gmtime ().tm_hour}:{time.gmtime ().tm_min}:{time.gmtime ().tm_sec} Error: no chirp cfg file!' )
 try:
     with open ( f'{conf_file_name}' , 'r' , encoding='utf-8' ) as conf_file:
         if conf_file.readable () :
@@ -104,12 +113,12 @@ def chirp_conf () :
         time.sleep ( 3 )
         conf_com.reset_input_buffer ()
 
-class Sense_and_detect_hvac_control_raw_data :
+class Tdpc_class :
     def __init__ ( self , raw_data ) :
         self.raw_data = raw_data
         self.control = 506660481457717506
         self.tlv_type_pointcloud_2d = 6
-        self.frame_header_struct = 'Q10I2H'
+        self.frame_header_struct = 'Q9I2H'
         self.frame_header_length = struct.calcsize ( self.frame_header_struct )
         self.tlv_header_struct = '2I'
         self.tlv_header_length = struct.calcsize ( self.tlv_header_struct )
@@ -204,10 +213,10 @@ class Sense_and_detect_hvac_control_raw_data :
     # Rozpakuj i zapisz dane z Frame header
     def get_frame_header ( self ) :
         try:
-            sync , version , platform , timestamp , packet_length , frame_number , subframe_number , chirp_margin , frame_margin , uart_sent_time , track_process_time , num_tlvs , checksum = struct.unpack ( self.frame_header_struct , self.raw_data[:self.frame_header_length] )
+            sync , version , total_packet_length , platform , frame_number , subframe_number , chirp_processing_margin , frame_processing_margin , track_process_time , uart_sent_time , num_tlvs , checksum = struct.unpack ( self.frame_header_struct , self.raw_data[:self.frame_header_length] )
             self.num_tlvs = num_tlvs
             if sync == self.control :
-                self.frame_header = f"{{'frame_header':{{'sync':{sync},'version':{version},'platform':{platform},'timestamp':{timestamp},'packet_length':{packet_length},'frame_number':{frame_number},'subframe_number':{subframe_number},'chirp_margin':{chirp_margin},'frame_margin':{frame_margin},'uart_sent_time':{uart_sent_time},'track_process_time':{track_process_time},'num_tlvs':{num_tlvs},'checksum':{checksum}}}}}"
+                self.frame_header = f"{{'frame_header':{{'sync':{sync},'version':{version},'platform':{platform}, 'total_packet_length':{total_packet_length},'frame_number':{frame_number},'subframe_number':{subframe_number},'chirp_processing_margin':{chirp_processing_margin},'frame_processing_margin':{frame_processing_margin},'uart_sent_time':{uart_sent_time},'track_process_time':{track_process_time},'num_tlvs':{num_tlvs},'checksum':{checksum}}}}}"
             else :
                 self.frame_header = f"{{'frame_header':{{'error':'control = {sync}'}}}}"
         except struct.error as e :
@@ -230,7 +239,7 @@ data_com.reset_input_buffer ()
 frame_read_time_up = datetime.datetime.utcnow () + datetime.timedelta ( seconds = data_com_delta_seconds )
 while datetime.datetime.utcnow () < frame_read_time_up :
     raw_data = data_com.read ( 4666 )
-    hvac = Sense_and_detect_hvac_control_raw_data ( raw_data )
+    hvac = Tdpc_class ( raw_data )
     hvac.get_frame_header ()
     if hvac.num_tlvs :
         hvac.raw_data = hvac.raw_data[hvac.frame_header_length:]

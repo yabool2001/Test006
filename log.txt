@@ -374,3 +374,219 @@
 18:25:53 COM10 port closed.
 18:25:53 data.txt file is closed.
 18:25:53 log.txt file closing...
+11:42:9 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+11:42:9 log.txt file is writable.
+11:42:9 data.txt file is writable.
+11:42:9 chirp_cfg/sense_and_direct_68xx-mzo1.cfg file is readable.
+11:42:9 COM10 port opened.
+11:42:9 COM11 port opened
+11:42:10 COM10 port ack: b'dfeDataOutputMode 1\n'
+11:42:10 COM10 port ack: b'Done\n'
+11:42:13 COM10 port ack: b'channelCfg 15 5 0\n'
+11:42:13 COM10 port ack: b'Done\n'
+11:42:16 COM10 port ack: b'adcCfg 2 1\n'
+11:42:16 COM10 port ack: b'Done\n'
+11:42:19 COM10 port ack: b'adcbufCfg 0 1 1 1 \n'
+11:42:19 COM10 port ack: b'Error: Invalid usage of the CLI command\n'
+11:42:22 COM10 port ack: b'profileCfg 0 62.00 30 10 69.72 0 0 28.42 1 128 2180 0 0 24\n'
+11:42:22 COM10 port ack: b'Done\n'
+11:42:25 COM10 port ack: b'chirpCfg 0 0 0 0 0 0 0 1\n'
+11:42:25 COM10 port ack: b'Done\n'
+11:42:28 COM10 port ack: b'chirpCfg 1 1 0 0 0 0 0 4\n'
+11:42:28 COM10 port ack: b'Done\n'
+11:42:31 COM10 port ack: b'frameCfg 0 1 128 0 50 1 0\n'
+11:42:31 COM10 port ack: b'Done\n'
+11:42:35 COM10 port ack: b'lowPower 0 0\n'
+11:42:35 COM10 port ack: b'Done\n'
+11:42:38 COM10 port ack: b'guiMonitor 1 1 1 1\n'
+11:42:38 COM10 port ack: b"'guiMonitor' is not recognized as a CLI command\n"
+11:42:41 COM10 port ack: b'cfarCfg 6 4 4 4 4 8 12 4 8 50 63 0\n'
+11:42:41 COM10 port ack: b"'cfarCfg' is not recognized as a CLI command\n"
+11:42:44 COM10 port ack: b'doaCfg 600 666 30 1 1 1 300 4 2\n'
+11:42:44 COM10 port ack: b"'doaCfg' is not recognized as a CLI command\n"
+11:42:47 COM10 port ack: b'AllocationParam 300 800 0.1 30 0.5 20\n'
+11:42:47 COM10 port ack: b"'AllocationParam' is not recognized as a CLI command\n"
+11:42:50 COM10 port ack: b'GatingParam 3 1.5 1.5 0\n'
+11:42:50 COM10 port ack: b"'GatingParam' is not recognized as a CLI command\n"
+11:42:53 COM10 port ack: b'StateParam 3 3 10 40 5 600\n'
+11:42:53 COM10 port ack: b"'StateParam' is not recognized as a CLI command\n"
+11:42:56 COM10 port ack: b'SceneryParam -5 5 0.25 10\n'
+11:42:56 COM10 port ack: b"'SceneryParam' is not recognized as a CLI command\n"
+11:43:0 COM10 port ack: b'FilterParam 2.0 0.5 1.5\n'
+11:43:0 COM10 port ack: b"'FilterParam' is not recognized as a CLI command\n"
+11:43:3 COM10 port ack: b'trackingCfg 1 2 300 15 67 105 50 90\n'
+11:43:3 COM10 port ack: b'Done\n'
+11:43:6 COM10 port ack: b'classifierCfg 1 1 3 500 0.8 1.0 0.95 10\n'
+11:43:6 COM10 port ack: b"'classifierCfg' is not recognized as a CLI command\n"
+11:43:9 COM10 port ack: b'sensorStart\n'
+11:43:9 COM10 port ack: b'Error: Full configuration must be provided before sensor can be started the first time\n'
+11:43:13 COM11 port closed.
+11:43:13 COM10 port closed.
+11:43:13 data.txt file is closed.
+11:43:13 log.txt file closing...
+12:3:12 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+12:3:12 log.txt file is writable.
+12:3:12 data.txt file is writable.
+12:3:12 chirp_cfg/ISK_6m_default-mzo-v.1.cfg file is readable.
+12:3:12 COM10 port opened.
+12:3:12 COM11 port opened
+12:3:12 COM10 port ack: b'% SDK Parameters\n'
+12:3:12 COM10 port ack: b'Skipped\n'
+12:3:15 COM10 port ack: b"% See the SDK user's guide for more information\n"
+12:3:15 COM10 port ack: b'Skipped\n'
+12:3:18 COM10 port ack: b'% "C:\\ti\\mmwave_sdk_[VER]\\docs\\mmwave_sdk_user_guide.pdf"\n'
+12:3:18 COM10 port ack: b'Skipped\n'
+12:3:22 COM10 port ack: b'sensorStop\n'
+12:3:22 COM10 port ack: b'Ignored: Sensor is already stopped\n'
+12:3:25 COM10 port ack: b'flushCfg\n'
+12:3:25 COM10 port ack: b'Done\n'
+12:3:28 COM10 port ack: b'dfeDataOutputMode 1\n'
+12:3:28 COM10 port ack: b'Done\n'
+12:3:31 COM10 port ack: b'channelCfg 15 7 0\n'
+12:3:31 COM10 port ack: b'Done\n'
+12:3:34 COM10 port ack: b'adcCfg 2 1\n'
+12:3:34 COM10 port ack: b'Done\n'
+12:3:37 COM10 port ack: b'adcbufCfg -1 0 1 1 1\n'
+12:3:37 COM10 port ack: b'Done\n'
+12:3:40 COM10 port ack: b'lowPower 0 0\n'
+12:3:40 COM10 port ack: b'Done\n'
+12:3:43 COM10 port ack: b'\n'
+12:3:44 COM10 port ack: b'mmwDemo:/>'
+12:3:47 COM10 port ack: b'% Detection Layer Parameters\n'
+12:3:47 COM10 port ack: b'Skipped\n'
+12:3:50 COM10 port ack: b'% See the Detection Layer Tuning Guide for more information\n'
+12:3:50 COM10 port ack: b'Skipped\n'
+12:3:53 COM10 port ack: b'% "C:\\ti\\mmwave_industrial_toolbox_[VER]\\labs\\people_counting\\docs\\3D_people_counting_detection_layer_tuning_guide.pdf"\n'
+12:3:53 COM10 port ack: b'Skipped\n'
+12:3:56 COM10 port ack: b'profileCfg 0 60.75 30.00 25.00 59.10 657930 0 54.71 1   96 2950.00 2 1 36 \n'
+12:3:56 COM10 port ack: b'Done\n'
+12:3:59 COM10 port ack: b'chirpCfg 0 0 0 0 0 0 0 1\n'
+12:3:59 COM10 port ack: b'Done\n'
+12:4:2 COM10 port ack: b'chirpCfg 1 1 0 0 0 0 0 2\n'
+12:4:2 COM10 port ack: b'Done\n'
+12:4:6 COM10 port ack: b'chirpCfg 2 2 0 0 0 0 0 4\n'
+12:4:6 COM10 port ack: b'Done\n'
+12:4:9 COM10 port ack: b'frameCfg 0 2  96  0 55.00 1 0\n'
+12:4:9 COM10 port ack: b'Done\n'
+12:4:12 COM10 port ack: b'dynamicRACfarCfg -1 4 4 2 2 8 12 4 8 5.00 8.00 0.40 1 1\n'
+12:4:12 COM10 port ack: b'Done\n'
+12:4:15 COM10 port ack: b'staticRACfarCfg -1 6 2 2 2 8 8 6 4 8.00 15.00 0.30 0 0\n'
+12:4:15 COM10 port ack: b'Done\n'
+12:4:18 COM10 port ack: b'dynamicRangeAngleCfg -1 0.75 0.0010 1 0\n'
+12:4:18 COM10 port ack: b'Done\n'
+12:4:21 COM10 port ack: b'dynamic2DAngleCfg -1 1.5 0.0300 1 0 1 0.30 0.85 8.00\n'
+12:4:21 COM10 port ack: b'Done\n'
+12:4:24 COM10 port ack: b'staticRangeAngleCfg -1 0 8 8\n'
+12:4:24 COM10 port ack: b'Done\n'
+12:4:27 COM10 port ack: b'antGeometry0 0 -1 -2 -3 -2 -3 -4 -5 -4 -5 -6 -7\n'
+12:4:27 COM10 port ack: b'Done\n'
+12:4:31 COM10 port ack: b'antGeometry1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1\n'
+12:4:31 COM10 port ack: b'Done\n'
+12:4:34 COM10 port ack: b'antPhaseRot 1 1 1 1 1 1 1 1 1 1 1 1\n'
+12:4:34 COM10 port ack: b'Done\n'
+12:4:37 COM10 port ack: b'fovCfg -1 70.0 20.0\n'
+12:4:37 COM10 port ack: b'Done\n'
+12:4:40 COM10 port ack: b'compRangeBiasAndRxChanPhase 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0\n'
+12:4:40 COM10 port ack: b'Done\n'
+12:4:43 COM10 port ack: b'\n'
+12:4:43 COM10 port ack: b'mmwDemo:/>'
+12:4:46 COM10 port ack: b'% Tracker Layer Parameters\n'
+12:4:46 COM10 port ack: b'Skipped\n'
+12:4:50 COM10 port ack: b'% See the Tracking Layer Tuning Guide for more information\n'
+12:4:50 COM10 port ack: b'Skipped\n'
+12:4:53 COM10 port ack: b'% "C:\\ti\\mmwave_industrial_toolbox_[VER]\\labs\\people_counting\\docs\\3D_people_counting_tracker_layer_tuning_guide.pdf"\n'
+12:4:53 COM10 port ack: b'Skipped\n'
+12:4:56 COM10 port ack: b'staticBoundaryBox -3 3 0.5 7.5 0 3\n'
+12:4:56 COM10 port ack: b'Done\n'
+12:4:59 COM10 port ack: b'boundaryBox -4 4 0 8 0 3\n'
+12:4:59 COM10 port ack: b'Done\n'
+12:5:2 COM10 port ack: b'sensorPosition 2 0 15\n'
+12:5:2 COM10 port ack: b'Done\n'
+12:5:5 COM10 port ack: b'gatingParam 3 2 2 2 4\n'
+12:5:5 COM10 port ack: b'Done\n'
+12:5:8 COM10 port ack: b'stateParam 3 3 12 500 5 600\n'
+12:5:8 COM10 port ack: b'Done\n'
+12:5:11 COM10 port ack: b'allocationParam 40 100 0.1 20 0.5 20\n'
+12:5:11 COM10 port ack: b'Done\n'
+12:5:15 COM10 port ack: b'maxAcceleration 0.1 0.1 0.1\n'
+12:5:15 COM10 port ack: b'Done\n'
+12:5:18 COM10 port ack: b'trackingCfg 1 2 800 30 46 96 55\n'
+12:5:18 COM10 port ack: b'Done\n'
+12:5:21 COM10 port ack: b'presenceBoundaryBox -3 3 0.5 7.5 0 3\n'
+12:5:21 COM10 port ack: b'Done\n'
+12:5:24 COM10 port ack: b'sensorStart\n'
+12:5:24 COM10 port ack: b'Debug: Init Calibration Status = 0xffe\n'
+12:5:28 COM11 port closed.
+12:5:28 COM10 port closed.
+12:5:28 data.txt file is closed.
+12:5:28 log.txt file closing...
+12:9:19 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+12:9:19 log.txt file is writable.
+12:9:19 data.txt file is writable.
+12:9:19 chirp_cfg/ISK_6m_default-mzo-v.1.cfg file is readable.
+12:9:19 COM10 port opened.
+12:9:19 COM11 port opened
+12:9:20 COM11 port closed.
+12:9:20 COM10 port closed.
+12:9:20 data.txt file is closed.
+12:9:20 log.txt file closing...
+12:26:49 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+12:26:49 log.txt file is writable.
+12:26:49 data.txt file is writable.
+12:26:49 chirp_cfg/ISK_6m_default-mzo-v.1.cfg file is readable.
+12:26:49 COM10 port opened.
+12:26:49 COM11 port opened
+12:26:50 COM11 port closed.
+12:26:50 COM10 port closed.
+12:26:50 data.txt file is closed.
+12:26:50 log.txt file closing...
+12:48:28 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+12:48:28 log.txt file is writable.
+12:48:28 data.txt file is writable.
+12:48:28 chirp_cfg/ISK_6m_default-mzo-v.1.cfg file is readable.
+12:48:28 COM10 port opened.
+12:48:28 COM11 port opened
+12:48:29 COM11 port closed.
+12:48:29 COM10 port closed.
+12:48:29 data.txt file is closed.
+12:48:29 log.txt file closing...
+12:50:50 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+12:50:50 log.txt file is writable.
+12:50:50 data.txt file is writable.
+12:50:50 chirp_cfg/ISK_6m_default-mzo-v.1.cfg file is readable.
+12:50:50 COM10 port opened.
+12:50:50 COM11 port opened
+12:50:51 COM11 port closed.
+12:50:51 COM10 port closed.
+12:50:51 data.txt file is closed.
+12:50:51 log.txt file closing...
