@@ -18,9 +18,9 @@ global                  conf_com , data_com
 raws                    = bytes(1)
 log_file_name           = 'log.txt'
 data_file_name          = 'data.txt'
-conf_file_name          = 'chirp_cfg/mmw_pplcount_demo_default.cfg'
-# conf_file_name = 'chirp_cfg/sense_and_direct_68xx.cfg'
-# conf_file_name = 'chirp_cfg/long_range_people_counting.cfg'
+# conf_file_name          = 'chirp_cfg/mmw_pplcount_demo_default.cfg'
+conf_file_name          = 'chirp_cfg/sense_and_direct_68xx-mzo1.cfg'
+# conf_file_name          = 'chirp_cfg/long_range_people_counting.cfg'
 conf_com                = serial.Serial ()
 data_com                = serial.Serial ()
 conf_com.port           = 'COM10' # Choose: Silicon Labs Dual CP2105 USB to UART Bridge: Enhanced COM Port from Device manager on MS GO3
@@ -38,7 +38,7 @@ conf_com.timeout        = 0.3
 data_com.timeout        = 0.025
 conf_com.write_timeout  = 1
 
-data_com_delta_seconds = 10
+data_com_delta_seconds = 1
 
 hello = "\n\n#########################################\n########## serials3.py started ##########\n#########################################\n"
 
@@ -123,6 +123,10 @@ class Sense_and_detect_hvac_control_raw_data :
         self.frame_header = None
         self.tlv_header = None
         self.pointcloud_unit = None
+        self.azimuth_unit = None
+        self.doppler_unit = None
+        self.range_unit = None
+        self.snr_unit = None
         self.points = None
         self.tlv_list = []
         self.point_list = []
@@ -140,16 +144,18 @@ class Sense_and_detect_hvac_control_raw_data :
             try :
                 azimuth_point , doppler_point , range_point , snr_point = struct.unpack (self. point_struct , self.raw_data[(self.tlv_header_length + self.pointcloud_unit_length ) + ( i * self.point_length ):][:self.point_length] )
                 # Zapisz punkt
-                self.point_list.append ( f"{{'azimuth_point':{azimuth_point},'doppler_point':{doppler_point}, 'range_point':{range_point},'snr_point':{snr_point}}}" )
+                if doppler_point :
+                    self.point_list.append ( f"{{'azimuth_point':{azimuth_point*self.azimuth_unit},'doppler_point':{doppler_point*self.doppler_unit}, 'range_point':{range_point*self.range_unit},'snr_point':{snr_point*self.snr_unit}}}" )
             except struct.error as e :
                 self.point_list.append ( f"{{'error':'{e}'}}" )
         l = len ( self.point_list )
-        self.points = "'points':["
+        self.points = f"'num_points':{points_number},'points':["
         for i in range ( len ( self.point_list ) ) :
             self.points += str ( self.point_list[i] ) #self.points = self.points + str ( self.point_list[i] )
             if i < ( l - 1 ) :
                 self.points = self.points + ","
         self.points = self.points + "]"
+        self.point_list.clear ()
 
 
     # Zdekodowanie chmury punktów z ramki zaczynającej się od chmury punktów
@@ -157,8 +163,8 @@ class Sense_and_detect_hvac_control_raw_data :
     # Usunięcie chmury punktów z ramki
     def get_pointcloud2d_unit ( self ) :
         try :
-            azimuth_unit , doppler_unit , range_unit , snr_unit = struct.unpack ( self.pointcloud_unit_struct , self.raw_data[self.tlv_header_length:][:self.pointcloud_unit_length] )
-            self.pointcloud_unit = f"'point_cloud_unit':{{'azimuth_unit':{azimuth_unit},'doppler_unit':{doppler_unit},'range_unit':{range_unit},'snr_unit':{snr_unit}}}"
+            self.azimuth_unit , self.doppler_unit , self.range_unit , self.snr_unit = struct.unpack ( self.pointcloud_unit_struct , self.raw_data[self.tlv_header_length:][:self.pointcloud_unit_length] )
+            self.pointcloud_unit = f"'point_cloud_unit':{{'azimuth_unit':{self.azimuth_unit},'doppler_unit':{self.doppler_unit},'range_unit':{self.range_unit},'snr_unit':{self.snr_unit}}}"
             return True
         except struct.error as e :
             self.pointcloud_unit = f"{{'point_cloud_unit':{{'error':'{e}'}}}}"
