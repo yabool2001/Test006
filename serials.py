@@ -19,7 +19,7 @@ raws                    = bytes(1)
 log_file_name           = 'log.txt'
 data_file_name          = 'data.txt'
 hvac_cfg_file_name      = 'chirp_cfg/sense_and_direct_68xx-mzo1.cfg'
-tdpc_cfg_file_name      = 'chirp_cfg/ISK_6m_default-mzo-v.1.cfg'
+pc3d_cfg_file_name      = 'chirp_cfg/ISK_6m_default-mzo-v.1.cfg'
 conf_com                = serial.Serial ()
 data_com                = serial.Serial ()
 conf_com.port           = 'COM10' # Choose: Silicon Labs Dual CP2105 USB to UART Bridge: Enhanced COM Port from Device manager on MS GO3
@@ -39,8 +39,8 @@ conf_com.write_timeout  = 1
 
 data_com_delta_seconds = 1
 
-# people_counting_mode: 'hvac' - Sense And Direct Hvac Control; 'tdpc' - 3d People Counting
-people_counting_mode = 'tdpc'
+# people_counting_mode: 'hvac' - Sense And Direct Hvac Control; 'pc3d' - 3d People Counting
+people_counting_mode = 'pc3d'
 
 hello = "\n\n#########################################\n########## serials3.py started ##########\n#########################################\n"
 
@@ -67,8 +67,8 @@ except IOError as e :
 
 # Open Chirp configuration file and read configuration to chirp_cfg
 match people_counting_mode:
-    case 'tdpc':
-        conf_file_name = tdpc_cfg_file_name
+    case 'pc3d':
+        conf_file_name = pc3d_cfg_file_name
     case 'hvac':
         conf_file_name = hvac_cfg_file_name
     case _:
