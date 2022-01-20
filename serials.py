@@ -22,8 +22,10 @@ hvac_cfg_file_name      = 'chirp_cfg/sense_and_direct_68xx-mzo1.cfg'
 pc3d_cfg_file_name      = 'chirp_cfg/ISK_6m_default-mzo-v.1.cfg'
 conf_com                = serial.Serial ()
 data_com                = serial.Serial ()
-conf_com.port           = 'COM10' # Choose: Silicon Labs Dual CP2105 USB to UART Bridge: Enhanced COM Port from Device manager on MS GO3
-data_com.port           = 'COM11' # Choose: Silicon Labs Dual CP2105 USB to UART Bridge: Standard COM Port from Device manager on MS GO3
+#conf_com.port           = 'COM10' # Choose: Silicon Labs Dual CP2105 USB to UART Bridge: Enhanced COM Port from Device manager on MS GO3
+conf_com.port           = 'COM4'
+#data_com.port           = 'COM11' # Choose: Silicon Labs Dual CP2105 USB to UART Bridge: Standard COM Port from Device manager on MS GO3
+data_com.port           = 'COM3'
 # Chose from Device manager: Silicon Labs Dual CP2105 USB to UART Bridge: Standard COM Port 
 conf_com.baudrate       = 115200
 data_com.baudrate       = 921600*1
@@ -113,11 +115,13 @@ def chirp_conf () :
         time.sleep ( 3 )
         conf_com.reset_input_buffer ()
 
-class Tdpc_class :
+class PC3D :
     def __init__ ( self , raw_data ) :
         self.raw_data = raw_data
         self.control = 506660481457717506
         self.tlv_type_pointcloud_2d = 6
+        self.tlv_type_target_list = 7
+        self.tlv_type_target_index = 8
         self.frame_header_struct = 'Q9I2H'
         self.frame_header_length = struct.calcsize ( self.frame_header_struct )
         self.tlv_header_struct = '2I'
@@ -126,6 +130,8 @@ class Tdpc_class :
         self.pointcloud_unit_length = struct.calcsize ( self.pointcloud_unit_struct )
         self.point_struct = '2B2h'
         self.point_length = struct.calcsize ( self.point_struct )
+        self.target_list_struct = 'I27f'
+        self.target_list_length = struct.calcsize ( self.target_list_struct )
         self.frame_header = None
         self.tlvs = None
         self.num_tlvs = None
@@ -231,7 +237,7 @@ print ( hello )
 # Configure chirp 
 conf_com.reset_input_buffer()
 conf_com.reset_output_buffer()
-#chirp_conf ()
+chirp_conf ()
 
 # Read data
 data_com.reset_output_buffer()
@@ -239,13 +245,13 @@ data_com.reset_input_buffer ()
 frame_read_time_up = datetime.datetime.utcnow () + datetime.timedelta ( seconds = data_com_delta_seconds )
 while datetime.datetime.utcnow () < frame_read_time_up :
     raw_data = data_com.read ( 4666 )
-    hvac = Tdpc_class ( raw_data )
-    hvac.get_frame_header ()
-    if hvac.num_tlvs :
-        hvac.raw_data = hvac.raw_data[hvac.frame_header_length:]
-        hvac.get_tlvs ()
-    hvac.write_data ( data_file )
-    del hvac
+    pc3d_object = PC3D ( raw_data )
+    pc3d_object.get_frame_header ()
+    if pc3d_object.num_tlvs :
+        pc3d_object.raw_data = pc3d_object.raw_data[pc3d_object.frame_header_length:]
+        pc3d_object.get_tlvs ()
+    pc3d_object.write_data ( data_file )
+    del pc3d_object
 
 ################################################################
 ##################### CLOSE DATA COM PORT ######################

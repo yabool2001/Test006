@@ -605,3 +605,115 @@
 20:33:18 COM10 port closed.
 20:33:18 data.txt file is closed.
 20:33:18 log.txt file closing...
+19:42:32 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:42:32 log.txt file is writable.
+19:42:32 data.txt file is writable.
+19:42:32 chirp_cfg/ISK_6m_default-mzo-v.1.cfg file is readable.
+19:42:32 COM10 port error opening: could not open port 'COM10': FileNotFoundError(2, 'Nie można odnaleźć określonego pliku.', None, 2)
+19:42:32 COM11 port error opening: could not open port 'COM11': FileNotFoundError(2, 'Nie można odnaleźć określonego pliku.', None, 2)
+19:45:35 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+19:45:35 log.txt file is writable.
+19:45:35 data.txt file is writable.
+19:45:35 chirp_cfg/ISK_6m_default-mzo-v.1.cfg file is readable.
+19:45:35 COM4 port opened.
+19:45:35 COM3 port opened
+19:45:35 COM4 port ack: b'% SDK Parameters\n'
+19:45:35 COM4 port ack: b'Skipped\n'
+19:45:38 COM4 port ack: b"% See the SDK user's guide for more information\n"
+19:45:38 COM4 port ack: b'Skipped\n'
+19:45:41 COM4 port ack: b'% "C:\\ti\\mmwave_sdk_[VER]\\docs\\mmwave_sdk_user_guide.pdf"\n'
+19:45:42 COM4 port ack: b'Skipped\n'
+19:45:45 COM4 port ack: b'sensorStop\n'
+19:45:45 COM4 port ack: b'Ignored: Sensor is already stopped\n'
+19:45:48 COM4 port ack: b'flushCfg\n'
+19:45:48 COM4 port ack: b'Done\n'
+19:45:51 COM4 port ack: b'dfeDataOutputMode 1\n'
+19:45:51 COM4 port ack: b'Done\n'
+19:45:54 COM4 port ack: b'channelCfg 15 7 0\n'
+19:45:54 COM4 port ack: b'Done\n'
+19:45:57 COM4 port ack: b'adcCfg 2 1\n'
+19:45:57 COM4 port ack: b'Done\n'
+19:46:0 COM4 port ack: b'adcbufCfg -1 0 1 1 1\n'
+19:46:0 COM4 port ack: b'Done\n'
+19:46:3 COM4 port ack: b'lowPower 0 0\n'
+19:46:3 COM4 port ack: b'Done\n'
+19:46:6 COM4 port ack: b'\n'
+19:46:7 COM4 port ack: b'mmwDemo:/>'
+19:46:10 COM4 port ack: b'% Detection Layer Parameters\n'
+19:46:10 COM4 port ack: b'Skipped\n'
+19:46:13 COM4 port ack: b'% See the Detection Layer Tuning Guide for more information\n'
+19:46:13 COM4 port ack: b'Skipped\n'
+19:46:16 COM4 port ack: b'% "C:\\ti\\mmwave_industrial_toolbox_[VER]\\labs\\people_counting\\docs\\3D_people_counting_detection_layer_tuning_guide.pdf"\n'
+19:46:16 COM4 port ack: b'Skipped\n'
+19:46:19 COM4 port ack: b'profileCfg 0 60.75 30.00 25.00 59.10 657930 0 54.71 1   96 2950.00 2 1 36 \n'
+19:46:19 COM4 port ack: b'Done\n'
+19:46:22 COM4 port ack: b'chirpCfg 0 0 0 0 0 0 0 1\n'
+19:46:22 COM4 port ack: b'Done\n'
+19:46:26 COM4 port ack: b'chirpCfg 1 1 0 0 0 0 0 2\n'
+19:46:26 COM4 port ack: b'Done\n'
+19:46:29 COM4 port ack: b'chirpCfg 2 2 0 0 0 0 0 4\n'
+19:46:29 COM4 port ack: b'Done\n'
+19:46:32 COM4 port ack: b'frameCfg 0 2  96  0 55.00 1 0\n'
+19:46:32 COM4 port ack: b'Done\n'
+19:46:35 COM4 port ack: b'dynamicRACfarCfg -1 4 4 2 2 8 12 4 8 5.00 8.00 0.40 1 1\n'
+19:46:35 COM4 port ack: b'Done\n'
+19:46:38 COM4 port ack: b'staticRACfarCfg -1 6 2 2 2 8 8 6 4 8.00 15.00 0.30 0 0\n'
+19:46:38 COM4 port ack: b'Done\n'
+19:46:41 COM4 port ack: b'dynamicRangeAngleCfg -1 0.75 0.0010 1 0\n'
+19:46:41 COM4 port ack: b'Done\n'
+19:46:44 COM4 port ack: b'dynamic2DAngleCfg -1 1.5 0.0300 1 0 1 0.30 0.85 8.00\n'
+19:46:44 COM4 port ack: b'Done\n'
+19:46:47 COM4 port ack: b'staticRangeAngleCfg -1 0 8 8\n'
+19:46:47 COM4 port ack: b'Done\n'
+19:46:51 COM4 port ack: b'antGeometry0 0 -1 -2 -3 -2 -3 -4 -5 -4 -5 -6 -7\n'
+19:46:51 COM4 port ack: b'Done\n'
+19:46:54 COM4 port ack: b'antGeometry1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1\n'
+19:46:54 COM4 port ack: b'Done\n'
+19:46:57 COM4 port ack: b'antPhaseRot 1 1 1 1 1 1 1 1 1 1 1 1\n'
+19:46:57 COM4 port ack: b'Done\n'
+19:47:0 COM4 port ack: b'fovCfg -1 70.0 20.0\n'
+19:47:0 COM4 port ack: b'Done\n'
+19:47:3 COM4 port ack: b'compRangeBiasAndRxChanPhase 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0\n'
+19:47:3 COM4 port ack: b'Done\n'
+19:47:6 COM4 port ack: b'\n'
+19:47:6 COM4 port ack: b'mmwDemo:/>'
+19:47:10 COM4 port ack: b'% Tracker Layer Parameters\n'
+19:47:10 COM4 port ack: b'Skipped\n'
+19:47:13 COM4 port ack: b'% See the Tracking Layer Tuning Guide for more information\n'
+19:47:13 COM4 port ack: b'Skipped\n'
+19:47:16 COM4 port ack: b'% "C:\\ti\\mmwave_industrial_toolbox_[VER]\\labs\\people_counting\\docs\\3D_people_counting_tracker_layer_tuning_guide.pdf"\n'
+19:47:16 COM4 port ack: b'Skipped\n'
+19:47:19 COM4 port ack: b'staticBoundaryBox -3 3 0.5 7.5 0 3\n'
+19:47:19 COM4 port ack: b'Done\n'
+19:47:22 COM4 port ack: b'boundaryBox -4 4 0 8 0 3\n'
+19:47:22 COM4 port ack: b'Done\n'
+19:47:25 COM4 port ack: b'sensorPosition 2 0 15\n'
+19:47:25 COM4 port ack: b'Done\n'
+19:47:28 COM4 port ack: b'gatingParam 3 2 2 2 4\n'
+19:47:28 COM4 port ack: b'Done\n'
+19:47:31 COM4 port ack: b'stateParam 3 3 12 500 5 600\n'
+19:47:31 COM4 port ack: b'Done\n'
+19:47:35 COM4 port ack: b'allocationParam 40 100 0.1 20 0.5 20\n'
+19:47:35 COM4 port ack: b'Done\n'
+19:47:38 COM4 port ack: b'maxAcceleration 0.1 0.1 0.1\n'
+19:47:38 COM4 port ack: b'Done\n'
+19:47:41 COM4 port ack: b'trackingCfg 1 2 800 30 46 96 55\n'
+19:47:41 COM4 port ack: b'Done\n'
+19:47:44 COM4 port ack: b'presenceBoundaryBox -3 3 0.5 7.5 0 3\n'
+19:47:44 COM4 port ack: b'Done\n'
+19:47:47 COM4 port ack: b'sensorStart\n'
+19:47:47 COM4 port ack: b'Debug: Init Calibration Status = 0xffe\n'
+19:47:51 COM3 port closed.
+19:47:51 COM4 port closed.
+19:47:51 data.txt file is closed.
+19:47:51 log.txt file closing...
