@@ -164,7 +164,7 @@ class PC3D :
                 azimuth_point , doppler_point , range_point , snr_point = struct.unpack (self. point_struct , self.raw_data[(self.tlv_header_length + self.pointcloud_unit_length ) + ( i * self.point_length ):][:self.point_length] )
                 # Zapisz punkt
                 if doppler_point :
-                    self.point_list.append ( f"{{'azimuth_point':{azimuth_point*self.azimuth_unit},'doppler_point':{doppler_point*self.doppler_unit}, 'range_point':{range_point*self.range_unit},'snr_point':{snr_point*self.snr_unit}}}" )
+                    self.point_list.append ( f"{{'azimuth_point':{azimuth_point},'doppler_point':{doppler_point}, 'range_point':{range_point},'snr_point':{snr_point}}}" )
             except struct.error as e :
                 self.point_list.append ( f"{{'error':'{e}'}}" )
         l = len ( self.point_list )
@@ -193,7 +193,7 @@ class PC3D :
         try :
             presence_indication = struct.unpack ( self.presence_indication_struct , self.raw_data[self.tlv_header_length:][:self.presence_indication_length] )
             self.presence_indication = f"{{'presence_indication':{presence_indication}}}"
-            print ( presence_indication )
+            print ( f"{presence_indication}" )
             return True
         except struct.error as e :
             self.presence_indication = f"{{'presence_indication':{{'error':'{e}'}}}}"

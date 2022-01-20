@@ -878,3 +878,18 @@
 21:6:41 COM4 port closed.
 21:6:41 data.txt file is closed.
 21:6:41 log.txt file closing...
+21:8:38 
+
+#########################################
+########## serials3.py started ##########
+#########################################
+
+21:8:38 log.txt file is writable.
+21:8:38 data.txt file is writable.
+21:8:38 chirp_cfg/ISK_6m_default-mzo-v.1.cfg file is readable.
+21:8:39 COM4 port opened.
+21:8:39 COM3 port opened
+21:8:49 COM3 port closed.
+21:8:49 COM4 port closed.
+21:8:49 data.txt file is closed.
+21:8:49 log.txt file closing...
