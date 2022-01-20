@@ -39,7 +39,7 @@ conf_com.timeout        = 0.3
 data_com.timeout        = 0.025
 conf_com.write_timeout  = 1
 
-data_com_delta_seconds = 1
+data_com_delta_seconds = 10
 
 # people_counting_mode: 'hvac' - Sense And Direct Hvac Control; 'pc3d' - 3d People Counting
 people_counting_mode = 'pc3d'
@@ -122,6 +122,7 @@ class PC3D :
         self.tlv_type_pointcloud_2d = 6
         self.tlv_type_target_list = 7
         self.tlv_type_target_index = 8
+        self.tlv_type_presence_indication = 11
         self.frame_header_struct = 'Q9I2H'
         self.frame_header_length = struct.calcsize ( self.frame_header_struct )
         self.tlv_header_struct = '2I'
@@ -132,12 +133,15 @@ class PC3D :
         self.point_length = struct.calcsize ( self.point_struct )
         self.target_list_struct = 'I27f'
         self.target_list_length = struct.calcsize ( self.target_list_struct )
+        self.presence_indication_struct = '1I'
+        self.presence_indication_length = struct.calcsize ( self.presence_indication_struct )
         self.frame_header = None
         self.tlvs = None
         self.num_tlvs = None
         self.frame_header = None
         self.tlv_header = None
         self.pointcloud_unit = None
+        self.presence_indication = None
         self.azimuth_unit = None
         self.doppler_unit = None
         self.range_unit = None
@@ -185,6 +189,16 @@ class PC3D :
             self.pointcloud_unit = f"{{'point_cloud_unit':{{'error':'{e}'}}}}"
             return False
 
+    def get_presence_indication (self ) :
+        try :
+            presence_indication = struct.unpack ( self.presence_indication_struct , self.raw_data[self.tlv_header_length:][:self.presence_indication_length] )
+            self.presence_indication = f"{{'presence_indication':{presence_indication}}}"
+            print ( presence_indication )
+            return True
+        except struct.error as e :
+            self.presence_indication = f"{{'presence_indication':{{'error':'{e}'}}}}"
+            return False
+
     def get_tlv ( self ) :
         try:
             tlv_type, tlv_length = struct.unpack ( self.tlv_header_struct , self.raw_data[:self.tlv_header_length] )
@@ -195,8 +209,11 @@ class PC3D :
                     self.tlv_list.append ( f"{{tlv:{{{self.tlv_header},{self.pointcloud_unit},{self.points}}}}}" )
                 else :
                     self.tlv_list.append ( f"{{tlv:{{{self.tlv_header},{self.pointcloud_unit}}}}}" )
-            elif tlv_type > self.tlv_type_pointcloud_2d :
+            elif tlv_type == self.tlv_type_target_list or tlv_type == self.tlv_type_target_index :
                 self.tlv_list.append ( f"{{tlv:{{{self.tlv_header}}}}}" )
+            elif tlv_type == self.tlv_type_presence_indication :
+                if self.get_presence_indication () :
+                    self.tlv_list.append ( f"{{tlv:{{{self.tlv_header},{self.presence_indication}}}}}" )
             self.raw_data = self.raw_data[tlv_length:]
             return True
         except struct.error as e :
@@ -237,7 +254,7 @@ print ( hello )
 # Configure chirp 
 conf_com.reset_input_buffer()
 conf_com.reset_output_buffer()
-chirp_conf ()
+#chirp_conf ()
 
 # Read data
 data_com.reset_output_buffer()
