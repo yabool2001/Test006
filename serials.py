@@ -1,3 +1,4 @@
+from azure.iot.device import IoTHubDeviceClient , Message
 from contextlib import nullcontext
 import datetime
 import json
@@ -115,6 +116,13 @@ def chirp_conf () :
         time.sleep ( 3 )
         conf_com.reset_input_buffer ()
 
+################################################################
+####################### AZURE CONNECTION #######################
+################################################################
+azure_connection_string = "HostName=iotcentre2022.azure-devices.net;DeviceId=iwr6843isk;SharedAccessKey=fBz0FaDwVXV9UXus5dMds8goywREpj+3nYH4XPdBl24="
+azure_client = IoTHubDeviceClient.create_from_connection_string ( azure_connection_string )
+azure_client.connect ()
+
 class PC3D :
     def __init__ ( self , raw_data ) :
         self.raw_data = raw_data
@@ -153,6 +161,11 @@ class PC3D :
 
     def write_data ( self , file ) :
         file.write ( f"\n\n{{frame:{self.frame_header},{self.tlvs}}}" )
+        #Azure part
+        try :
+            azure_client.send_message ( f"\n\n{{frame:{self.frame_header},{self.tlvs}}}" )
+        except :
+            print ( "Azure error connecting or sending message")
 
     # Zdekodowanie wszystkich punktów z ramki zaczynającej się od Punktów
     # Zapisanie punktów do dict, zapisanie słownika do pliku i skasowanie słownika
@@ -268,6 +281,7 @@ while datetime.datetime.utcnow () < frame_read_time_up :
         pc3d_object.raw_data = pc3d_object.raw_data[pc3d_object.frame_header_length:]
         pc3d_object.get_tlvs ()
     pc3d_object.write_data ( data_file )
+
     del pc3d_object
 
 ################################################################
@@ -305,6 +319,10 @@ else:
 ################################################################
 ################## CLOSE LOG AND DATA FILE #####################
 ################################################################
+
+# Azure part
+azure_client.shutdown()
+
 # Close data file
 try:
     data_file.close ()
