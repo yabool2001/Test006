@@ -1,4 +1,4 @@
-#from azure.iot.device.aio import IoTHubDeviceClient
+from azure.iot.device.aio import IoTHubDeviceClient
 #from azure.iot.device import Message
 # import azure.iot.device
 
