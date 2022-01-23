@@ -1,4 +1,6 @@
-from azure.iot.device import IoTHubDeviceClient , Message
+from azure.iot.device.aio import IoTHubDeviceClient
+from azure.iot.device.aio import Message
+# from azure.iot.device.aio import ProvisioningDeviceClient
 from contextlib import nullcontext
 import datetime
 import json
@@ -119,9 +121,12 @@ def chirp_conf () :
 ################################################################
 ####################### AZURE CONNECTION #######################
 ################################################################
+# Version for IoT Hub connection
 azure_connection_string = "HostName=iotcentre2022.azure-devices.net;DeviceId=iwr6843isk;SharedAccessKey=fBz0FaDwVXV9UXus5dMds8goywREpj+3nYH4XPdBl24="
+#azure_connection_string = "HostName=peoplecounting.azureiotcentral.com;DeviceId=iwr6843isk1;SharedAccessKey=JpXGejpFT8DoE7lDXX+mND20hI59DuM6PbkJBGxdqPk="
 azure_client = IoTHubDeviceClient.create_from_connection_string ( azure_connection_string )
 azure_client.connect ()
+
 
 class PC3D :
     def __init__ ( self , raw_data ) :
