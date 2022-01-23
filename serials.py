@@ -274,7 +274,7 @@ print ( hello )
 # Configure chirp 
 conf_com.reset_input_buffer()
 conf_com.reset_output_buffer()
-#chirp_conf ()
+chirp_conf ()
 
 # Read data
 data_com.reset_output_buffer()
