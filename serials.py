@@ -124,10 +124,10 @@ def chirp_conf () :
 ####################### AZURE CONNECTION #######################
 ################################################################
 # Version for IoT Hub connection
-#azure_connection_string = "HostName=iotcentre2022.azure-devices.net;DeviceId=iwr6843isk;SharedAccessKey=fBz0FaDwVXV9UXus5dMds8goywREpj+3nYH4XPdBl24="
+azure_connection_string = "HostName=iotcentre2022.azure-devices.net;DeviceId=iwr6843isk;SharedAccessKey=fBz0FaDwVXV9UXus5dMds8goywREpj+3nYH4XPdBl24="
 #azure_connection_string = "HostName=peoplecounting.azureiotcentral.com;DeviceId=iwr6843isk1;SharedAccessKey=JpXGejpFT8DoE7lDXX+mND20hI59DuM6PbkJBGxdqPk="
-#azure_client = IoTHubDeviceClient.create_from_connection_string ( azure_connection_string )
-#azure_client.connect ()
+azure_client = IoTHubDeviceClient.create_from_connection_string ( azure_connection_string )
+azure_client.connect ()
 
 
 class PC3D :
@@ -168,11 +168,11 @@ class PC3D :
 
     def write_data ( self , file ) :
         file.write ( f"\n\n{{frame:{self.frame_header},{self.tlvs}}}" )
-        #Azure part
-        #try :
-        #    azure_client.send_message ( f"\n\n{{frame:{self.frame_header},{self.tlvs}}}" )
-        #except :
-        #    print ( "Azure error connecting or sending message")
+        # Azure part
+        try :
+            azure_client.send_message ( f"\n\n{{frame:{self.frame_header},{self.tlvs}}}" )
+        except :
+            print ( "Azure error connecting or sending message")
 
     # Zdekodowanie wszystkich punktów z ramki zaczynającej się od Punktów
     # Zapisanie punktów do dict, zapisanie słownika do pliku i skasowanie słownika
@@ -328,7 +328,7 @@ else:
 ################################################################
 
 # Azure part
-#azure_client.shutdown()
+azure_client.shutdown()
 
 # Close data file
 try:
